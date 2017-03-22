@@ -1,0 +1,6 @@
+patch:
+  "style/font_face": "Noto Sans Mono CJK TC 標準體"
+  "style/color_scheme": starcraft
+  "style/corner_radius": 5
+  "style/font_point": 16
+  "style/label_font_point": 14
