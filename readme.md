@@ -40,3 +40,7 @@ rm -rf ~/Library/rime-settings
 
 1. <https://github.com/yjlintw/rime_zhtw_setting>
 2. <https://github.com/arsenali/rime>
+
+## 備註
+
+* 移除重複詞指令 `comm -1 -3 <(sort terra_pinyin.dict.yaml) <(sort terra_pinyin.my.dict.yaml) > test.yaml`

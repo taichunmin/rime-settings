@@ -1,0 +1,4983 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Terra Pinyin Extended Dictionary(Basic)  - 地球拼音擴充詞庫（基本）
+#
+#   瑾昀 <cokunhui@gmail.com>  #   道滿(zhtw) <zhtw2013@gmail.com>
+#
+#	本詞庫專為臺灣人設置，如有疏漏，請聯絡道滿，感恩~
+#
+# Thanks to the following works:
+#
+# * 拼音加加論壇beckyer製作的繁體詞庫
+#   http://bbs.jjol.cn/showthread.php?t=6758
+#
+# * 小麥注音輸入法詞庫
+#   https://github.com/mjhsieh/McBopomofo/tree/master/Source/Data
+#
+# * 新酷音共享詞庫
+#   Google搜尋獲得，由臺灣網友整理
+#
+# * 詞庫網
+#   http://baseterm.com/
+#
+# * 敎育部詞頻統計表
+#   http://www.edu.tw/files/site_content/m0001/pin/biau2.htm?open
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+
+---
+name: terra_pinyin.yjlintw
+version: "2015.08.04"
+sort: by_weight
+use_preset_vocabulary: true
+#此處為地球拼音擴充詞庫（基本）默認鏈接載入的詞庫，有地球拼音官方詞庫。如果不需要加載某个詞庫請將其用「#」註釋掉。
+import_tables:
+  - terra_pinyin
+  - terra_pinyin.zhtw2013
+  - terra_pinyin.asen
+  - terra_pinyin.zianyin
+...
+
+啊	a1	10%
+呵	a1	5%
+阿	a1	90%
+唉	ai1	50%
+磑	ai2	50%
+噯	ai3	50%
+唉	ai4	50%
+噯	ai4	50%
+豻	an4	50%
+熬	ao1	10%
+熬	ao2	90%
+丷	ba1	50%
+吧	ba1	50%
+峇	ba1	50%
+扒	ba1	80%
+鈀	ba3	50%
+把	ba3	99%
+把	ba4	1%
+耙	ba4	50%
+罷	ba4	99%
+罷	ba5	1%
+吧	ba5	50%
+捭	bai3	50%
+柏	bai3	90%
+唄	bai4	50%
+捭	bai4	50%
+般	ban1	100%
+扳	ban1	95%
+浜	bang1	50%
+膀	bang3	97%
+榜	bang3	99%
+膀	bang4	0%
+榜	bang4	1%
+蚌	bang4	50%
+炮	bao1	1%
+剝	bao1	5%
+薄	bao2	10%
+堡	bao3	95%
+瀑	bao4	5%
+刨	bao4	50%
+背	bei1	5%
+垻	bei4
+备	bei4
+背	bei4	95%
+賁	ben1	50%
+奔	ben1	80%
+奔	ben4	20%
+夯	ben4	5%
+繃	beng1	50%
+埄	beng3	50%
+繃	beng3	50%
+蚌	beng4	50%
+比	bi3	100%
+币	bi4
+比	bi4	0%
+祕	bi4	10%
+秘	bi4	10%
+裨	bi4	50%
+賁	bi4	50%
+辟	bi4	50%
+邊	bian1	100%
+扁	bian3	99%
+便	bian4	95%
+摽	biao1	50%
+杓	biao1	50%
+膔	biao1	50%
+浜	bin1	50%
+屏	bing1	0%
+屏	bing3	5%
+蕃	bo1	0%
+啵	bo1	50%
+剝	bo1	95%
+柏	bo2	10%
+薄	bo2	80%
+簸	bo3	50%
+柏	bo4	0%
+薄	bo4	10%
+簸	bo4	50%
+鈽	bu1	50%
+餔	bu1	50%
+不	bu2	1%
+卜	bu3	95%
+埔	bu4	50%
+鈽	bu4	50%
+餔	bu4	50%
+不	bu4	99%
+嚓	ca1	50%
+采	cai3	100%
+采	cai4	0%
+參	can1	95%
+蚕	can2
+孱	can4	50%
+藏	cang2	50%
+操	cao1	95%
+側	ce4	99%
+噌	ceng1	50%
+曾	ceng2	90%
+差	cha1	45%
+嚓	cha1	50%
+杈	cha1	50%
+叉	cha1	90%
+叉	cha2	5%
+楂	cha2	50%
+查	cha2	95%
+叉	cha3	5%
+衩	cha3	50%
+差	cha4	45%
+剎	cha4	50%
+杈	cha4	50%
+衩	cha4	50%
+差	chai1	10%
+瘥	chai4	50%
+單	chan2	0%
+孱	chan2	50%
+禪	chan2	95%
+忏	chan4
+裳	chang2
+場	chang2	10%
+塲	chang2	50%
+長	chang2	90%
+塲	chang3	50%
+惝	chang3	50%
+場	chang3	90%
+綽	chao1	5%
+剿	chao1	50%
+勦	chao1	50%
+嘲	chao2	100%
+朝	chao2	70%
+車	che1	99%
+尺	che3	1%
+轍	che4	5%
+沉	chen1	0%
+沉	chen2	100%
+沈	chen2	5%
+稱	chen4	33.33%
+爯	chen4	50%
+柽	cheng1
+稱	cheng1	33.33%
+噌	cheng1	50%
+爯	cheng1	50%
+鐺	cheng1	50%
+盛	cheng2	5%
+晟	cheng2	50%
+澄	cheng2	50%
+裎	cheng2	50%
+乘	cheng2	99%
+樘	cheng3	50%
+裎	cheng3	50%
+稱	cheng4	33.33%
+坻	chi2	50%
+尺	chi3	99%
+踅	chi4	50%
+涌	chong1	0%
+衝	chong1	90%
+茧	chong2
+重	chong2	10%
+衝	chong4	10%
+幬	chou2	50%
+仇	chou2	90%
+杻	chou3	50%
+臭	chou4	95%
+處	chu3	20%
+褚	chu3	50%
+触	chu4
+畜	chu4	80%
+處	chu4	80%
+欻	chua1	50%
+揣	chuai1	80%
+嘬	chuai4	50%
+伝	chuan2	50%
+傳	chuan2	90%
+創	chuang1	10%
+幢	chuang2	20%
+創	chuang4	90%
+椎	chui2	5%
+唇	chun2
+椿	chun2	50%
+綴	chuo4	5%
+綽	chuo4	95%
+伺	ci4	50%
+刺	ci4	95%
+從	cong1	0%
+熜	cong1	50%
+從	cong2	100%
+皻	cu3	50%
+卒	cu4	0%
+酢	cu4	50%
+攢	cuan2	50%
+窾	cuan4	50%
+衰	cui1	1%
+崒	cui4	50%
+瘥	cuo2	50%
+答	da1	50%
+打	da2	1%
+答	da2	50%
+打	da3	99%
+大	da4	99%
+待	dai1	10%
+逮	dai3	50%
+大	dai4	1%
+逮	dai4	50%
+待	dai4	90%
+擔	dan1	50%
+癉	dan1	50%
+酖	dan1	50%
+單	dan1	99%
+胆	dan3
+石	dan4	1%
+彈	dan4	50%
+擔	dan4	50%
+澹	dan4	50%
+癉	dan4	50%
+鐺	dang1	50%
+當	dang1	90%
+擋	dang3	50%
+當	dang4	10%
+擋	dang4	50%
+盪	dang4	99%
+叨	dao1	100%
+倒	dao3	60%
+倒	dao4	40%
+幬	dao4	50%
+得	de2	70%
+灯	deng1
+邓	deng4
+澄	deng4	50%
+氐	di1	50%
+鏑	di1	50%
+敌	di2
+的	di2	1%
+絛	di2	50%
+翟	di2	50%
+鏑	di2	50%
+坻	di3	50%
+氐	di3	50%
+底	di3	99%
+的	di4	1%
+地	di4	90%
+弟	di4	99%
+丶	dian3	50%
+鈿	dian4	50%
+阽	dian4	50%
+調	diao4	50%
+銚	diao4	50%
+跌	die2
+咥	die2	50%
+灯	ding1
+鋌	ding4	50%
+侗	dong4	50%
+峒	dong4	50%
+都	dou1	90%
+讀	dou4	1%
+都	du1	10%
+闍	du1	50%
+讀	du2	99%
+肚	du3	10%
+竺	du3	50%
+肚	du4	90%
+度	du4	95%
+追	dui1	1%
+囤	dun4	50%
+度	duo2	5%
+垛	duo3	50%
+馱	duo4	5%
+垛	duo4	50%
+阿	e1	10%
+哦	e2	33.33%
+惡	e3	5%
+惡	e4	70%
+嗯	en1	1%
+儿	er2	0%
+兒	er2	95%
+法	fa4
+番	fan1	95%
+帆	fan2
+蕃	fan2	100%
+彷	fang3	50%
+菲	fei1	99%
+菲	fei3	1%
+怫	fei4	50%
+砩	fei4	50%
+芾	fei4	50%
+分	fen1	90%
+坆	fen2	50%
+奋	fen4
+分	fen4	10%
+豊	feng1
+埄	feng1	50%
+馮	feng2	100%
+縫	feng2	40%
+縫	feng4	60%
+否	fou3	95%
+夫	fu2	1%
+乀	fu2	50%
+怫	fu2	50%
+砩	fu2	50%
+芾	fu2	50%
+莩	fu2	50%
+服	fu2	99%
+脯	fu3	50%
+怀	fu4
+服	fu4	1%
+軋	ga2	33.33%
+蓋	gai4	50%
+乹	gan1	50%
+干	gan1	50%
+乾	gan1	80%
+亁	gan1	90%
+干	gan4	50%
+冈	gang1
+罓	gang1
+扛	gang1	1%
+槓	gang1	50%
+戇	gang4	50%
+槓	gang4	50%
+鎬	gao3	50%
+咯	ge1	5%
+仡	ge1	50%
+紇	ge1	50%
+擱	ge1	99%
+擱	ge2	1%
+葛	ge2	50%
+蛤	ge2	50%
+閤	ge2	50%
+鬲	ge2	50%
+合	ge3	0%
+葛	ge3	50%
+蓋	ge3	50%
+個	ge4	100%
+艮	gen3	50%
+艮	gen4	50%
+更	geng1	20%
+更	geng4	80%
+供	gong1	50%
+魟	gong1	50%
+卝	gong3	33.33%
+句	gou1	0%
+枸	gou1	5%
+佝	gou1	50%
+勾	gou1	90%
+枸	gou3	90%
+构	gou4	0%
+勾	gou4	10%
+估	gu1	100%
+轂	gu1	50%
+滑	gu3	0%
+谷	gu3	100%
+賈	gu3	5%
+嘏	gu3	50%
+扢	gu3	50%
+轂	gu3	50%
+鵠	gu3	50%
+估	gu4	0%
+括	gua1	0%
+絓	gua4	50%
+关	guan1
+莞	guan1	33.33%
+冠	guan1	50%
+觀	guan1	97%
+莞	guan3	33.33%
+觀	guan4	3%
+卝	guan4	33.33%
+丱	guan4	50%
+冠	guan4	50%
+桄	guang1	50%
+傀	gui1	50%
+匱	gui4	50%
+嶡	gui4	50%
+炔	gui4	50%
+丨	gun3	50%
+渦	guo1	50%
+哈	ha1	95%
+哈	ha3	5%
+咳	hai1	5%
+還	hai2	80%
+汉	han4
+和	han4	45%
+豻	han4	50%
+夯	hang1	95%
+行	hang2	10%
+吭	hang2	50%
+桁	hang2	50%
+號	hao2	1%
+好	hao3	95%
+好	hao4	5%
+鎬	hao4	50%
+號	hao4	99%
+呵	he1	95%
+喝	he1	95%
+合	he2	100%
+和	he2	45%
+紇	he2	50%
+貉	he2	50%
+閤	he2	50%
+荷	he2	80%
+荷	he4	20%
+和	he4	3%
+喝	he4	5%
+猲	he4	50%
+桁	heng2	50%
+橫	heng2	90%
+吽	hong1	50%
+哄	hong1	50%
+巆	hong1	50%
+魟	hong1	50%
+虹	hong2	99%
+哄	hong3	50%
+吽	hou3	50%
+欻	hu1	50%
+虍	hu1	50%
+和	hu2	1%
+礐	hu2	50%
+糊	hu2	50%
+鵠	hu2	50%
+虍	hu3	50%
+芦	hu4
+楛	hu4	50%
+糊	hu4	50%
+化	hua1	1%
+嘩	hua1	50%
+砉	hua1	50%
+敌	hua2
+滑	hua2	100%
+豁	hua2	33.33%
+劃	hua2	5%
+嘩	hua2	50%
+華	hua2	99%
+怀	huai2
+坏	huai4	0%
+孬	huai4	5%
+還	huan2	20%
+圜	huan2	50%
+嬛	huan2	50%
+澣	huan3	50%
+晃	huang3	10%
+晃	huang4	90%
+虺	hui1	50%
+虺	hui3	50%
+會	hui4	99%
+葷	hun1	50%
+混	hun2	30%
+混	hun4	70%
+豁	huo1	33.33%
+和	huo2	3%
+和	huo4	3%
+豁	huo4	33.33%
+嚄	huo4	50%
+机	ji1
+积	ji1
+迹	ji1
+蜡	ji2
+亽	ji2	50%
+給	ji3	5%
+幾	ji3	90%
+偈	ji4	50%
+檵	ji4	50%
+繫	ji4	50%
+薺	ji4	90%
+祭	ji4	98%
+夾	jia1	5%
+茄	jia1	5%
+宊	jia1	50%
+挾	jia1	50%
+夾	jia2	95%
+嘏	jia3	50%
+假	jia3	90%
+賈	jia3	95%
+假	jia4	10%
+價	jia4	99%
+淺	jian1	1%
+漸	jian1	10%
+監	jian1	95%
+間	jian1	95%
+茧	jian3
+閒	jian4	1%
+監	jian4	5%
+間	jian4	5%
+檻	jian4	50%
+漸	jian4	90%
+見	jian4	99%
+漿	jiang1	80%
+將	jiang1	90%
+強	jiang4	1%
+虹	jiang4	1%
+將	jiang4	10%
+漿	jiang4	20%
+彊	jiang4	33.33%
+降	jiang4	95%
+教	jiao1	30%
+剿	jiao3	50%
+勦	jiao3	50%
+徼	jiao3	50%
+矯	jiao3	50%
+筊	jiao3	50%
+角	jiao3	97%
+腳	jiao3	99%
+校	jiao4	25%
+覺	jiao4	5%
+徼	jiao4	50%
+筊	jiao4	50%
+教	jiao4	70%
+偕	jie1	10%
+結	jie1	5%
+嗟	jie1	50%
+楷	jie1	50%
+櫛	jie2	0%
+偈	jie2	50%
+卪	jie2	50%
+絜	jie2	50%
+結	jie2	95%
+桔	jie2	99%
+解	jie3	95%
+解	jie4	1%
+藉	jie4	50%
+禁	jin1	5%
+䥆	jin3
+仅	jin3	0%
+厪	jin3	50%
+勁	jin4	50%
+禁	jin4	95%
+惊	jing1	0%
+勁	jing4	50%
+靚	jing4	50%
+糺	jiu1	50%
+糺	jiu3	50%
+車	ju1	1%
+趄	ju1	50%
+鋦	ju1	50%
+鋸	ju1	50%
+桔	ju2	1%
+鋦	ju2	50%
+枸	ju3	5%
+句	ju4	100%
+瞿	ju4	5%
+渠	ju4	50%
+鋸	ju4	50%
+圈	juan1	3%
+悁	juan1	50%
+卷	juan3	50%
+卷	juan4	50%
+弮	juan4	50%
+悁	juan4	50%
+雋	juan4	50%
+圈	juan4	7%
+嗟	jue1	50%
+柽	jue2
+腳	jue2	1%
+嚼	jue2	10%
+角	jue2	3%
+嶡	jue2	50%
+璚	jue2	50%
+覺	jue2	95%
+菌	jun1	50%
+焌	jun4	50%
+菌	jun4	50%
+雋	jun4	50%
+咖	ka1
+开	kai1
+看	kan1	10%
+嵌	kan3	0%
+檻	kan3	50%
+看	kan4	90%
+扛	kang2	99%
+奋	kang3
+峇	ke1	50%
+軻	ke1	50%
+頦	ke1	50%
+軻	ke3	50%
+垦	ken3	0%
+齦	ken3	1%
+吭	keng1	50%
+倥	kong1	50%
+空	kong1	80%
+倥	kong3	50%
+佝	kou4	50%
+楛	ku3	50%
+絓	kua1	50%
+會	kuai4	1%
+窾	kuan3	50%
+框	kuang1	50%
+卝	kuang4	33.33%
+丱	kuang4	50%
+框	kuang4	50%
+亏	kui1	0%
+悝	kui1	50%
+傀	kui3	50%
+匱	kui4	50%
+啦	la1	30%
+喇	la1	50%
+垃	la1	50%
+剌	la2	50%
+喇	la3	50%
+腊	la4
+蜡	la4
+落	la4	5%
+剌	la4	50%
+啦	la5	70%
+閬	lang2	50%
+閬	lang4	50%
+嘮	lao2	50%
+姥	lao3	90%
+絡	lao4	0%
+嘮	lao4	50%
+肋	le4
+垃	le4	50%
+楽	le4	50%
+樂	le4	80%
+勒	le4	90%
+擂	lei2	50%
+累	lei3	10%
+擂	lei4	50%
+累	lei4	90%
+楞	leng2	50%
+麗	li2	0%
+樆	li2	50%
+蠡	li2	50%
+裡	li3
+哩	li3	5%
+悝	li3	50%
+蠡	li3	50%
+㻎	li4
+隶	li4	0%
+麗	li4	100%
+唎	li4	50%
+鬲	li4	50%
+斂	lian3	50%
+歛	lian3	50%
+斂	lian4	50%
+歛	lian4	50%
+量	liang2	20%
+踉	liang2	50%
+踉	liang4	50%
+靚	liang4	50%
+量	liang4	80%
+撩	liao2	50%
+燎	liao2	50%
+了	liao3	5%
+燎	liao3	50%
+瞭	liao3	50%
+蓼	liao3	50%
+瞭	liao4	50%
+咧	lie1	50%
+咧	lie3	50%
+猎	lie4
+劦	lie4	50%
+淋	lin2	90%
+淋	lin4	10%
+岭	ling2
+令	ling2	0%
+岭	ling3
+令	ling3	0%
+令	ling4	100%
+餾	liu2	50%
+陸	liu4	1%
+餾	liu4	50%
+隆	long2	100%
+瀧	long2	50%
+弄	long4	10%
+僂	lou2	50%
+嘍	lou2	50%
+摟	lou3	95%
+露	lou4	50%
+芦	lu2
+膔	lu4	50%
+蓼	lu4	50%
+露	lu4	50%
+陸	lu4	99%
+乿	luan4	50%
+論	lun2	1%
+掄	lun2	50%
+論	lun4	99%
+囉	luo1	50%
+捋	luo1	50%
+籮	luo2	90%
+絡	luo4	100%
+咯	luo4	5%
+落	luo4	95%
+囉	luo5	50%
+僂	lv3	50%
+捋	lv3	50%
+虑	lv4
+卛	lv4	50%
+率	lv4	80%
+呣	m2	50%
+呣	m4	50%
+螞	ma1	5%
+蟆	ma2	50%
+嗎	ma3	1%
+螞	ma3	90%
+螞	ma4	5%
+埋	mai2	95%
+脈	mai4	50%
+埋	man2	5%
+蔓	man2	50%
+謾	man2	50%
+蔓	man4	50%
+謾	man4	50%
+旄	mao2	50%
+茆	mao2	50%
+茆	mao3	50%
+旄	mao4	50%
+坆	mei2	50%
+沒	mei2	95%
+悶	men1	50%
+亹	men2	50%
+悶	men4	50%
+蒙	meng1	5%
+矇	meng1	50%
+氓	meng2	50%
+矇	meng2	50%
+蒙	meng2	75%
+蒙	meng3	20%
+靡	mi2	50%
+靡	mi3	50%
+祕	mi4	90%
+秘	mi4	90%
+娩	mian3	50%
+眄	mian3	50%
+麵	mian4
+眄	mian4	50%
+玅	miao4	50%
+繆	miao4	50%
+忞	min2	33.33%
+暋	min2	50%
+玟	min2	50%
+么	mo2	0%
+摸	mo2	50%
+磨	mo2	60%
+模	mo2	80%
+抹	mo3	50%
+万	mo4	1%
+磨	mo4	40%
+沒	mo4	5%
+抹	mo4	50%
+脈	mo4	50%
+貉	mo4	50%
+麼	mo5
+繆	mou2	50%
+牟	mou2	95%
+模	mu2	20%
+姥	mu3	10%
+牟	mu4	5%
+吶	na4	50%
+娜	na4	97%
+那	na4	99%
+難	nan2	80%
+難	nan4	20%
+饢	nang2	50%
+饢	nang3	50%
+哪	nei3	1%
+恁	nen4	50%
+伲	ni3	50%
+袮	ni3	50%
+拈	nian1	50%
+粘	nian2	10%
+拈	nian2	50%
+唸	nian4
+溺	niao4	5%
+尿	niao4	95%
+恁	nin2	0%
+宁	ning2	0%
+柠	ning2	0%
+擰	ning2	33.33%
+寧	ning2	80%
+杻	niu3	50%
+拗	niu4	50%
+弄	nong4	90%
+謔	nue4
+娜	nuo2	3%
+瘧	nve4	50%
+區	ou1	0%
+漚	ou1	50%
+熰	ou1	50%
+禺	ou3	33.33%
+熰	ou3	50%
+扒	pa2	20%
+耙	pa2	50%
+鈀	pa2	50%
+扳	pan1	5%
+番	pan1	5%
+般	pan2	0%
+爿	pan2	50%
+闆	pan4	1%
+拚	pan4	50%
+膀	pang1	0%
+泡	pao1	5%
+炮	pao2	1%
+刨	pao2	50%
+泡	pao4	95%
+炮	pao4	98%
+坏	pei2	100%
+噴	pen4	5%
+歕	pen4	50%
+庄	peng2
+榜	peng4	0%
+坏	pi1	5%
+匹	pi1	50%
+劈	pi1	90%
+裨	pi2	50%
+陂	pi2	50%
+劈	pi3	10%
+否	pi3	5%
+匹	pi3	50%
+扑	pi4
+辟	pi4	50%
+扁	pian1	1%
+片	pian1	10%
+便	pian2	5%
+片	pian4	90%
+漂	piao1	33.33%
+嘌	piao1	50%
+漂	piao3	33.33%
+摽	piao3	50%
+莩	piao3	50%
+漂	piao4	33.33%
+嘌	piao4	50%
+撇	pie1	10%
+拚	pin1	50%
+蘋	pin2	50%
+馮	ping2	0%
+蘋	ping2	50%
+屏	ping2	95%
+陂	po1	50%
+掊	pou2	50%
+掊	pou3	50%
+扑	pu1
+僕	pu1	0%
+鋪	pu1	50%
+僕	pu2	100%
+脯	pu2	50%
+埔	pu3	50%
+堡	pu4	5%
+鋪	pu4	50%
+瀑	pu4	95%
+妻	qi1	100%
+期	qi1	5%
+槭	qi1	50%
+緝	qi1	50%
+衹	qi2	0%
+薺	qi2	10%
+祇	qi2	100%
+跂	qi2	20%
+丌	qi2	50%
+奇	qi2	95%
+期	qi2	95%
+跂	qi3	20%
+稽	qi3	5%
+檵	qi3	50%
+豈	qi3	99%
+妻	qi4	0%
+跂	qi4	20%
+亟	qi4	50%
+槭	qi4	50%
+卡	qia3	10%
+幵	qian1
+忏	qian1
+嵌	qian1	10%
+亁	qian2	10%
+乾	qian2	20%
+乹	qian2	50%
+忏	qian3
+淺	qian3	99%
+䥅	qian4
+慊	qian4	50%
+將	qiang1	0%
+搶	qiang1	1%
+嗆	qiang1	50%
+蹌	qiang1	50%
+鏹	qiang1	50%
+彊	qiang2	33.33%
+爿	qiang2	50%
+強	qiang2	94%
+彊	qiang3	33.33%
+強	qiang3	5%
+鏹	qiang3	50%
+搶	qiang3	99%
+嗆	qiang4	50%
+蹌	qiang4	50%
+雀	qiao1	0%
+橾	qiao1	50%
+繰	qiao1	50%
+翹	qiao2	5%
+譙	qiao2	50%
+雀	qiao3	5%
+殼	qiao4	50%
+譙	qiao4	50%
+翹	qiao4	95%
+切	qie1	70%
+茄	qie2	95%
+切	qie4	30%
+帹	qie4	50%
+慊	qie4	50%
+趄	qie4	50%
+亲	qin1
+親	qin1	95%
+厪	qin2	50%
+頃	qing1	1%
+頃	qing3	99%
+親	qing4	5%
+璚	qiong2	50%
+仇	qiu2	10%
+厹	qiu2	50%
+區	qu1	100%
+曲	qu1	50%
+焌	qu1	50%
+渠	qu2	50%
+瞿	qu2	95%
+曲	qu3	50%
+蜡	qu4
+弮	quan1	50%
+圈	quan1	90%
+权	quan2
+炔	que1	50%
+闕	que1	50%
+猎	que4
+礐	que4	50%
+闕	que4	50%
+雀	que4	95%
+群	qun2
+扰	rao3
+爇	re4	50%
+儿	ren2
+恁	ren4	50%
+葚	ren4	50%
+荣	rong2
+厹	rou2	50%
+女	ru3	1%
+瞤	run2	50%
+爇	ruo4	50%
+撒	sa1	50%
+撒	sa3	50%
+潵	sa3	50%
+塞	sai1	60%
+塞	sai4	30%
+參	san1	4%
+散	san3	30%
+潵	san4	50%
+散	san4	70%
+喪	sang1	50%
+喪	sang4	50%
+繰	sao1	50%
+臊	sao1	50%
+掃	sao3	50%
+掃	sao4	50%
+臊	sao4	50%
+塞	se4	10%
+色	se4	99%
+剎	sha1	50%
+煞	sha1	50%
+莎	sha1	50%
+嗄	sha4	50%
+帹	sha4	50%
+煞	sha4	50%
+廈	sha4	90%
+色	shai3	1%
+扇	shan1	20%
+埏	shan1	50%
+摻	shan3	5%
+單	shan4	1%
+禪	shan4	5%
+剡	shan4	50%
+扇	shan4	80%
+湯	shang1	1%
+上	shang3	0%
+上	shang4	100%
+蛸	shao1	50%
+杓	shao2	50%
+少	shao3	90%
+召	shao4	0%
+少	shao4	10%
+奓	she1	50%
+葉	she4	0%
+射	she4	100%
+參	shen1	1%
+莘	shen1	50%
+什	shen2	1%
+沈	shen3	95%
+葚	shen4	50%
+省	sheng3	95%
+乘	sheng4	1%
+晟	sheng4	50%
+盛	sheng4	95%
+籮	shi2	5%
+識	shi2	95%
+什	shi2	99%
+石	shi2	99%
+食	shi2	99%
+識	shi4	0%
+适	shi4	0%
+籮	shi4	5%
+螫	shi4	5%
+橾	shu1	50%
+术	shu2
+熟	shu2	95%
+屬	shu3	100%
+數	shu3	20%
+术	shu4
+丨	shu4	50%
+朮	shu4	50%
+數	shu4	75%
+刷	shua1	90%
+率	shuai4	20%
+卛	shuai4	50%
+瀧	shuang1	50%
+說	shui4	1%
+瞤	shun4	50%
+數	shuo4	5%
+食	si4	1%
+伺	si4	50%
+謏	sou3	50%
+尿	sui1	5%
+莎	suo1	50%
+嗒	ta4
+台	tai1	1%
+苔	tai1	50%
+苔	tai2	50%
+台	tai2	99%
+彈	tan2	50%
+澹	tan2	50%
+叹	tan4	0%
+趟	tang1	5%
+湯	tang1	99%
+樘	tang2	50%
+惝	tang3	50%
+盪	tang4	1%
+趟	tang4	95%
+叨	tao1	0%
+絛	tao1	50%
+忒	te4	50%
+擿	ti1	50%
+荑	ti2	50%
+弟	ti4	1%
+裼	ti4	50%
+趯	ti4	50%
+鈿	tian2	50%
+蚕	tian3
+瑱	tian4	50%
+挑	tiao1	50%
+調	tiao2	50%
+挑	tiao3	50%
+帖	tie1	33.33%
+帖	tie3	33.33%
+帖	tie4	33.33%
+呫	tie4	50%
+听	ting1	0%
+聽	ting1	95%
+聽	ting4	5%
+通	tong1	99%
+侗	tong2	50%
+僮	tong2	50%
+峒	tong2	50%
+獞	tong2	50%
+甬	tong3	50%
+通	tong4	1%
+頭	tou2	99%
+突	tu1	5%
+宊	tu2	50%
+突	tu2	95%
+吐	tu3	80%
+吐	tu4	20%
+屯	tun2	100%
+囤	tun2	50%
+乇	tuo1	50%
+馱	tuo2	95%
+拓	tuo4	50%
+搲	wa1	33.33%
+搲	wa3	33.33%
+殟	wa4	0%
+搲	wa4	33.33%
+莞	wan3	33.33%
+娩	wan3	50%
+澣	wan3	50%
+万	wan4	99%
+王	wang2	100%
+王	wang4	0%
+委	wei1	0%
+萎	wei1	50%
+唯	wei2	100%
+為	wei2	50%
+為	wei2	50%
+唯	wei3	0%
+委	wei3	100%
+亹	wei3	50%
+萎	wei3	50%
+尾	wei3	99%
+机	wei4
+為	wei4	50%
+為	wei4	50%
+磑	wei4	50%
+蔚	wei4	95%
+玟	wen2	50%
+忞	wen3	33.33%
+搵	wen3	50%
+搵	wen4	50%
+渦	wo1	50%
+於	wu1	0%
+廡	wu2	50%
+廡	wu3	50%
+惡	wu4	25%
+猎	xi1
+裼	xi1	50%
+夕	xi2	0%
+惜	xi2	0%
+褶	xi2	50%
+咥	xi4	50%
+扢	xi4	50%
+繫	xi4	50%
+煆	xia1	50%
+廈	xia4	10%
+鮮	xian1	95%
+燅	xian2
+閒	xian2	99%
+鮮	xian3	5%
+宪	xian4
+羡	xian4
+羨	xian4
+乡	xiang1
+相	xiang1	50%
+降	xiang2	5%
+相	xiang4	50%
+校	xiao4	100%
+蝎	xie1
+猲	xie1	50%
+劦	xie2	50%
+挾	xie2	50%
+絜	xie2	50%
+偕	xie2	90%
+解	xie4	4%
+莘	xin1	50%
+芯	xin1	95%
+卂	xin4
+芯	xin4	5%
+興	xing1	80%
+行	xing2	90%
+省	xing3	5%
+行	xing4	0%
+興	xing4	20%
+宪	xiong4
+宿	xiu3	5%
+宿	xiu4	5%
+臭	xiu4	5%
+吁	xu1	50%
+砉	xu1	50%
+畜	xu4	20%
+吅	xuan1	50%
+嬛	xuan1	50%
+玅	xuan2	50%
+旋	xuan2	90%
+旋	xuan4	10%
+削	xue1	50%
+踅	xue2	50%
+丆	xx
+乊	xx
+乤	xx
+乥	xx
+乧	xx
+乫	xx
+乷	xx
+乺	xx
+乼	xx
+亪	xx
+仒	xx
+匁	xx
+厼	xx
+壭	xx
+朩	xx
+朰	xx
+畓	xx
+罖	xx
+込	xx
+丷	xx	50%
+亽	xx	50%
+卪	xx	50%
+啞	ya1	50%
+煆	ya1	50%
+壓	ya1	99%
+啞	ya3	50%
+殷	yan1	1%
+咽	yan1	33.33%
+傿	yan1	50%
+奄	yan1	50%
+洇	yan1	50%
+湮	yan1	50%
+燕	yan1	50%
+菸	yan1	99%
+羡	yan2
+埏	yan2	50%
+阽	yan2	50%
+沿	yan2	95%
+剡	yan3	50%
+奄	yan3	50%
+样	yang2
+样	yang4
+約	yao1	1%
+么	yao1	100%
+要	yao1	5%
+繇	yao2	33.33%
+銚	yao2	50%
+瘧	yao4	50%
+要	yao4	95%
+鑰	yao4	95%
+掖	ye1	50%
+耶	ye1	90%
+耶	ye2	10%
+业	ye4
+射	ye4	0%
+葉	ye4	100%
+咽	ye4	33.33%
+拽	ye4	5%
+掖	ye4	50%
+衣	yi1	100%
+一	yi1	34%
+听	yi2
+羡	yi2
+袲	yi2
+一	yi2	33%
+荑	yi2	50%
+迤	yi2	50%
+尾	yi3	1%
+乙	yi3	100%
+迤	yi3	50%
+义	yi4
+射	yi4	0%
+衣	yi4	0%
+芸	yi4	1%
+一	yi4	33%
+仡	yi4	50%
+殷	yin1	98%
+齦	yin2	99%
+听	yin3
+殷	yin3	1%
+隱	yin3	100%
+币	yin4
+隱	yin4	0%
+窨	yin4	50%
+應	ying1	50%
+巆	ying2	50%
+應	ying4	50%
+甬	yong3	50%
+忧	you1
+邮	you2
+繇	you2	33.33%
+忧	you4
+扰	you4
+厷	you4	0%
+菸	yu1	1%
+予	yu2	0%
+與	yu2	0%
+於	yu2	100%
+禺	yu2	33.33%
+予	yu3	100%
+語	yu3	100%
+與	yu3	90%
+尉	yu4	0%
+語	yu4	0%
+谷	yu4	0%
+粥	yu4	1%
+與	yu4	10%
+禺	yu4	33.33%
+蔚	yu4	5%
+吁	yu4	50%
+熨	yu4	50%
+圜	yuan2	50%
+媛	yuan2	50%
+遠	yuan3	100%
+遠	yuan4	0%
+媛	yuan4	50%
+約	yue1	99%
+縕	yun1	50%
+暈	yun1	95%
+伝	yun2	50%
+芸	yun2	99%
+运	yun4	0%
+暈	yun4	5%
+熨	yun4	50%
+縕	yun4	50%
+臢	za1	50%
+杂	za2	0%
+咱	za2	5%
+咋	za3	95%
+載	zai3	80%
+仔	zai3	90%
+載	zai4	20%
+攢	zan3	50%
+欑	zan4
+臢	zang1	50%
+奘	zang4	50%
+藏	zang4	50%
+咋	ze2	1%
+擇	ze2	95%
+曾	zeng1	10%
+繒	zeng1	50%
+綜	zeng4	0%
+繒	zeng4	50%
+查	zha1	5%
+吒	zha1	50%
+楂	zha1	50%
+皻	zha1	50%
+扎	zha1	90%
+蜡	zha4
+祭	zha4	1%
+咋	zha4	4%
+吒	zha4	50%
+奓	zha4	50%
+炸	zha4	50%
+側	zhai1	1%
+擇	zhai2	5%
+翟	zhai2	50%
+祭	zhai4	1%
+占	zhan4	50%
+長	zhang3	10%
+漲	zhang3	60%
+漲	zhang4	40%
+嘲	zhao1	0%
+朝	zhao1	30%
+著	zhao1	5%
+著	zhao2	5%
+爪	zhao3	5%
+召	zhao4	100%
+濯	zhao4	50%
+折	zhe1	1%
+蜇	zhe1	50%
+螫	zhe1	95%
+乙	zhe2	0%
+乇	zhe2	50%
+蜇	zhe2	50%
+折	zhe2	94%
+轍	zhe2	95%
+褶	zhe3	50%
+著	zhe5	85%
+瑱	zhen4	50%
+酖	zhen4	50%
+正	zheng1	5%
+怔	zheng1	50%
+掙	zheng1	50%
+癥	zheng1	50%
+徵	zheng1	95%
+怔	zheng4	50%
+掙	zheng4	50%
+癥	zheng4	50%
+正	zheng4	95%
+跂	zhi1	20%
+吱	zhi1	50%
+祇	zhi3	0%
+衹	zhi3	100%
+徵	zhi3	5%
+識	zhi4	5%
+乿	zhi4	50%
+擿	zhi4	50%
+中	zhong1	97%
+种	zhong3
+種	zhong3	80%
+种	zhong4
+種	zhong4	20%
+中	zhong4	3%
+重	zhong4	90%
+粥	zhou1	99%
+繇	zhou4	33.33%
+术	zhu2
+朮	zhu2	50%
+竺	zhu2	50%
+筑	zhu2	50%
+屬	zhu3	0%
+丶	zhu3	50%
+褚	zhu3	50%
+宁	zhu4	100%
+著	zhu4	100%
+筑	zhu4	50%
+爪	zhua3	95%
+拽	zhuai4	90%
+轉	zhuan3	50%
+傳	zhuan4	10%
+賺	zhuan4	50%
+轉	zhuan4	50%
+庄	zhuang1
+奘	zhuang3	50%
+僮	zhuang4	50%
+戇	zhuang4	50%
+獞	zhuang4	50%
+幢	zhuang4	80%
+椎	zhui1	95%
+追	zhui1	99%
+綴	zhui4	95%
+屯	zhun1	0%
+著	zhuo2	0%
+著	zhuo2	5%
+濯	zhuo2	50%
+仔	zi1	0%
+吱	zi1	50%
+觜	zi1	50%
+訾	zi1	50%
+仔	zi3	10%
+訾	zi3	50%
+子	zi3	97%
+綜	zong1	100%
+熜	zong3	50%
+從	zong4	0%
+卒	zu2	100%
+崒	zu2	50%
+捽	zu2	50%
+鑽	zuan1	50%
+觜	zui3	50%
+嘬	zuo1	50%
+捽	zuo2	50%
+酢	zuo4	50%
+鑿	zuo4	50%
+挨著	ai1 zhe5
+捱整	ai2 zheng3
+鞍韂	an1 chan4
+安於	an1 yu2
+安著	an1 zhuo2
+敖閏	ao2 run4
+巴著	ba1 zhao2
+矲矮	ba4 ai3
+矲雉	ba4 zhi4
+白菖	bai2 chang1
+白墡	bai2 shan4
+白質	bai2 zhi2
+寶匳	bao3 lian2
+報謙	bao4 qian1
+鵯鵊	bei1 jia2
+鵯鶋	bei1 ju1
+誖暴	bei4 bao4
+背褾	bei4 biao3
+誖逆	bei4 ni4
+誖誤	bei4 wu4
+本著	ben3 zhe5
+本質	ben3 zhi2
+貏豸	bi3 zhi4
+韠琫	bi4 beng3
+腷膊	bi4 bo2
+閉戹	bi4 e4
+梐枑	bi4 hu4
+饆饠	bi4 luo2
+碧血	bi4 xie3
+碧血	bi4 xue4
+腷臆	bi4 yi4
+閉著	bi4 zhe5
+痹證	bi4 zheng4
+稨豆	bian3 dou4
+惼心	bian3 xin1
+變為	bian4 wei2
+變著	bian4 zhao1
+變著	bian4 zhe5
+變質	bian4 zhi2
+褾背	biao3 bei4
+襒席	bie2 xi2
+別緒	bie2 xu4
+瀕於	bin1 yu2
+臏刑	bin4 xing2
+秉筆	bing3 bi3
+秉彝	bing3 yi2
+并包	bing4 bao1
+并迭	bing4 die2
+并兼	bing4 jian1
+并力	bing4 li4
+并日	bing4 ri4
+并吞	bing4 tun1
+并網	bing4 wang3
+鱍鱍	bo1 bo1
+波導	bo1 dao3
+懪懪	bo2 bo2
+搏鬥	bo2 dou4
+欂櫨	bo2 lu2
+瓝槊	bo2 shuo4
+伯彝	bo2 yi2
+不便	bu4 bian4
+不稱	bu4 cheng4
+不大	bu4 da4
+不待	bu4 dai4
+不逮	bu4 dai4
+不當	bu4 dang4
+不度	bu4 du4
+不供	bu4 gong4
+不勾	bu4 gou4
+不好	bu4 hao4
+不會	bu4 hui4
+不漸	bu4 jian4
+不見	bu4 jian4
+不究	bu4 jiu4
+不匱	bu4 kui4
+不剌	bu4 la4
+不樂	bu4 le4
+不露	bu4 lu4
+不論	bu4 lun4
+不落	bu4 luo4
+不悶	bu4 men4
+不繆	bu4 miu4
+不辱	bu4 ru4
+不臊	bu4 sao4
+不殺	bu4 shai4
+不勝	bu4 sheng4
+不是	bu4 shi4
+不識	bu4 shi4
+不忒	bu4 te4
+不弟	bu4 ti4
+不要	bu4 yao4
+不著	bu4 zhao2
+不中	bu4 zhong4
+不重	bu4 zhong4
+不著	bu4 zhuo2
+材質	cai2 zhi2
+蔡倫	cai4 lun2
+參禪	can1 chan2
+草荐	cao3 jian4
+茶几	cha2 ji3
+茶質	cha2 zhi2
+獑胡	chan2 hu2
+巉岏	chan2 wan2
+巉崖	chan2 yai2
+剗著	chan3 zhao2
+菖蘭	chang1 lan2
+菖蒲	chang1 pu2
+怊悵	chao1 chang4
+嘲謔	chao2 xve4
+朝著	chao2 zhe5
+捵麵	chen1 mian4
+嗔著	chen1 zhe5
+塵蟎	chen2 man3
+沈著	chen2 zhuo2
+沉著	chen2 zhuo2
+讖語	chen4 yu3
+稱為	cheng1 wei2
+成為	cheng2 wei2
+成癮	cheng2 yin3
+盛著	cheng2 zhe5
+齒質	chi3 zhi2
+茺蔚	chong1 wei4
+崇崖	chong2 yai2
+抽籤	chou1 qian1
+貙虎	chu1 hu3
+出於	chu1 yu2
+䫄外	chua4 wai4
+穿著	chuan1 zhuo2
+輲車	chuan2 che1
+摐摐	chuang1 chuang1
+窗槅	chuang1 ge2
+純淨	chun2 jing4
+純質	chun2 zhi2
+次於	ci4 yu2
+刺著	ci4 zhao2
+刺著	ci4 zhe5
+次著	ci4 zhuo2
+村疃	cun1 tuan3
+存摺	cun2 zhe2
+噠嗪	da1 qin2
+搭赸	da1 shan4
+打并	da3 bing4
+打著	da3 zhao2
+打著	da3 zhe5
+大於	da4 yu2
+單鍵	dan1 jian4
+疍民	dan4 min2
+黨蔘	dang3 shen1
+道著	dao4 zhao2
+得著	de2 zhao2
+燈盞	deng1 zhan3
+等於	deng3 yu2
+隥道	deng4 dao4
+鞮鞻	di1 lou2
+鸐雉	di2 zhi4
+詆訿	di3 zi3
+地著	di4 zhuo2
+攧番	dian1 fan1
+顛蕀	dian1 ji2
+攧腳	dian1 jiao3
+攧撲	dian1 pu1
+攧錢	dian1 qian2
+巔崖	dian1 yai2
+點著	dian3 zhao2
+澱積	dian4 ji1
+電鰻	dian4 man2
+伄儅	diao4 dang1
+調升	diao4 sheng1
+吊著	diao4 zhe5
+鼎彝	ding3 yi2
+訂戶	ding4 hu4
+定於	ding4 yu2
+丟命	diu1 ming4
+讀為	du2 wei2
+肚裡	du4 li3
+煅燒	duan4 shao1
+斷崖	duan4 yai2
+對於	dui4 yu2
+對質	dui4 zhi2
+多於	duo1 yu2
+多麼	duo2 mo5
+趓趓	duo3 duo3
+墮樓	duo4 lou2
+墮崖	duo4 yai2
+頟頟	e2 e2
+睋而	e2 er2
+顎部	e4 bu4
+呝呝	e4 e4
+㔩葉	e4 ye4
+鴯鶓	er2 miao2
+耳朵	er3 duo1
+方几	fang1 ji3
+方彝	fang1 yi2
+放血	fang4 xie3
+放血	fang4 xue4
+裶裶	fei1 fei1
+扉畫	fei1 hua4
+匪彝	fei3 yi2
+肺癌	fei4 ai2
+沸涫	fei4 guan4
+廢弛	fei4 shi3
+肺癌	fei4 yan2
+翂翂	fen1 fen1
+分為	fen1 wei2
+妢胡	fen2 hu2
+芣苢	fou2 yi3
+缹粥	fou3 zhou1
+虙妃	fu2 fei1
+岪蔚	fu2 wei4
+扶餘	fu2 yu2
+服著	fu2 zhe5
+浮著	fu2 zhe5
+服著	fu2 zhuo2
+蝜蝂	fu4 ban3
+蛗螽	fu4 zhong1
+附著	fu4 zhuo2
+該著	gai1 zhao2
+改為	gai3 wei2
+鈣質	gai4 zhi2
+肝癌	gan1 ai2
+甘膬	gan1 cui4
+乾麵	gan1 mian4
+肝癌	gan1 yan2
+甘於	gan1 yu2
+乾著	gan1 zhe5
+敢為	gan3 wei2
+敢於	gan3 yu2
+高檔	gao1 dang3
+高檔	gao1 dang4
+高䠷	gao1 tiao3
+高於	gao1 yu2
+割捨	ge1 she3
+割著	ge1 zhao2
+割著	ge1 zhe5
+跟著	gen1 zhe5
+更為	geng4 wei2
+公毉	gong1 yi1
+苟為	gou3 wei2
+構詞	gou4 ci2
+估倧	gu1 zong1
+骨癌	gu3 ai2
+餶飿	gu3 duo4
+鈷鉧	gu3 mu3
+骨癌	gu3 yan2
+骨質	gu3 zhi2
+蝸角	gua1 jiao3
+䒷蔞	gua1 lou2
+刮著	gua1 zhao2
+怪著	guai4 zhao1
+怪著	guai4 zhe5
+關於	guan1 yu2
+冠群	guan4 qun2
+咣噹	guang1 dang1
+嬀河	gui1 he2
+嬀汭	gui1 rui4
+歸於	gui1 yu2
+歸著	gui1 zhuo2
+鬼質	gui3 zhi2
+禬禳	gui4 rang2
+過於	guo4 yu2
+還著	hai2 zhao2
+還著	hai2 zhuo2
+海鰌	hai3 qiu1
+海崖	hai3 yai2
+酣暢	han1 chang4
+寒痹	han2 bi4
+韓國	han2 guo2
+含稅	han2 shui4
+寒浞	han2 zhuo2
+顄淡	han4 dan4
+駻馬	han4 ma3
+豪壯	hao2 zhuang4
+好麼	hao3 mo5
+訶叱	he1 chi4
+訶斥	he1 chi4
+合并	he2 bing4
+合為	he2 wei2
+合於	he2 yu2
+合著	he2 zhu4
+黑裡	hei1 li5
+轟趕	hong1 gan3
+泓汯	hong2 hong2
+耾耾	hong2 hong2
+紅苕	hong2 tiao2
+紅學	hong2 xue2
+谹議	hong2 yi4
+喉癌	hou2 ai2
+喉癌	hou2 yan2
+曶鼎	hu1 ding3
+唿哨	hu1 shao4
+昒爽	hu1 shuang3
+昒昕	hu1 xin1
+淴浴	hu1 yu4
+胡耈	hu2 gou3
+胡為	hu2 wei2
+護著	hu4 zhe5
+互質	hu4 zhi2
+花蛢	hua1 ping2
+華為	hua2 wei4
+話筒	hua4 tong3
+蘹香	huai2 xiang1
+還著	huan2 zhe5
+黃耉	huang2 gou3
+黃花	huang2 hua1
+黃菊	huang2 ju2
+黃泉	huang2 quan2
+揮杆	hui1 gan1
+揮淚	hui1 lei4
+揮灑	hui1 sa3
+灰質	hui1 zhi2
+蕙質	hui4 zhi2
+鼲鼠	hun2 shu3
+豁著	huo1 zhe5
+和麵	huo2 mian4
+活著	huo2 zhao1
+活著	huo2 zhe5
+和麵	huo4 mian4
+謋然	huo4 ran2
+几案	ji1 an4
+機電	ji1 dian4
+基於	ji1 yu2
+積著	ji1 zhu4
+轚互	ji2 hu4
+擊傷	ji2 shang1
+即為	ji2 wei2
+極為	ji2 wei2
+岌嶪	ji2 ye4
+急於	ji2 yu2
+急著	ji2 zhe5
+几案	ji3 an4
+几席	ji3 xi2
+几筵	ji3 yan2
+几杖	ji3 zhang4
+驥驁	ji4 ao4
+檕梅	ji4 mei2
+記為	ji4 wei2
+家裡	jia1 li5
+斝彝	jia3 yi2
+兼并	jian1 bing4
+堅毅	jian1 yi4
+簡弛	jian3 shi3
+剪著	jian3 zhao2
+剪著	jian3 zhe5
+荐饑	jian4 ji1
+諓諓	jian4 jian4
+荐任	jian4 ren4
+荐食	jian4 shi2
+見於	jian4 yu2
+鑒於	jian4 yu2
+諫正	jian4 zheng4
+江戶	jiang1 hu4
+將為	jiang1 wei2
+鐎斗	jiao1 dou3
+蟭蟟	jiao1 liao2
+澆弛	jiao1 shi3
+膠著	jiao1 zhuo2
+噍類	jiao4 lei4
+較為	jiao4 wei2
+階乘	jie1 cheng2
+接著	jie1 zhe5
+拮据	jie2 ju1
+楶梲	jie2 zhuo2
+介於	jie4 yu2
+藉著	jie4 zhe5
+介質	jie4 zhi2
+金質	jin1 zhi2
+盡飽	jin4 bao3
+噤齘	jin4 xie4
+旍表	jing1 biao3
+旍旗	jing1 qi2
+精於	jing1 yu2
+竫言	jing4 yan2
+就著	jiu4 zhe5
+舊著	jiu4 zhe5
+舊著	jiu4 zhu4
+輂輦	ju2 nian3
+舉荐	ju3 jian4
+駏驉	ju4 xu1
+芵明	jue2 ming2
+厥弛	jue2 shi3
+峻崖	jun4 yai2
+鵔鸃	jun4 yi2
+開荒	kai1 huang1
+開皌	kai1 mo4
+開闢	kai1 pi4
+砍著	kan3 zhao2
+砍著	kan3 zhe5
+空群	kong1 qun2
+洭水	kuang1 shui3
+蹞步	kui3 bu4
+騉駼	kun1 tu2
+閫奧	kun3 ao4
+蛞螻	kuo4 lou2
+來著	lai2 zhe5
+䰐鬖	lan2 san1
+啷噹	lang1 dang1
+老誖	lao3 bei4
+老姏	lao3 man2
+樂群	le4 qun2
+㶟水	lei3 shui3
+愣幹	leng4 gan4
+氂牛	li2 niu2
+氂纓	li2 ying1
+裡邊	li3 bian1
+裡邊	li3 bian5
+裡間	li3 jian1
+李适	li3 kuo4
+裡頭	li3 tou5
+裡子	li3 zi5
+轣轆	li4 lu4
+利於	li4 yu2
+麗質	li4 zhi2
+栗鑿	li4 zuo4
+臁瘡	lian2 chuang1
+謰語	lian2 yu3
+斂著	lian4 zhe5
+良質	liang2 zhi2
+兩湖	liang3 hu2
+兩全	liang3 quan2
+亮槅	liang4 ge2
+列為	lie4 wei2
+劣質	lie4 zhi2
+臨潁	lin2 ying3
+㥄遽	ling2 ju4
+陵園	ling2 yuan2
+留級	liu2 ji2
+鶹鷅	liu2 li4
+流血	liu2 xie3
+流血	liu2 xue4
+流質	liu2 zhi2
+漏巵	lou4 zhi1
+櫨欂	lu2 bo2
+䍡𦌊	lu4 su4
+硉兀	lu4 wu4
+論據	lun4 ju4
+瘰癧	luo3 li4
+酪漿	luo4 jiang1
+酪梨	luo4 li2
+酪農	luo4 nong2
+酪奴	luo4 nu2
+酪乳	luo4 ru3
+酪酥	luo4 su1
+酪素	luo4 su4
+酪酸	luo4 suan1
+略為	lve4 wei2
+馬榮	ma3 rong2
+麥麩	mai4 fu1
+慲兜	man2 dou1
+姏母	man2 mu3
+曼睩	man4 lu4
+忙於	mang2 yu2
+忙著	mang2 zhe5
+冒著	mao4 zhe5
+媒質	mei2 zhi2
+美質	mei3 zhi2
+韎韐	mei4 ge2
+矇著	meng1 zhao2
+儚儚	meng2 meng2
+氋氃	meng2 tong2
+冪䍦	mi4 li2
+幎目	mi4 mu4
+腼腆	mian3 tian3
+麵糊	mian4 hu2
+麵漿	mian4 jiang1
+麵兒	mian4 r5
+面質	mian4 zhi2
+麵子	mian4 zi5
+民彝	min2 yi2
+笢笏	min3 hu4
+僶勉	min3 mian3
+溟濛	ming2 meng2
+名為	ming2 wei4
+摸著	mo1 zhao2
+摩崖	mo2 yai2
+沒了	mo4 le5
+沒人	mo4 ren2
+沒水	mo4 shui3
+沒下	mo4 xia4
+末著	mo4 zhao1
+鴾母	mou2 mu3
+木杆	mu4 gan1
+木質	mu4 zhi2
+那般	na3 ban1
+那等	na3 deng3
+那個	na3 ge5
+哪裡	na3 li3
+那裡	na3 li3
+那怕	na3 pa4
+那曲	na3 qu1
+那些	na3 xie1
+那樣	na3 yang4
+那裡	na4 li3
+那裡	na4 li5
+那麼	na4 mo5
+奶酪	nai3 luo4
+難為	nan2 wei2
+難為	nan2 wei5
+恁的	nen4 de5
+能為	neng2 wei2
+尼羅	ni2 luo2
+鯰魚	nian2 yu2
+粘著	nian2 zhe5
+黏質	nian2 zhi2
+粘著	nian2 zhuo2
+黏著	nian2 zhuo2
+捻掿	nian3 nuo4
+躡足	nie4 zu2
+牛酪	niu2 luo4
+努著	nu3 zhe5
+努著	nu3 zhuo5
+掿沙	nuo4 sha1
+掿戰	nuo4 zhan4
+槃礴	pan2 bo2
+盤礴	pan2 bo2
+磐礴	pan2 bo2
+盤槅	pan2 ge2
+牉合	pan4 he2
+旁礴	pang2 bo2
+拋趓	pao1 duo3
+泡麵	pao1 mian4
+拋堶	pao1 tuo2
+泡麵	pao4 mian4
+疱疹	pao4 zhen3
+恲恲	peng1 peng1
+蟛螖	peng2 hua2
+髼鬆	peng2 song1
+碰著	peng4 zhao2
+霹靂	pi1 li4
+劈著	pi1 zhao2
+陂池	pi2 chi2
+蚍蜉	pi2 fu2
+陂塘	pi2 tang2
+皮質	pi2 zhi2
+鷿鵜	pi4 ti2
+品系	pin3 xi4
+品質	pin3 zhi2
+平輩	ping2 bei4
+評為	ping2 wei2
+蓱翳	ping2 yi4
+頗為	po1 wei2
+尀奈	po3 nai4
+尀耐	po3 nai4
+蒪苴	po4 ju1
+迫於	po4 yu2
+仆街	pu1 jie1
+蒲劇	pu2 ju4
+蒲鞵	pu2 xie2
+譜線	pu3 xian4
+曝晒	pu4 shai4
+僛僛	qi1 qi1
+器質	qi4 zhi2
+氣質	qi4 zhi2
+帢帽	qia4 mao4
+籤幐	qian1 teng2
+灊水	qian2 shui3
+犍為	qian2 wei4
+蘠蘼	qiang2 mi2
+繈緥	qiang3 bao3
+礄口	qiao2 kou3
+撬竊	qiao4 qie4
+帩頭	qiao4 tou2
+切麵	qie1 mian4
+竊據	qie4 ju4
+輕趬	qing1 qiao1
+清臞	qing1 qu2
+藑茅	qiong2 mao2
+趨於	qu1 yu2
+臞瘠	qu2 ji2
+鼩鼱	qu2 jing1
+臞劣	qu2 lie4
+蠷螋	qu2 sou1
+全職	quan2 zhi2
+群辟	qun2 bi4
+群落	qun2 luo4
+群從	qun2 zong4
+呥呥	ran2 ran2
+姌嫋	ran3 niao3
+人為	ren2 wei2
+恁的	ren4 de5
+認為	ren4 wei2
+日電	ri4 dian4
+茙葵	rong2 kui2
+溶㵝	rong2 yi4
+容質	rong2 zhi2
+溶質	rong2 zhi2
+融資	rong2 zi1
+肉質	rou4 zhi2
+䰰䰰	ru2 ru2
+乳癌	ru3 ai2
+乳酪	ru3 luo4
+乳癌	ru3 yan2
+枘鑿	rui4 zuo4
+弱質	ruo4 zhi2
+灑晒	sa3 shai4
+颯飁	sa4 xi2
+噻唑	sai1 zuo4
+鬖髿	san1 suo1
+溞溞	sao1 sao1
+蔱蘠	sha1 qiang2
+砂質	sha1 zhi2
+篩法	shai1 fa3
+晒斑	shai4 ban1
+晒穀	shai4 gu3
+晒黑	shai4 hei1
+晒書	shai4 shu1
+晒臺	shai4 tai2
+晒圖	shai4 tu2
+山崖	shan1 yai2
+赸過	shan4 guo4
+善於	shan4 yu2
+上著	shang zhao
+上著	shang zhe
+蔏藋	shang1 diao4
+商蚷	shang1 ju4
+蔏蔞	shang1 lou2
+上杆	shang4 gan1
+䈰箕	shao1 ji1
+奢麗	she1 li4
+猞猁	she1 li4
+什麼	she2 mo5
+甚麼	she2 mo5
+折錢	she2 qian2
+神奧	shen2 ao4
+什麼	shen2 mo5
+甚麼	shen2 mo5
+邥垂	shen3 chui2
+甚為	shen4 wei2
+施為	shi1 wei2
+失著	shi1 zhao1
+時蔬	shi2 shu1
+實質	shi2 zhi2
+弛廢	shi3 fei4
+弛緩	shi3 huan3
+弛禁	shi3 jin4
+史鰌	shi3 qiu1
+弛張	shi3 zhang1
+弒君	shi4 jun1
+視為	shi4 wei2
+試著	shi4 zhe5
+書籤	shu1 qian1
+輸著	shu1 zhao1
+輸著	shu1 zhe5
+熟嫻	shu2 xian2
+屬於	shu3 yu2
+豎筆	shu4 bi3
+樹鼩	shu4 qu2
+衰微	shuai1 wei1
+衰微	shuai1 wei2
+水疱	shui3 pao4
+水閘	shui3 zha2
+水質	shui3 zhi2
+睡著	shui4 zhao2
+順著	shun4 zhe5
+絲質	si1 zhi2
+㩳身	song3 shen1
+酥酪	su1 lao4
+酥酪	su1 luo4
+素質	su4 zhi2
+隨著	sui2 zhe5
+薞蕪	sun1 wu2
+髿髿	suo1 suo1
+所著	suo3 zhu4
+所著	suo3 zhuo2
+毾㲪	ta4 deng1
+濌濌	ta4 ta4
+誻誻	ta4 ta4
+涾沱	ta4 tuo2
+籉笠	tai2 li4
+湠漫	tan4 man4
+探著	tan4 zhu4
+湯著	tang1 zhao2
+戃慌	tang3 huang1
+爣烺	tang3 lang3
+騊駼	tao2 tu2
+套購	tao4 gou4
+特為	te4 wei4
+特質	te4 zhi2
+提爾	ti2 er3
+體質	ti3 zhi2
+添著	tian1 zhu4
+㥏墨	tian3 mo4
+舔舕	tian3 tan4
+掭筆	tian4 bi3
+舚破	tian4 po4
+舚舕	tian4 tan4
+佻㒓	tiao1 ta4
+條几	tiao2 ji1
+調升	tiao2 sheng1
+鐵質	tie3 zhi2
+鞓帶	ting1 dai4
+侹侹	ting3 ting3
+氃氋	tong2 meng2
+鍮石	tou1 shi2
+頭裡	tou2 li5
+鵚鶖	tu1 qiu1
+土質	tu3 zhi2
+土著	tu3 zhuo2
+團掿	tuan2 nuo4
+褖衣	tuan4 yi1
+脫臼	tuo1 jiu4
+脫貧	tuo1 pin2
+跅弛	tuo4 shi3
+䍪羯	wa4 jie2
+嗢噱	wa4 jue2
+晼晚	wan3 wan3
+王著	wang2 zhu4
+網癮	wang3 yin3
+妄為	wang4 wei2
+微子	wei1 zi3
+為害	wei2 hai4
+為荷	wei2 he4
+為間	wei2 jian4
+為難	wei2 nan2
+為期	wei2 qi1
+為期	wei2 qi2
+為人	wei2 ren2
+為善	wei2 shan4
+為生	wei2 sheng1
+為時	wei2 shi2
+為首	wei2 shou3
+為數	wei2 shu4
+為頭	wei2 tou2
+為伍	wei2 wu3
+為學	wei2 xue2
+為政	wei2 zheng4
+為止	wei2 zhi3
+為主	wei2 zhu3
+為準	wei2 zhun3
+微子	wei2 zi3
+痿痹	wei3 bi4
+僞跡	wei3 ji4
+瑋質	wei3 zhi2
+胃癌	wei4 ai2
+為此	wei4 ci3
+為公	wei4 gong1
+為何	wei4 he2
+為了	wei4 le5
+為例	wei4 li4
+蔚為	wei4 wei2
+為我	wei4 wo3
+媦婿	wei4 xu4
+胃癌	wei4 yan2
+位於	wei4 yu2
+為著	wei4 zhe5
+文質	wen2 zhi2
+螉䗥	weng1 zong1
+暡曚	weng3 meng2
+猧兒	wo1 er2
+蝸角	wo1 jiao3
+誣告	wu1 gao4
+烏來	wu1 lai2 xiang1
+浯水	wu2 shui3
+無為	wu2 wei2
+吳質	wu2 zhi2
+無著	wu2 zhuo2
+武舉	wu3 ju3
+物質	wu4 zhi2
+吸著	xi1 zhuo2
+嶍峨	xi2 e2
+翕赩	xi4 xi4
+嘕嘕	xian1 xian1
+嫻淑	xian2 shu2
+嫻熟	xian2 shu2
+顯著	xian3 zhu4
+限於	xian4 yu2
+陷於	xian4 yu2
+相為	xiang1 wei2
+鄉愿	xiang1 yuan4
+香麞	xiang1 zhang1
+相著	xiang1 zhuo2
+栙䉶	xiang2 shuang1
+蠁昒	xiang4 hu1
+缿筩	xiang4 tong3
+削麵	xiao1 mian4
+削著	xiao1 zhao2
+削著	xiao1 zhe5
+小於	xiao3 yu2
+血癌	xie3 ai2
+血癌	xie3 yan2
+心裡	xin1 li5
+娙娥	xing2 e2
+行為	xing2 wei2
+形質	xing2 zhi2
+性質	xing4 zhi2
+忷忷	xiong1 xiong1
+繡镼	xiu4 qu1
+虛頭	xu1 tou2
+楈枒	xu1 ya2
+許愿	xu3 yuan4
+軒輖	xuan1 zhou1
+懸崖	xuan2 yai2
+削著	xue1 zhao2
+削著	xue1 zhe5
+血癌	xue4 ai2
+循著	xun2 zhe5
+謔親	xve4 qin1
+謔謔	xve4 xve4
+牙質	ya2 zhi2
+亞匹	ya3 pi3
+軋著	ya4 zhao2
+軋著	ya4 zhe5
+崖岸	yai2 an4
+崖邊	yai2 bian1
+啀喍	yai2 chai2
+崖次	yai2 ci4
+厓谷	yai2 gu3
+崖檢	yai2 jian3
+崖略	yai2 lve4
+厓山	yai2 shan1
+崖山	yai2 shan1
+崖涘	yai2 si4
+崖縣	yai2 xian4
+崖異	yai2 yi4
+煙囪	yan1 cong1
+顏面	yan2 mian4
+沿著	yan2 zhe5
+癌症	yan2 zheng4
+扊扅	yan3 yi2
+兗州	yan3 zhou1
+燕几	yan4 ji3
+陽道	yang2 dao4
+坱圠	yang3 ya4
+幺點	yao1 dian3
+榣木	yao2 mu4
+偠紹	yao3 shao4
+窅窱	yao3 tiao3
+樂群	yao4 qun2
+蠮螉	ye1 weng1
+夜裡	ye4 li5
+一般	yi1 ban1
+一邊	yi1 bian1
+一操	yi1 cao1
+一剗	yi1 chan4
+一轍	yi1 che4
+一處	yi1 chu4
+一答	yi1 da2
+一得	yi1 de2
+一地	yi1 di4
+一度	yi1 du4
+一垛	yi1 duo4
+一髮	yi1 fa3
+一分	yi1 fen1
+一干	yi1 gan1
+一個	yi1 ge5
+一行	yi1 hang2
+一晃	yi1 huang3
+一晃	yi1 huang4
+一會	yi1 hui3
+一角	yi1 jiao3
+一角	yi1 jue2
+一怔	yi1 leng4
+一了	yi1 liao3
+一令	yi1 ling2
+一溜	yi1 liu4
+一落	yi1 luo4
+一脈	yi1 mai4
+一祕	yi1 mi4
+一抹	yi1 mo3
+一漚	yi1 ou4
+一片	yi1 pian4
+一撇	yi1 pie3
+一切	yi1 qie4
+一掃	yi1 sao3
+一趟	yi1 tang4
+一聽	yi1 ting4
+一頭	yi1 tou2
+一息	yi1 xi2
+一夕	yi1 xi4
+一行	yi1 xing2
+一行	yi1 xing4
+一宿	yi1 xiu3
+一應	yi1 ying1
+咿嚘	yi1 you1
+一扠	yi1 zha3
+一朝	yi1 zhao1
+一著	yi1 zhao1
+一折	yi1 zhe2
+依著	yi1 zhe5
+一著	yi1 zhuo2
+衣著	yi1 zhuo2
+彝劇	yi2 ju4
+彝倫	yi2 lun2
+彝器	yi2 qi4
+彝文	yi2 wen2
+彝憲	yi2 xian4
+彝訓	yi2 xun4
+彝語	yi2 yu3
+彝族	yi2 zu2
+以為	yi3 wei2
+癔病	yi4 bing4
+異質	yi4 zhi2
+因為	yin1 wei4
+陰笑	yin1 xiao4
+音質	yin1 zhi2
+檃栝	yin3 gua1
+嶾嶙	yin3 lin2
+引著	yin3 zhao2
+隱几	yin4 ji3
+瓔珞	ying1 luo4
+蘡薁	ying1 yu4
+瀯瀯	ying2 ying2
+勇於	yong3 yu2
+嚘咿	you1 yi1
+嚘嚶	you1 ying1
+優於	you1 yu2
+悠著	you1 zhe5
+優質	you1 zhi2
+莜麵	you2 mian4
+猶他	you2 ta1
+尤為	you2 wei2
+由於	you2 yu2
+由著	you2 zhe5
+有為	you3 wei2
+有著	you3 zhe5
+餘貾	yu2 chi2
+於伏	yu2 fu2
+於何	yu2 he2
+於今	yu2 jin1
+於是	yu2 shi4
+於斯	yu2 si1
+魚塭	yu2 wen1
+於焉	yu2 yan1
+睮睮	yu2 yu2
+嫗𡟥	yu4 qu3
+譽為	yu4 wei2
+遇著	yu4 zhao2
+遇著	yu4 zhe5
+鶢鶋	yuan2 ju1
+袁頭	yuan2 tou2
+源於	yuan2 yu2
+原質	yuan2 zhi2
+籰子	yue4 zi3
+篔簹	yun2 dang1
+蒷簹	yun2 dang1
+云為	yun2 wei2
+韗人	yun4 ren2
+雜質	za2 zhi2
+在於	zai4 yu2
+澤陂	ze2 pi2
+怎麼	ze3 mo5
+怎麽	zen3 mo5
+栴檀	zhan1 tan2
+棧板	zhan4 ban3
+輚輅	zhan4 lu4
+張弛	zhang1 chi2
+慞惶	zhang1 huang2
+餦餭	zhang1 huang2
+張弛	zhang1 shi3
+張著	zhang1 zhu4
+著法	zhao1 fa3
+著風	zhao1 feng1
+著慌	zhao1 huang1
+著急	zhao1 ji2
+著涼	zhao1 liang2
+著數	zhao1 shu4
+著邊	zhao2 bian1
+著道	zhao2 dao4
+著地	zhao2 di4
+著花	zhao2 hua1
+著慌	zhao2 huang1
+著火	zhao2 huo3
+著跡	zhao2 ji1
+著急	zhao2 ji2
+著緊	zhao2 jin3
+著涼	zhao2 liang2
+著忙	zhao2 mang2
+著迷	zhao2 mi2
+著魔	zhao2 mo2
+著肉	zhao2 rou4
+著想	zhao2 xiang3
+著眼	zhao2 yan3
+著用	zhao2 yong4
+找著	zhao3 zhao2
+折錢	zhe2 qian2
+這麼	zhe4 mo5
+著呢	zhe5 ne5
+針鼹	zhen1 yan3
+鬇鬡	zheng1 ning2
+整條	zheng3 tiao2
+正則	zheng4 ze2
+正著	zheng4 zhao2
+質變	zhi2 bian4
+質成	zhi2 cheng2
+質點	zhi2 dian3
+質對	zhi2 dui4
+質感	zhi2 gan3
+質料	zhi2 liao4
+質明	zhi2 ming2
+質鋪	zhi2 pu4
+質讓	zhi2 rang4
+質實	zhi2 shi2
+質問	zhi2 wen4
+質詢	zhi2 xun2
+質言	zhi2 yan2
+質疑	zhi2 yi2
+質責	zhi2 ze2
+質證	zhi2 zheng4
+質直	zhi2 zhi2
+執著	zhi2 zhuo2
+質子	zhi2 zi3
+疻痏	zhi3 wei3
+庢礙	zhi4 ai4
+庢沓	zhi4 ta4
+至於	zhi4 yu2
+質子	zhi4 zi3
+舯垂	zhong1 chui2
+舯拱	zhong1 gong3
+蔠葵	zhong1 kui2
+忠於	zhong1 yu2
+終於	zhong1 yu2
+種群	zhong3 qun2
+咒愿	zhou4 yuan4
+皺摺	zhou4 zhe2
+袾襦	zhu1 ru2
+珠崖	zhu1 yai2
+祝謝	zhu4 xie4
+轉檯	zhuan3 tai2
+轉檯	zhuan4 tai2
+壯舉	zhuang4 ju3
+追殲	zhui1 jian1
+著筆	zhuo2 bi3
+著處	zhuo2 chu4
+著牀	zhuo2 chuang2
+著地	zhuo2 de5
+著地	zhuo2 di4
+著花	zhuo2 hua1
+著即	zhuo2 ji2
+著己	zhuo2 ji3
+著腳	zhuo2 jiao3
+著緊	zhuo2 jin3
+著力	zhuo2 li4
+著陸	zhuo2 lu4
+著落	zhuo2 luo4
+著落	zhuo2 luo5
+著摸	zhuo2 mo1
+著墨	zhuo2 mo4
+著莫	zhuo2 mo4
+著惱	zhuo2 nao3
+著棋	zhuo2 qi2
+著然	zhuo2 ran2
+著人	zhuo2 ren2
+著色	zhuo2 se4
+著身	zhuo2 shen1
+著甚	zhuo2 shen2
+著實	zhuo2 shi2
+著手	zhuo2 shou3
+著數	zhuo2 shu3
+著水	zhuo2 shui3
+著題	zhuo2 ti2
+著想	zhuo2 xiang3
+著眼	zhuo2 yan3
+著衣	zhuo2 yi1
+著意	zhuo2 yi4
+著雨	zhuo2 yu3
+著志	zhuo2 zhi4
+著重	zhuo2 zhong4
+著裝	zhuo2 zhuang1
+姿質	zi1 zhi2
+資質	zi1 zhi2
+眥睚	zi4 yai2
+宗彝	zong1 yi2
+槜李	zui4 li3
+最為	zui4 wei2
+柞櫟	zuo4 li4
+鑿坏	zuo4 pei2
+鑿竅	zuo4 qiao4
+作為	zuo4 wei2
+做為	zuo4 wei2
+法國 fa4 guo2
+安慶市	an1 qing4 shi4
+暗地裡	an4 di4 li5
+白麵兒	bai2 mian4 r5
+白楊樹	bai2 yang2 shu4
+半空裡	ban4 kong1 li3
+棒子麵	bang4 zi5 mian4
+保不住	bao3 bu4 zhu4
+報稅單	bao4 shui4 dan1
+背地裡	bei4 di4 li3
+背地裡	bei4 di4 li5
+被視為	bei4 shi4 wei2
+被譽為	bei4 yu4 wei2
+背著手	bei4 zhe5 shou3
+繃著臉	beng3 zhe5 lian3
+比不上	bi3 bu4 shang4
+別著急	bie2 zhao2 ji2
+不便處	bu4 bian4 chu4
+不便道	bu4 bian4 dao4
+不便宜	bu4 bian4 yi2
+不稱心	bu4 cheng4 xin1
+不稱職	bu4 cheng4 zhi2
+不大離	bu4 da4 li2
+不待要	bu4 dai4 yao4
+不當數	bu4 dang4 shu4
+不當準	bu4 dang4 zhun3
+不到得	bu4 dao4 de5
+不道得	bu4 dao4 de5
+不等於	bu4 deng3 yu2
+不地著	bu4 di4 zhuo2
+不定量	bu4 ding4 liang4
+不對勁	bu4 dui4 jin4
+不對頭	bu4 dui4 tou2
+不二價	bu4 er4 jia4
+不犯著	bu4 fan4 zhao2
+不付得	bu4 fu4 de2
+不甘於	bu4 gan1 yu2
+不記省	bu4 ji4 xing3
+不見便	bu4 jian4 bian4
+不見得	bu4 jian4 de5
+不可為	bu4 ke3 wei2
+不客氣	bu4 ke4 qi4
+不剌剌	bu4 la4 la4
+不樂觀	bu4 le4 guan1
+不利落	bu4 li4 luo4
+不量力	bu4 liang4 li4
+不料量	bu4 liao4 liang4
+不落空	bu4 luo4 kong1
+不落屋	bu4 luo4 wu1
+不落眼	bu4 luo4 yan3
+不滿意	bu4 man3 yi4
+不恁麼	bu4 nen4 me5
+不恁麼	bu4 nen4 mo5
+不能為	bu4 neng2 wei2
+不怕臊	bu4 pa4 sao4
+不氣長	bu4 qi4 chang2
+不氣干	bu4 qi4 gan1
+不怯氣	bu4 que4 qi4
+不認得	bu4 ren4 de5
+不恁麼	bu4 ren4 me5
+不恁麼	bu4 ren4 mo5
+不入調	bu4 ru4 diao4
+不失為	bu4 shi1 wei2
+不是處	bu4 shi4 chu4
+不識氣	bu4 shi4 qi4
+不識竅	bu4 shi4 qiao4
+不識事	bu4 shi4 shi4
+不識數	bu4 shi4 shu4
+不識閒	bu4 shi4 xian2
+不識相	bu4 shi4 xiang4
+不受用	bu4 shou4 yong5
+不數日	bu4 shu4 ri4
+不順溜	bu4 shun4 liu5
+不算數	bu4 suan4 shu4
+不為過	bu4 wei2 guo4
+不為難	bu4 wei2 nan2
+不繫舟	bu4 xi4 zhou1
+不要緊	bu4 yao4 jin3
+不要臉	bu4 yao4 lian3
+不以為	bu4 yi3 wei2
+不用看	bu4 yong4 kan4
+不在行	bu4 zai4 hang2
+不在乎	bu4 zai4 hu1
+不在了	bu4 zai4 le5
+不著急	bu4 zhao1 ji2
+不著忙	bu4 zhao2 mang2
+不正經	bu4 zheng4 jing5
+不至於	bu4 zhi4 yu2
+不致於	bu4 zhi4 yu2
+不中使	bu4 zhong4 shi3
+不中聽	bu4 zhong4 ting1
+不中意	bu4 zhong4 yi4
+不中用	bu4 zhong4 yong4
+不著調	bu4 zhuo2 diao4
+不著家	bu4 zhuo2 jia1
+不著腳	bu4 zhuo2 jiao3
+不著親	bu4 zhuo2 qin1
+不著情	bu4 zhuo2 qing2
+不著人	bu4 zhuo2 ren2
+不著要	bu4 zhuo2 yao4
+不著意	bu4 zhuo2 yi4
+不自禁	bu4 zi4 jin1
+不自覺	bu4 zi4 jue2
+不自量	bu4 zi4 liang4
+不自在	bu4 zi4 zai4
+不作數	bu4 zuo4 shu4
+不作為	bu4 zuo4 wei2
+不作興	bu4 zuo4 xing1
+猜不著	cai1 bu4 zhao2
+蔡李佛	cai4 li3 fo2
+餐桌鹽	can1 zhuo1 yan2
+草質莖	cao3 zhi2 jing1
+茶麵子	cha2 mian4 zi5
+菖蒲酒	chang1 pu2 jiu3
+菖蒲蓮	chang1 pu2 lian2
+長壽麵	chang2 shou4 mian4
+長著臉	chang2 zhe5 lian3
+撐杆跳	cheng1 gan1 tiao4
+稱之為	cheng1 zhi1 wei2
+吃一塹	chi1 yi1 qian4
+重羅麵	chong2 luo2 mian4
+川黨蔘	chuan1 dang3 shen1
+純物質	chun2 wu4 zhi2
+刺激群	ci4 ji1 qun2
+次聲波	ci4 sheng1 bo1
+大腸癌	da4 chang2 ai2
+大腸癌	da4 chang2 yan2
+大耳朵	da4 er3 duo1
+大有為	da4 you3 wei2
+歹不中	dai3 bu4 zhong4
+待不見	dai4 bu4 jian4
+代數群	dai4 shu4 qun2
+擔不是	dan1 bu4 shi4
+蛋白質	dan4 bai2 zhi2
+淡不剌	dan4 bu4 la4
+擔擔麵	dan4 dan4 mian4
+蛋黃素	dan4 huang2 su4
+彈著點	dan4 zhuo2 dian3
+擔仔麵	dan4 zi3 mian4
+當不過	dang1 bu4 guo4
+擋不住	dang3 bu4 zhu4
+擋一水	dang3 yi1 shui3
+刀削麵	dao1 xiao1 mian4
+倒不是	dao4 bu4 shi4
+等著瞧	deng3 zhe5 qiao2
+地不怕	di4 bu4 pa4
+地不載	di4 bu4 zai4
+地裡鬼	di4 li3 gui3
+點不著	dian3 bu4 zhao2
+澱積物	dian4 ji1 wu4
+電解質	dian4 jie3 zhi2
+叮噹響	ding1 dang1 xiang3
+動不動	dong4 bu4 dong4
+鬥批改	dou4 pi1 gai3
+豆薯屬	dou4 shu3 shu3
+肚皮裡	du4 pi2 li3
+對著幹	dui4 zhe5 gan4
+多寶槅	duo1 bao3 ge2
+墯馬髻	duo4 ma3 ji4
+鵝群帖	e2 qun2 tie4
+耳朵尖	er3 duo1 jian1
+耳朵帽	er3 duo1 mao4
+耳朵軟	er3 duo1 ruan3
+二屋裡	er4 wu1 li5
+發稿時	fa1 gao3 shi2
+琺瑯質	fa4 lang2 zhi2
+反物質	fan3 wu4 zhi2
+犯不著	fan4 bu4 zhao2
+犯不著	fan4 bu5 zhao2
+犯得著	fan4 de5 zhao2
+方便麵	fang1 bian4 mian4
+防晒油	fang2 shai4 you2
+浮世繪	fu2 shi4 hui4
+腐植質	fu3 zhi2 zhi2
+附著力	fu4 zhuo2 li4
+附著物	fu4 zhuo2 wu4
+軋一腳	ga2 yi1 jiao3
+乾著急	gan1 zhao1 ji2
+趕不上	gan3 bu4 shang4
+簳麵杖	gan3 mian4 zhang4
+幹什麼	gan4 shen2 mo5
+幹甚麼	gan4 shen2 mo5
+哥利亞	ge1 li4 ya4
+跟不上	gen1 bu4 shang4
+公仔麵	gong1 zi3 mian4
+夠不著	gou4 bu5 zhao2
+構詞學	gou4 ci2 xue2
+夠得著	gou4 de5 zhao2
+股集資	gu3 ji2 zi1
+鈷鉧潭	gu3 mu3 tan2
+股無胈	gu3 wu2 ba2
+骨子裡	gu3 zi5 li3
+管不著	guan3 bu5 zhao2
+毌丘儉	guan4 qiu1 jian3
+郭松燾	guo1 song1 dao4
+過得著	guo4 de5 zhao2
+海蝕崖	hai3 shi2 yai2
+好一會	hao3 yi1 hui3
+合不著	he2 bu5 zhao2
+合得著	he2 de5 zhao2
+河南縣	he2 nan2 xian4
+和為貴	he2 wei2 gui4
+黑裡俏	hei1 li5 qiao4
+花搭著	hua1 da5 zhe5
+揮發油	hui1 fa1 you2
+回鍋油	hui2 guo1 you2
+家裡的	jia1 li5 de5
+間深裡	jian4 shen1 li3
+江乾區	jiang1 gan1 qu1
+蟭蟟蟲	jiao1 liao2 chong2
+角質層	jiao3 zhi2 ceng2
+介電質	jie4 dian4 zhi2
+禁不住	jin1 bu4 zhu4
+謹於心	jin3 yu2 xin1
+進水閘	jin4 shui3 zha2
+居住於	ju1 zhu4 yu2
+開闢者	kai1 pi4 zhe3
+看著辦	kan4 zhe5 ban4
+康有為	kang1 you3 wei2
+靠不住	kao4 bu4 zhu4
+可什麼	ke3 shen2 mo5
+可甚麼	ke3 shen2 mo5
+空著手	kong1 zhe5 shou3
+口腔癌	kou3 qiang1 ai2
+口腔癌	kou3 qiang1 yan2
+礦物質	kuang4 wu4 zhi2
+拉絆著	la1 ban5 zhe5
+萊里達	lai2 li3 da2
+蘭蕙質	lan2 hui4 zhi2
+撈一把	lao1 yi1 ba3
+老著臉	lao3 zhe5 lian3
+落不是	lao4 bu4 shi5
+冷地裡	leng3 di4 li3
+裡邊兒	li3 bian5 r5
+裡槅子	li3 ge2 zi5
+裡懷裡	li3 huai2 li5
+裡脊肉	li3 ji5 rou4
+醴泉縣	li3 quan2 xian4
+立崖岸	li4 yai2 an4
+良質米	liang2 zhi2 mi3
+兩著兒	liang3 zhao1 r5
+臨潁縣	lin2 ying3 xian4
+磷脂質	lin2 zhi1 zhi2
+凌濛初	ling2 meng2 chu1
+另存為	ling4 cun2 wei4
+露一手	lou4 yi1 shou3
+掄不到	lun2 bu4 dao4
+酪蛋白	luo4 dan4 bai2
+酪農業	luo4 nong2 ye4
+落著臉	luo4 zhe5 lian3
+嘸蝦米	m2 xia1 mi3
+螞蚍蜉	ma3 pi2 fu2
+買一個	mai3 yi1 ge5
+滿以為	man3 yi3 wei2
+貓耳朵	mao1 er3 duo1
+沒什麼	mei2 shen2 mo5
+沒甚麼	mei2 shen2 mo5
+沒著落	mei2 zhuo2 luo4
+美利堅	mei3 li4 jian1
+美洲獅	mei3 zhou1 shi1
+猛地裡	meng3 di4 li3
+猛可裡	meng3 ke3 li5
+麵包片	mian4 bao1 pian1
+麵疙瘩	mian4 ge1 da5
+麵攤子	mian4 tan1 zi5
+麵條兒	mian4 tiao2 r5
+麵子藥	mian4 zi5 yao4
+敏於伎	min3 yu2 ji4
+閔子裡	min3 zi5 li3
+明擺著	ming2 bai3 zhe5
+冥子裡	ming2 zi5 li3
+瞑子裡	ming2 zi5 li3
+酩子裡	ming3 zi5 li3
+摸不著	mo1 bu4 zhao2
+摸不著	mo1 bu5 zhao2
+驀地裡	mo4 di4 li3
+沒亂裡	mo4 luan4 li3
+木蘭屬	mu4 lan2 shu3
+木質部	mu4 zhi2 bu4
+木質莖	mu4 zhi2 jing1
+拿不定	na2 bu4 ding4
+那曲縣	na3 qu1 xian4
+那維克	na3 wei2 ke4
+那麼著	na4 me5 zhao1
+那麼著	na4 mo5 zhao1
+那曲市	na4 qu3 shi4
+難為情	nan2 wei2 qing2
+難為狀	nan2 wei2 zhuang4
+腦溢血	nao3 yi4 xie3
+腦溢血	nao3 yi4 xue4
+黏著劑	nian2 zhuo2 ji4
+黏著力	nian2 zhuo2 li4
+黏著語	nian2 zhuo2 yu3
+躡著腳	nie4 zhe5 jiao3
+膿疱病	nong2 pao4 bing4
+歐萊雅	ou1 lai2 ya3
+怕不待	pa4 bu4 dai4
+拋生耦	pao1 sheng1 ou3
+匹頭裡	pi1 tou2 li3
+劈心裡	pi1 xin1 li3
+皮膚癌	pi2 fu1 ai2
+皮膚癌	pi2 fu1 yan2
+皮划艇	pi2 hua2 ting3
+皮質素	pi2 zhi2 su4
+破不剌	po4 bu4 la4
+企圖心	qi3 tu2 xin1
+氣不過	qi4 bu4 guo4
+牽牛屬	qian1 niu2 shu3
+千頃陂	qian1 qing3 pi2
+犍為縣	qian2 wei4 xian4
+礄口區	qiao2 kou3 qu1
+瞧著辦	qiao2 zhe5 ban4
+傾向於	qing1 xiang4 yu2
+清一色	qing1 yi1 se4
+覷著眼	qu4 zhe5 yan3
+饒一個	rao2 yi1 ge5
+忍不住	ren3 bu4 zhu4
+肉夾饃	rou4 jia1 mo2
+軟耳朵	ruan3 er3 duo1
+軟著陸	ruan3 zhuo2 lu4
+三腳櫈	san1 jiao3 deng4
+喪著臉	sang4 zhe5 lian3
+森喜朗	sen1 xi3 lang3
+沙灘鞋	sha1 tan1 xie2
+少一少	shao4 yi1 shao4
+神經質	shen2 jing1 zhi2
+甚麼的	shen2 mo5 de5
+甚麼人	shen2 mo5 ren2
+甚麼事	shen2 mo5 shi4
+甚麼是	shen2 mo5 shi4
+甚麼樣	shen2 mo5 yang4
+腎臟癌	shen4 zang4 ai2
+腎臟癌	shen4 zang4 yan2
+甚至於	shen4 zhi4 yu2
+生薑絲	sheng1 jiang1 si1
+石菖蒲	shi2 chang1 pu2
+石灰質	shi2 hui1 zhi2
+艏垂標	shou3 chui2 biao1
+手心裡	shou3 xin1 li5
+數不著	shu3 bu4 zhao2
+水菖蒲	shui3 chang1 pu2
+睡不著	shui4 bu5 zhao1
+說得著	shuo1 de5 zhao2
+四下裡	si4 xia4 li3
+四下裡	si4 xia4 li5
+酸酪乳	suan1 luo4 ru3
+酸凝酪	suan1 ning2 luo4
+算什麼	suan4 shen2 mo5
+索里亞	suo3 li3 ya4
+鈦鐵礦	tai4 tie3 kuang4
+談不上	tan2 bu4 shang4
+唐菖蒲	tang2 chang1 pu2
+陶淵明	tao2 yuan1 ming2
+提爾市	ti2 er3 shi4
+天不蓋	tian1 bu4 gai4
+天疱瘡	tian1 pao4 chuang1
+天下危	tian1 xia4 wei2 zhu4
+通電話	tong1 dian4 hua4
+統稱為	tong3 cheng1 wei2
+頭朝裡	tou2 chao2 li3
+塗油於	tu2 you2 yu2
+土特產	tu3 te4 chan3
+為的是	wei4 de5 shi4
+為什麼	wei4 shen2 me5
+為甚麼	wei4 shen2 me5
+為什麼	wei4 shen2 mo5
+為甚麼	wei4 shen2 mo5
+窩裡反	wo1 li5 fan3
+窩裡炮	wo1 li5 pao4
+屋裡人	wu1 li5 ren2
+無為縣	wu2 wei2 xian4
+霧化機	wu4 hua4 ji1
+霧濛濛	wu4 meng2 meng2
+細胞質	xi4 bao1 zhi2
+細菌群	xi4 jun1 qun2
+想不到	xiang3 bu4 dao4
+象牙質	xiang4 ya2 zhi2
+橡子麵	xiang4 zi5 mian4
+小耳朵	xiao3 er3 duo1
+小畑健	xiao3 tian2 jian4
+心裡話	xin1 li5 hua4
+行為派	xing2 wei2 pai4
+形於色	xing2 yu2 se4
+性行為	xing4 xing2 wei2
+牙釉質	ya2 you4 zhi2
+延地裡	yan2 di4 li3
+眼看著	yan3 kan4 zhe5
+扊扅歌	yan3 yi2 ge1
+兗州市	yan3 zhou1 shi4
+幺並矢	yao1 bing4 shi3
+遙地裡	yao2 di4 li3
+咬耳朵	yao3 er3 duo1
+一把尿	yi1 ba3 niao4
+一把抓	yi1 ba3 zhua1
+一把子	yi1 ba3 zi5
+一百分	yi1 bai3 fen1
+一般性	yi1 ban1 xing4
+一輩子	yi1 bei4 zi5
+一筆勾	yi1 bi3 gou1
+一部分	yi1 bu4 fen4
+一剎那	yi1 cha4 na4
+一闡提	yi1 chan2 ti2
+一場空	yi1 chang2 kong1
+一程子	yi1 cheng2 zi5
+一傳十	yi1 chuan2 shi2
+一大溜	yi1 da4 liu4
+一大早	yi1 da4 zao3
+一檔子	yi1 dang3 zi5
+一檔子	yi1 dang4 zi5
+一刀切	yi1 dao1 qie1
+一到處	yi1 dao4 chu4
+一地裡	yi1 di4 li5
+一點露	yi1 dian3 lu4
+一肚皮	yi1 du4 pi2
+一肚子	yi1 du4 zi5
+一分貨	yi1 fen1 huo4
+一分錢	yi1 fen1 qian2
+一分子	yi1 fen4 zi3
+一竿子	yi1 gan1 zi5
+一骨碌	yi1 gu2 lu5
+一轂轆	yi1 gu3 lu4
+一晃眼	yi1 huang3 yan3
+一會家	yi1 hui3 jia5
+一會子	yi1 hui3 zi5
+一機靈	yi1 ji1 ling5
+一家子	yi1 jia1 zi5
+一架子	yi1 jia4 zi5
+一肩挑	yi1 jian1 tiao1
+一腳地	yi1 jiao3 di4
+一攬子	yi1 lan3 zi5
+一溜風	yi1 liu4 feng1
+一溜煙	yi1 liu4 yan1
+一溜子	yi1 liu4 zi5
+一落索	yi1 luo4 suo3
+一碼子	yi1 ma3 zi5
+一面倒	yi1 mian4 dao3
+一滅行	yi1 mie4 xing2
+一抿子	yi1 min3 zi5
+一泡子	yi1 pao4 zi5
+一匹錦	yi1 pi3 jin3
+一片寶	yi1 pian4 bao3
+一片聲	yi1 pian4 sheng1
+一片石	yi1 pian4 shi2
+一神教	yi1 shen2 jiao4
+一時間	yi1 shi2 jian1
+一瞬間	yi1 shun4 jian1
+一彈指	yi1 tan2 zhi3
+一灣子	yi1 wan1 zi5
+一丸泥	yi1 wan2 ni2
+一窩子	yi1 wo1 zi5
+一席地	yi1 xi2 di4
+一下子	yi1 xia4 zi5
+一星子	yi1 xing1 zi5
+一行人	yi1 xing2 ren2
+一踅頭	yi1 xue2 tou2
+一音教	yi1 yin1 jiao4
+一扎腳	yi1 zha1 jiao3
+一陣子	yi1 zhen4 zi5
+一轉眼	yi1 zhuan3 yan3
+一轉語	yi1 zhuan3 yu3
+一著錯	yi1 zhuo2 cuo4
+以此為	yi3 ci3 wei2
+以利亞	yi3 li4 ya3
+以利於	yi3 li4 yu2
+以賽亞	yi3 sai4 ya3
+以至於	yi3 zhi4 yu2
+以致於	yi3 zhi4 yu2
+注意將	yi4 jiang4
+意味著	yi4 wei4 zhe5
+硬裡子	ying4 li3 zi5
+用不著	yong4 bu4 zhao2
+用不著	yong4 bu5 zhao2
+用得著	yong4 de5 zhao2
+優酪乳	you1 luo4 ru3
+油裡滑	you2 li5 hua2
+有悖於	you3 bei4 yu2
+有機質	you3 ji1 zhi2
+有賴於	you3 lai4 yu2
+有助於	you3 zhu4 yu2
+有著落	you3 zhuo2 luo4
+有著落	you3 zhuo2 luo5
+有作為	you3 zuo4 wei2
+於潛縣	yu2 qian2 xian4
+於是乎	yu2 shi4 hu1
+予一人	yu2 yi1 ren2
+冤大頭	yuan1 da4 tou2
+原生質	yuan2 sheng1 zhi2
+原形質	yuan2 xing2 zhi2
+約等於	yue1 deng3 yu2
+蒷簹湖	yun2 dang1 hu2
+蕓薹屬	yun2 tai2 shu3
+蕓薹子	yun2 tai2 zi3
+雜和麵	za2 huo5 mian4
+再融資	zai4 rong2 zi1
+怎麼著	zen3 me5 zhao1
+怎麼了	zen3 mo5 le5
+怎麼著	zen3 mo5 zhao1
+扎耳朵	zha1 er3 duo1
+炸醬麵	zha4 jiang4 mian4
+粘著力	zhan1 zhuo2 li4
+粘著性	zhan1 zhuo2 xing4
+長一智	zhang3 yi1 zhi4
+著邊兒	zhao2 bian1 r5
+著大火	zhao2 da4 huo3
+著火點	zhao2 huo3 dian3
+著手腳	zhao2 shou3 jiao3
+著眼點	zhao2 yan3 dian3
+找不著	zhao3 bu5 zhao2
+爪哇族	zhao3 wa1
+摺疊式	zhe2 die2 shi4
+摺疊椅	zhe2 die2 yi3
+這麼著	zhe4 me5 zhao1
+這麼著	zhe4 mo5 zhao1
+直腸癌	zhi2 chang2 ai2
+直腸癌	zhi2 chang2 yan2
+植根於	zhi2 gen1 yu2
+只限於	zhi3 xian4 yu2
+周瘦鵑	zhou1 shou4 juan1
+朱利婭	zhu1 li4 ya4
+朱彝尊	zhu1 yi2 zun1
+轉一轉	zhuan4 yi1 zhuan4
+衠一味	zhun1 yi1 wei4
+著勁兒	zhuo2 jin4 r5
+著陸場	zhuo2 lu4 chang3
+著陸點	zhuo2 lu4 dian3
+著疼熱	zhuo2 teng2 re4
+著先鞭	zhuo2 xian1 bian1
+著眼點	zhuo2 yan3 dian3
+著衣鏡	zhuo2 yi1 jing4
+著重號	zhuo2 zhong4 hao4
+髭髭著	zi1 zi5 zhe5
+紫菜薹	zi3 cai4 tai2
+紫蘇屬	zi3 su1 shu3
+走為上	zou3 wei2 shang4
+走著瞧	zou3 zhe5 qiao2
+醉心於	zui4 xin1 yu2
+鑿船蟲	zuo4 chuan2 chong2
+鑿渾沌	zuo4 hun2 dun4
+做手腳	zuo4 shou3 jiao3
+作為犯	zuo4 wei2 fan4
+腌裡巴臢	a1 li5 ba1 za5
+挨一榔頭	ai1 yi1 lang2 tou5
+安倍晉三	an1 bei4 jin4 san1
+安不忘危	an1 bu4 wang4 wei2
+安於泰山	an1 yu2 tai4 shan1
+安於現狀	an1 yu2 xian4 zhuang4
+安於一隅	an1 yu2 yi1 yu2
+按捺不住	an4 na4 bu4 zhu4
+腌裡巴臢	ang1 li5 ba1 zang1
+鰲裡奪尊	ao2 li5 duo2 zun1
+巴噠著嘴	ba1 da2 zhe5 zui3
+拔著短籌	ba2 zhao2 duan3 chou2
+把持不定	ba3 chi2 bu4 ding4
+百讀不厭	bai3 du2 bu4 yan4
+百看不厭	bai3 kan4 bu4 yan4
+百裡挑一	bai3 li3 tiao1 yi1
+百無一長	bai3 wu2 yi1 chang2
+百折不挫	bai3 zhe2 bu4 cuo4
+拜人為師	bai4 ren2 wei2 shi1
+敗於垂成	bai4 yu2 chui2 cheng2
+敗則為虜	bai4 ze2 wei2 lu3
+敗者為寇	bai4 zhe3 wei2 kou4
+扳回一城	ban1 hui2 yi1 cheng2
+半間不界	ban4 jian4 bu4 jie4
+半零不落	ban4 ling2 bu4 luo4
+棒子麵兒	bang4 zi5 mian4 r5
+胞與為懷	bao1 yu3 wei2 huai2
+暴風驟雨	bao4 feng1 zhou4 yu3
+暴風驟雨	bao4 feng1 zou4 yu3
+悲不自勝	bei1 bu4 zi4 sheng1
+悲喜交并	bei1 xi3 jiao1 bing4
+北洋水師	bei3 yang2 shui3 shi1
+背水一戰	bei4 shui3 yi1 zhan4
+苯並噻吩	ben3 bing4 sai1 fen1
+本末不稱	ben3 mo4 bu4 cheng4
+本事不濟	ben3 shi5 bu4 ji4
+逼良為娼	bi1 liang2 wei2 chang1
+逼民為盜	bi1 min2 wei2 dao4
+鼻子裡笑	bi2 zi5 li3 xiao4
+鼻子一酸	bi2 zi5 yi1 suan1
+俾夜作晝	bi3 ye4 zuo4 zhou4
+腷腷膊膊	bi4 bi4 bo2 bo2
+碧血丹心	bi4 xie3 dan1 xin1
+碧血黃花	bi4 xie3 huang2 hua1
+碧血丹心	bi4 xue4 dan1 xin1
+碧血黃花	bi4 xue4 huang2 hua1
+必有一得	bi4 you3 yi1 de2
+鞭辟近裡	bian1 bi4 jin4 li3
+鞭辟入裡	bian1 bi4 ru4 li3
+變危為安	bian4 wei2 wei2 an1
+標準普爾	biao1 zhun3 pu3 er3
+表裡相合	biao3 li3 xiang1 he2
+表裡相濟	biao3 li3 xiang1 ji4
+表裡相應	biao3 li3 xiang1 ying4
+彬彬文質	bin1 bin1 wen2 zhi2
+濱田靖一	bin1 tian2 jing4 yi1
+冰山一角	bing1 shan1 yi1 jiao3
+兵戰為下	bing1 zhan4 wei2 xia4
+并介之人	bing4 jie4 zhi1 ren2
+并列關係	bing4 lie4 guan1 xi4
+并日而食	bing4 ri4 er2 shi2
+並無不當	bing4 wu2 bu4 dang4
+並行不悖	bing4 xing2 bu4 bei4
+并贓拿敗	bing4 zang1 na2 bai4
+撥著癢處	bo1 zhao2 yang3 chu4
+伯樂一顧	bo2 le4 yi1 gu4
+不安於室	bu4 an1 yu2 shi4
+不安於位	bu4 an1 yu2 wei4
+不敗之地	bu4 bai4 zhi1 di4
+不避彊禦	bu4 bi4 qiang2 yu4
+不變價格	bu4 bian4 jia4 ge2
+不辨菽麥	bu4 bian4 shu2 mai4
+步步為營	bu4 bu4 wei2 ying2
+不差不錯	bu4 cha1 bu4 cuo4
+不差什麼	bu4 cha1 shen2 mo5
+不成為君	bu4 cheng2 wei2 jun1
+不偢不倸	bu4 chou3 bu4 cai3
+不大客氣	bu4 da4 ke4 qi5
+不逮人倫	bu4 dai4 ren2 lun2
+不待蓍龜	bu4 dai4 shi1 gui1
+不憚強禦	bu4 dan4 qiang2 yu4
+不當不對	bu4 dang1 bu4 dui4
+不當不正	bu4 dang1 bu4 zheng4
+不當穩便	bu4 dang4 wen3 bian4
+不定冠詞	bu4 ding4 guan4 ci2
+不動聲色	bu4 dong4 sheng1 se4
+不惡而嚴	bu4 e4 er2 yan2
+不法行為	bu4 fa3 xing2 wei2
+不豐不殺	bu4 feng1 bu4 shai4
+不付能勾	bu4 fu4 neng2 gou1
+不乾不淨	bu4 gan1 bu4 jing4
+不共天地	bu4 gong4 tian1 di4
+不顧曲直	bu4 gu4 qu1 zhi2
+不顧一切	bu4 gu4 yi1 qie4
+不冠不帶	bu4 guan1 bu4 dai4
+不好說話	bu4 hao4 shuo1 hua4
+不好言笑	bu4 hao4 yan2 xiao4
+不護細行	bu4 hu4 xi4 xing4
+不葷不素	bu4 hun1 bu4 su4
+不計得失	bu4 ji4 de2 shi1
+不計其數	bu4 ji4 qi2 shu4
+不假外出	bu4 jia4 wai4 chu1
+不間不架	bu4 jian1 bu4 jia4
+不間不界	bu4 jian1 bu4 jie4
+不見不散	bu4 jian4 bu4 san4
+不見經傳	bu4 jian4 jing1 zhuan4
+不見森林	bu4 jian4 sen1 lin2
+不見識面	bu4 jian4 shi4 mian4
+不見天日	bu4 jian4 tian1 ri4
+不教而殺	bu4 jiao4 er2 sha1
+不教而誅	bu4 jiao4 er2 zhu1
+不絕於耳	bu4 jue2 yu2 er3
+不堪一擊	bu4 kan1 yi1 ji2
+不立崖岸	bu4 li4 yai2 an4
+不吝賜教	bu4 lin4 si4 jiao4
+不吝指教	bu4 lin4 zhi3 jiao4
+不零不落	bu4 ling2 bu4 luo4
+不露鋒芒	bu4 lou4 feng1 mang2
+不露風聲	bu4 lou4 feng1 sheng1
+不露馬腳	bu4 lou4 ma3 jiao3
+不露身手	bu4 lou4 shen1 shou3
+不露神色	bu4 lou4 shen2 se4
+不露聲色	bu4 lou4 sheng1 se4
+不露圭角	bu4 lu4 gui1 jiao3
+不論秧子	bu4 lun4 yang1 zi5
+不落窠臼	bu4 luo4 ke1 jiu4
+不落人後	bu4 luo4 ren2 hou4
+不落俗套	bu4 luo4 su2 tao4
+不蔓不支	bu4 man4 bu4 zhi1
+不蔓不枝	bu4 man4 bu4 zhi1
+不念荷戈	bu4 nian4 he4 ge1
+不念舊惡	bu4 nian4 jiu4 e4
+不寧不耐	bu4 ning2 bu4 nai4
+不切實際	bu4 qie4 shi2 ji4
+不入虎穴	bu4 ru4 hu3 xue4
+不辱使命	bu4 ru4 shi3 ming4
+不入獸穴	bu4 ru4 shou4 xue4
+不塞不流	bu4 se4 bu4 liu2
+不上不落	bu4 shang4 bu4 luo4
+不甚了了	bu4 shen4 liao3 liao3
+不識大體	bu4 shi4 da4 ti3
+不是東西	bu4 shi4 dong1 xi5
+不識風色	bu4 shi4 feng1 se4
+不識高低	bu4 shi4 gao1 di1
+不識好歹	bu4 shi4 hao3 dai3
+不識斤兩	bu4 shi4 jin1 liang3
+不識進退	bu4 shi4 jin4 tui4
+不識局面	bu4 shi4 ju2 mian4
+不是了處	bu4 shi4 liao3 chu4
+不識起倒	bu4 shi4 qi3 dao3
+不識時變	bu4 shi4 shi2 bian4
+不識時務	bu4 shi4 shi2 wu4
+不是耍處	bu4 shi4 shua3 chu4
+不識泰山	bu4 shi4 tai4 shan1
+不識羞恥	bu4 shi4 xiu1 chi3
+不識一丁	bu4 shi4 yi1 ding1
+不識之無	bu4 shi4 zhi1 wu2
+不受擡舉	bu4 shou4 tai2 ju5
+不算什麼	bu4 suan4 shen2 me5
+不算什麼	bu4 suan4 shen2 mo5
+不探虎穴	bu4 tan4 hu3 xue4
+不吐不快	bu4 tu3 bu4 kuai4
+不忘溝壑	bu4 wang4 gou1 huo4
+不為福始	bu4 wei2 fu2 shi3
+不為禍先	bu4 wei2 huo4 xian1
+不為利誘	bu4 wei2 li4 you4
+不為牛後	bu4 wei2 niu2 hou4
+不為人下	bu4 wei2 ren2 xia4
+不為人用	bu4 wei2 ren2 yong4
+不為人知	bu4 wei2 ren2 zhi1
+不為所動	bu4 wei2 suo3 dong4
+不為瓦全	bu4 wei2 wa3 quan2
+不為已甚	bu4 wei2 yi3 shen4
+不畏強禦	bu4 wei4 qiang2 yu4
+不畏彊禦	bu4 wei4 qiang2 yu4
+不務正業	bu4 wu4 zheng4 ye4
+不相為謀	bu4 xiang1 wei2 mou2
+不形於色	bu4 xing2 yu2 se4
+不以為苦	bu4 yi3 wei2 ku3
+不以為奇	bu4 yi3 wei2 qi2
+不以為然	bu4 yi3 wei2 ran2
+不以為忤	bu4 yi3 wei2 wu3
+不以為意	bu4 yi3 wei2 yi4
+不亦樂乎	bu4 yi4 le4 hu1
+不易之論	bu4 yi4 zhi1 lun4
+不用客氣	bu4 yong4 ke4 qi4
+不用著急	bu4 yong4 zhao1 ji2
+不孕真菌	bu4 yun4 zhen1 jun4
+不在地主	bu4 zai4 di4 zhu3
+不在人間	bu4 zai4 ren2 jian1
+不在少數	bu4 zai4 shao3 shu4
+不長一智	bu4 zhang3 yi1 zhi4
+不杖期夫	bu4 zhang4 ji1 fu1
+不著家人	bu4 zhao2 jia1 ren2
+不折不扣	bu4 zhe2 bu4 kou4
+不值一看	bu4 zhi2 yi1 kan4
+不置可否	bu4 zhi4 ke3 fou3
+不中於款	bu4 zhong1 yu2 kuan3
+不中擡舉	bu4 zhong4 tai2 ju3
+不中相與	bu4 zhong4 xiang1 yu3
+不著邊際	bu4 zhuo2 bian1 ji4
+不著不落	bu4 zhuo2 bu4 luo4
+不著痕跡	bu4 zhuo2 hen2 ji1
+不著筋節	bu4 zhuo2 jin1 jie2
+不著疼熱	bu4 zhuo2 teng2 re4
+不著痛癢	bu4 zhuo2 tong4 yang3
+不著一字	bu4 zhuo2 yi1 zi4
+不自量力	bu4 zi4 liang4 li4
+不足為道	bu4 zu2 wei2 dao4
+不足為怪	bu4 zu2 wei2 guai4
+不足為據	bu4 zu2 wei2 ju4
+不足為慮	bu4 zu2 wei2 lv4
+不足為憑	bu4 zu2 wei2 ping2
+不足為奇	bu4 zu2 wei2 qi2
+不足為訓	bu4 zu2 wei2 xun4
+不作為犯	bu4 zuo4 wei2 fan4
+才為世出	cai2 wei4 shi4 chu1
+慘然不樂	can3 ran2 bu4 le4
+草滿囹圄	cao3 man3 ling2 yu3
+察察為明	cha2 cha2 wei2 ming2
+差不上下	cha4 bu4 shang4 xia4
+長生不滅	chang2 sheng1 bu4 mie4
+炒麵塊子	chao3 mian4 kuai4 zi5
+扯著脖子	che3 zhe5 bo2 zi5
+沉著痛快	chen2 zhuo2 tong4 kuai4
+沉著應戰	chen2 zhuo2 ying4 zhan4
+撐杆跳高	cheng1 gan1 tiao4 gao1
+成群結黨	cheng2 qun2 jie2 dang3
+成群結隊	cheng2 qun2 jie2 dui4
+成群結夥	cheng2 qun2 jie2 huo3
+乘人不備	cheng2 ren2 bu4 bei4
+盛水不漏	cheng2 shui3 bu4 lou4
+成則為王	cheng2 ze2 wei2 wang2
+成者為王	cheng2 zhe3 wei2 wang2
+逞意妄為	cheng3 yi4 wang4 wei2
+吃飽撐著	chi1 bao3 cheng1 zhe5
+吃裡扒外	chi1 li3 pa2 wai4
+喫著不盡	chi1 zhuo2 bu4 jin4
+齒牙為猾	chi3 ya2 wei2 hua2
+齒牙為禍	chi3 ya2 wei2 huo4
+蒭藁增二	chu2 gao3 zeng1 er4
+揣在懷裡	chuai1 zai4 huai2 li3
+穿紅著綠	chuan1 hong2 zhuo2 lv4
+穿著打扮	chuan1 zhuo2 da3 ban4
+穿著講究	chuan1 zhuo2 jiang3 jiu5
+窗明几淨	chuang1 ming2 ji1 jing4
+窗明几淨	chuang1 ming2 ji3 jing4
+槌骨濿髓	chui2 gu3 li4 sui3
+春風一度	chun1 feng1 yi1 du4
+春夢一場	chun1 meng4 yi1 chang2
+雌一頭灰	ci1 yi1 tou2 hui1
+慈悲為本	ci2 bei1 wei2 ben3
+慈悲為懷	ci2 bei1 wei2 huai2
+辭不意逮	ci2 bu4 yi4 dai4
+從容不迫	cong1 rong2 bu4 po4
+摧剛為柔	cui1 gang1 wei2 rou2
+村上春樹	cun1 shang4 chun1 shu4
+厝薪於火	cuo4 xin1 yu2 huo3
+打成一片	da3 cheng2 yi1 pian4
+打虎不著	da3 hu3 bu4 zhao2
+打甚麼緊	da3 shen2 mo5 jin3
+打心眼裡	da3 xin1 yan3 li5
+打一個吞	da3 yi1 ge5 tun1
+大不列顛	da4 bu4 lie4 dian1
+大吃一驚	da4 chi1 yi1 jing1
+大處著眼	da4 chu4 zhuo2 yan3
+大膽妄為	da4 dan3 wang4 wei2
+大可不必	da4 ke3 bu4 bi4
+大哭一場	da4 ku1 yi1 chang2
+大力推荐	da4 li4 tui1 jian4
+大腦皮質	da4 nao3 pi2 zhi2
+大腦髓質	da4 nao3 sui3 zhi2
+大為失望	da4 wei2 shi1 wang4
+大為受用	da4 wei2 shou4 yong4
+大有可為	da4 you3 ke3 wei2
+大有作為	da4 you3 zuo4 wei2
+呆裡撒奸	dai1 li3 sa1 jian1
+大古裡彩	dai4 gu3 li3 cai3
+代為說項	dai4 wei2 shuo1 xiang4
+帶狀疱疹	dai4 zhuang4 pao4 zhen3
+擔當不過	dan1 dang1 bu4 guo4
+單獨行為	dan1 du2 xing2 wei2
+膽大妄為	dan3 da4 wang4 wei2
+膽大於天	dan3 da4 yu2 tian1
+淡於名利	dan4 yu2 ming2 li4
+當斷不斷	dang1 duan4 bu4 duan4
+當仁不讓	dang1 ren2 bu4 rang4
+當頭一棒	dang1 tou2 yi1 bang4
+當著不著	dang1 zhao2 bu4 zhao2
+當著矮人	dang1 zhe5 ai3 ren2
+到處為家	dao4 chu4 wei2 jia1
+倒打一耙	dao4 da3 yi1 pa2
+道高一尺	dao4 gao1 yi1 chi3
+倒果為因	dao4 guo3 wei2 yin1
+得來不易	de2 lai2 bu4 yi4
+得禮一尺	de2 li3 yi1 chi3
+嘀裡嘟嚕	di1 li3 du1 lu1
+提溜著心	di1 liu5 zhe5 xin1
+地無不載	di4 wu2 bu4 zai4
+顛簸不破	dian1 bo3 bu4 po4
+攧攧仆仆	dian1 dian1 pu1 pu1
+巔崖峻谷	dian1 yai2 jun4 gu3
+點到為止	dian3 dao4 wei2 zhi3
+跌宕不群	die2 dang4 bu4 qun2
+頂門壯戶	ding3 men2 zhuang4 hu4
+定睛一看	ding4 jing1 yi1 kan4
+定睛一相	ding4 jing1 yi1 xiang4
+定時信管	ding4 shi2 xin4 guan3
+定於一尊	ding4 yu2 yi1 zun1
+都市家具	du1 shi4 jia1 ju4
+獨創一格	du2 chuang4 yi1 ge2
+獨當一面	du2 dang1 yi1 mian4
+獨闢蹊徑	du2 pi4 xi1 jing4
+睹微知著	du3 wei1 zhi1 zhu4
+睹微知著	du3 wei2 zhi1 zhu4
+肚裡躊躇	du4 li3 chou2 chu2
+肚裡雷鳴	du4 li3 lei2 ming2
+肚裡明白	du4 li3 ming2 bai5
+肚裡尋思	du4 li3 xun2 si1
+肚裡一輪	du4 li3 yi1 lun2
+短期融資	duan3 qi1 rong2 zi1
+多那太羅	duo1 na3 tai4 luo2
+多文為富	duo1 wen2 wei2 fu4
+墯甑不顧	duo4 zeng4 bu4 gu4
+蚵仔麵線	e2 zi3 mian4 xian4
+厄利垂亞	e4 li4 chui2 ya3
+而勝於藍	er2 sheng4 yu2 lan2
+耳朵底子	er3 duo1 di3 zi5
+耳朵裡響	er3 duo1 li5 xiang3
+耳聽為虛	er3 ting1 wei2 xu1
+二豎為虐	er4 shu4 wei2 nve4
+發奮有為	fa1 fen4 you3 wei2
+法律行為	fa3 lv4 xing2 wei2
+法國長棍	fa4 guo2 chang2 gun4
+法國航空	fa4 guo2 hang2 kong1
+翻手為雲	fan1 shou3 wei2 yun2
+反敗為勝	fan3 bai4 wei2 sheng4
+反賓為主	fan3 bin1 wei2 zhu3
+反戈一擊	fan3 ge1 yi1 ji2
+反客為主	fan3 ke4 wei2 zhu3
+反輸一帖	fan3 shu1 yi1 tie3
+反眼不識	fan3 yan3 bu4 shi4
+犯而不校	fan4 er2 bu4 jiao4
+飯囊酒瓮	fan4 nang2 jiu3 weng4
+犯罪行為	fan4 zui4 xing2 wei2
+方便為門	fang1 bian4 wei2 men2
+方枘圓鑿	fang1 rui4 yuan2 zao2
+方鑿圓枘	fang1 zuo4 yuan2 rui4
+放蕩弛縱	fang4 dang4 shi3 zong4
+放浪不羈	fang4 lang4 bu4 ji1
+放任行為	fang4 ren4 xing2 wei2
+非法行為	fei1 fa3 xing2 wei2
+分而為二	fen1 er2 wei2 er4
+分文不破	fen1 wen2 bu4 po4
+分一杯羹	fen1 yi1 bei1 geng1
+奮發有為	fen4 fa1 you3 wei2
+風靡一時	feng1 mi3 yi1 shi2
+風行一時	feng1 xing2 yi1 shi2
+鳳凰在笯	feng4 huang2 zai4 nu2
+奉為圭臬	feng4 wei2 gui1 nie4
+奉為楷模	feng4 wei2 kai3 mo2
+佛朗機銃	fo2 lang3 ji1 chong4
+佛頭著糞	fo2 tou2 zhuo2 fen4
+縛稿為人	fu2 gao3 wei2 ren2
+弗萊福蘭	fu2 lai2 fu2 lan2
+怫然不悅	fu2 ran2 bu4 yue4
+福為禍始	fu2 wei2 huo4 shi3
+福為禍先	fu2 wei2 huo4 xian1
+父為子隱	fu4 wei4 zi3 yin3
+富於想像	fu4 yu2 xiang3 xiang4
+趕不上趟	gan3 bu4 shang4 tang4
+敢為人先	gan3 wei2 ren2 xian1
+敢作敢為	gan3 zuo4 gan3 wei2
+綱紀廢弛	gang1 ji4 fei4 shi3
+高攀不上	gao1 pan1 bu4 shang4
+高中學生	gao1 zhong1 xue2 sheng1
+告一段落	gao4 yi1 duan4 luo4
+隔裡個裡	ge2 li3 ge5 li3
+格於成例	ge2 yu2 cheng2 li4
+格於環境	ge2 yu2 huan2 jing4
+各為其主	ge4 wei4 qi2 zhu3
+各自為戰	ge4 zi4 wei2 zhan4
+各自為政	ge4 zi4 wei2 zheng4
+耿耿於懷	geng3 geng3 yu2 huai2
+耿耿於心	geng3 geng3 yu2 xin1
+更進一步	geng4 jin4 yi1 bu4
+更勝一籌	geng4 sheng4 yi1 chou2
+更轉一竿	geng4 zhuan3 yi1 gan1
+供不應求	gong1 bu4 ying4 qiu2
+功銘鼎彝	gong1 ming2 ding3 yi2
+公示行為	gong1 shi4 xing2 wei2
+攻心為上	gong1 xin1 wei2 shang4
+公之於衆	gong1 zhi1 yu2 zhong4
+公諸於世	gong1 zhu1 yu2 shi4
+共為脣齒	gong4 wei2 chun2 chi3
+搆木為巢	gou4 mu4 wei2 chao2
+孤力難為	gu1 li4 nan2 wei2
+孤注一擲	gu1 zhu4 yi1 zhi2
+骨裡骨碌	gu2 li5 gu2 lu4
+古裡古怪	gu3 li5 gu3 guai4
+古為今用	gu3 wei2 jin1 yong4
+蝸角虛名	gua1 jiao3 xu1 ming2
+蝸角蠅頭	gua1 jiao3 ying2 tou2
+蝸角之爭	gua1 jiao3 zhi1 zheng1
+官官相為	guan1 guan1 xiang1 wei4
+貫手著棼	guan4 shou3 zhuo2 fen2
+光說不做	guang1 shuo1 bu4 zuo4
+閨中妙質	gui1 zhong1 miao4 zhi2
+軌外行為	gui3 wai4 xing2 wei2
+還有一說	hai2 you3 yi1 shuo1
+海盜行為	hai3 dao4 xing2 wei2
+韓盧逐㕙	han2 lu2 zhu2 jun4
+旱魃為虐	han4 ba2 wei2 nve4
+撼樹蚍蜉	han4 shu4 pi2 fu2
+毫不遜色	hao2 bu4 xun4 se4
+毫不為備	hao2 bu5 wei2 bei4
+郝隆晒書	hao3 long2 shai4 shu1
+好自為之	hao3 zi4 wei2 zhi1
+好為人師	hao4 wei2 ren2 shi1
+好學不倦	hao4 xue2 bu4 juan4
+合而為一	he2 er2 wei2 yi1
+何濟於事	he2 ji4 yu2 shi4
+何樂不為	he2 le4 bu4 wei2
+合零為整	he2 ling2 wei2 zheng3
+何所不為	he2 suo3 bu4 wei2
+合衆為一	he2 zhong4 wei2 yi1
+紇字不識	he2 zi4 bu4 shi4
+何足為奇	he2 zu2 wei2 qi2
+鶴處雞群	he4 chu3 ji1 qun2
+哄傳一時	hong1 chuan2 yi1 shi2
+宏觀經濟	hong2 guan1 jing1 ji4
+後不為例	hou4 bu4 wei2 li4
+後不著店	hou4 bu4 zhao2 dian4
+忽忽不樂	hu1 hu1 bu4 le4
+糊裡糊塗	hu2 li3 hu2 tu1
+壺裡乾坤	hu2 li3 qian2 kun1
+糊裡糊塗	hu2 li5 hu2 tu2
+胡裡胡塗	hu2 li5 hu2 tu2
+糊塗一時	hu2 tu2 yi1 shi2
+胡作非為	hu2 zuo4 fei1 wei2
+胡做喬為	hu2 zuo4 qiao2 wei2
+虎皮羊質	hu3 pi2 yang2 zhi2
+互為因果	hu4 wei2 yin1 guo3
+互相為謀	hu4 xiang1 wei2 mou2
+花巾著目	hua1 jin1 zhuo2 mu4
+花裡胡哨	hua1 li5 hu2 shao4
+化暗為明	hua4 an4 wei2 ming2
+化鴟為鳳	hua4 chi1 wei2 feng4
+化敵為友	hua4 di2 wei2 you3
+畫地為牢	hua4 di4 wei2 lao2
+劃地為王	hua4 di4 wei2 wang2
+畫地為獄	hua4 di4 wei2 yu4
+化繁為簡	hua4 fan2 wei2 jian3
+話裡藏鬮	hua4 li3 cang2 jiu1
+化零為整	hua4 ling2 wei2 zheng3
+畫蛇著足	hua4 she2 zhuo2 zu2
+化為泡影	hua4 wei2 pao4 ying3
+化為烏有	hua4 wei2 wu1 you3
+化險為夷	hua4 xian3 wei2 yi2
+化學性質	hua4 xue2 xing4 zhi2
+劃一不二	hua4 yi1 bu4 er4
+化整為零	hua4 zheng3 wei2 ling2
+懷璧為罪	huai2 bi4 wei2 zui4
+懷文抱質	huai2 wen2 bao4 zhi2
+懷著身子	huai2 zhe5 shen1 zi5
+懷質抱真	huai2 zhi2 bao4 zhen1
+慌裡慌張	huang1 li5 huang1 zhang1
+黃花梨木	huang2 hua1 li2 mu4
+毀於一旦	hui3 yu2 yi1 dan4
+毀鐘為鐸	hui3 zhong1 wei2 duo2
+毀舟為杕	hui3 zhou1 wei2 duo4
+蕙心蘭質	hui4 xin1 lan2 zhi2
+蕙心紈質	hui4 xin1 wan2 zhi2
+蕙質蘭心	hui4 zhi2 lan2 xin1
+葷素不忌	hun1 su4 bu4 ji4
+混為一談	hun4 wei2 yi1 tan2
+混為一談	hun4 wei2 yi4 tan2
+混一口飯	hun4 yi1 kou3 fan4
+禍生於忽	huo4 sheng1 yu2 hu1
+禍為福先	huo4 wei2 fu2 xian1
+積健為雄	ji1 jian4 wei2 xiong2
+饑饉荐臻	ji1 jin3 jian4 zhen1
+積裡漸裡	ji1 li3 jian4 li3
+積善陰騭	ji1 shan4 yin1 zhi4
+積微成著	ji1 wei1 cheng2 zhu4
+積微成著	ji1 wei2 cheng2 zhu4
+積於忽微	ji1 yu2 hu1 wei1
+積於忽微	ji1 yu2 hu1 wei2
+急并各邦	ji2 bing4 ge4 bang1
+擊其不意	ji2 qi2 bu4 yi4
+集體行為	ji2 ti3 xing2 wei2
+極為龐大	ji2 wei2 pang2 da4
+急於求成	ji2 yu2 qiu2 cheng2
+急於星火	ji2 yu2 xing1 huo3
+濟濟一堂	ji3 ji3 yi1 tang2
+家長裡短	jia1 chang2 li3 duan3
+加榮耀於	jia1 rong2 yao4 yu2
+夾著尾巴	jia2 zhe5 wei3 ba5
+嫁禍於人	jia4 huo4 yu2 ren2
+兼容并包	jian1 rong2 bing4 bao1
+間斷不繼	jian4 duan4 bu4 ji4
+見怪不怪	jian4 guai4 bu4 guai4
+劍頭一吷	jian4 tou2 yi1 xue4
+見微知著	jian4 wei1 zhi1 zhu4
+見微知著	jian4 wei2 zhi1 zhu4
+見笑於人	jian4 xiao4 yu2 ren2
+見堯於牆	jian4 yao2 yu2 qiang2
+見義不為	jian4 yi4 bu4 wei2
+見義勇為	jian4 yi4 yong3 wei2
+膠著狀態	jiao1 zhuo2 zhuang4 tai4
+矯矯不群	jiao3 jiao3 bu4 qun2
+結黨聚群	jie2 dang3 ju4 qun2
+結黨連群	jie2 dang3 lian2 qun2
+結隊成群	jie2 dui4 cheng2 qun2
+孑孑為義	jie2 jie2 wei2 yi4
+截蒲為牒	jie2 pu3 wei2 die2
+借聽於聾	jie4 ting1 yu2 long2
+金石為虧	jin1 shi2 wei2 kui1
+緊溜子裡	jin3 liu1 zi5 li3
+僅作參考	jin3 zuo4 can1 kao3
+盡力而為	jin4 li4 er2 wei2
+進退為難	jin4 tui4 wei2 nan2
+盡一分力	jin4 yi1 fen1 li4
+驚為天人	jing1 wei2 tian1 ren2
+精於此道	jing1 yu2 ci3 dao4
+敬業樂群	jing4 ye4 le4 qun2
+敬業樂群	jing4 ye4 yao4 qun2
+酒瓮飯囊	jiu3 weng4 fan4 nang2
+舊的不去	jiu4 de5 bu4 qu4
+舅舅不愛	jiu4 jiu5 bu4 ai4
+橘化為枳	ju2 hua4 wei2 zhi3
+舉扇一撝	ju3 shan4 yi1 hui1
+聚米為山	ju4 mi3 wei2 shan1
+據為己有	ju4 wei2 ji3 you3
+決不待時	jue2 bu4 dai4 shi2
+決一雌雄	jue2 yi1 ci1 xiong2
+凱撒肋雅	kai3 sa1 le4 ya3
+看著不管	kan4 zhe5 bu4 guan3
+看著鍋裡	kan4 zhe5 guo1 li3
+伉儷情深	kang4 li4 qing2 shen1
+考古質疑	kao3 gu3 zhi2 yi2
+可以為錯	ke3 yi3 wei2 cuo4
+可孕物質	ke3 yun4 wu4 zhi2
+刻木為吏	ke4 mu4 wei2 li4
+空無一物	kong1 wu2 yi1 wu4
+哭喪著臉	ku1 sang1 zhe5 lian3
+哭喪著臉	ku1 sang5 zhe5 lian3
+寬大為懷	kuan1 da4 wei2 huai2
+匡我不逮	kuang1 wo3 bu4 dai4
+邋裡邋遢	la2 li5 la2 ta4
+鑭系元素	lan2 xi4 yuan2 su4
+狼狽為奸	lang2 bei4 wei2 jian1
+琅簡蘂書	lang2 jian3 rui3 shu1
+老驥伏櫪	lao3 ji4 fu2 li4
+老馬為駒	lao3 ma3 wei2 ju1
+老少一同	lao3 shao4 yi1 tong2
+老一巴掌	lao3 yi1 ba1 zhang5
+老一輩子	lao3 yi1 bei4 zi5
+老於世故	lao3 yu2 shi4 gu4
+樂此不倦	le4 ci3 bu4 juan4
+樂善不倦	le4 shan4 bu4 juan4
+雷打不動	lei2 da3 bu4 dong4
+裡勾外連	li3 gou1 wai4 lian2
+裡急後重	li3 ji2 hou4 zhong4
+禮讓為國	li3 rang4 wei4 guo2
+里仁為美	li3 ren2 wei2 mei3
+裡應外合	li3 ying4 wai4 he2
+禮樂為鉤	li3 yue4 wei2 gou1
+力不自勝	li4 bu4 zi4 sheng1
+利多於弊	li4 duo1 yu2 bi4
+利馬索爾	li4 ma3 suo3 er3
+利他行為	li4 ta1 xing2 wei2
+麗質天生	li4 zhi2 tian1 sheng1
+連鑣並軫	lian2 biao1 bing4 zhen3
+良質美手	liang2 zhi2 mei3 shou3
+兩處為難	liang3 chu4 wei2 nan2
+兩日晒網	liang3 ri4 shai4 wang3
+兩天晒網	liang3 tian1 shai4 wang3
+兩頭不著	liang3 tou2 bu4 zhao2
+量力而為	liang4 li4 er2 wei2
+量入為出	liang4 ru4 wei2 chu1
+聊勝於無	liao2 sheng4 yu2 wu2
+了然不惑	liao3 ran2 bu4 huo4
+臨難不避	lin2 nan4 bu4 bi4
+臨難不懼	lin2 nan4 bu4 ju4
+臨死不怯	lin2 si3 bu4 que4
+臨危不顧	lin2 wei2 bu4 gu4
+臨危不懼	lin2 wei2 bu4 ju4
+臨危不亂	lin2 wei2 bu4 luan4
+流裡流氣	liu2 li5 liu2 qi4
+流血成川	liu2 xie3 cheng2 chuan1
+流血成河	liu2 xie3 cheng2 he2
+流血浮尸	liu2 xie3 fu2 shi1
+流血流汗	liu2 xie3 liu2 han4
+流血千里	liu2 xie3 qian1 li3
+流血成川	liu2 xue4 cheng2 chuan1
+流血成河	liu2 xue4 cheng2 he2
+流血浮尸	liu2 xue4 fu2 shi1
+流血流汗	liu2 xue4 liu2 han4
+流血千里	liu2 xue4 qian1 li3
+流於形式	liu2 yu2 xing2 shi4
+六親不認	liu4 qin1 bu4 ren4
+露一鼻子	lou4 yi1 bi2 zi5
+碌碌無為	lu4 lu4 wu2 wei2
+羅掘一空	luo2 jue2 yi1 kong1
+羅摩衍那	luo2 mo2 yan3 na3
+落草為盜	luo4 cao3 wei2 dao4
+落草為寇	luo4 cao3 wei2 kou4
+絡繹於途	luo4 yi4 yu2 tu2
+略見一斑	lve4 jian4 yi1 ban1
+麻蚍叮腿	ma2 pi2 ding1 tui3
+麻生太郎	ma2 sheng1 tai4 lang2
+麻著膽子	ma2 zhe5 dan3 zi5
+螞蚍叮腿	ma3 pi2 ding1 tui3
+脈不制肉	mai4 bu4 zhi4 rou4
+賣文為活	mai4 wen2 wei2 huo2
+顢裡顢頇	man2 li5 man2 han1
+滿不在乎	man3 bu4 zai4 hu5
+忙裡偷閒	mang2 li5 tou1 xian2
+茫茫一片	mang2 mang2 yi1 pian4
+沒頭沒臉	mei2 tou2 mei2 lian3
+沒有甚麼	mei2 you3 shen2 mo5
+沒著沒落	mei2 zhuo2 mei2 luo4
+美冠一方	mei3 guan4 yi1 fang1
+悶不作聲	men1 bu4 zuo4 sheng1
+門裡出身	men2 li5 chu1 shen1
+悶悶不樂	men4 men4 bu4 le4
+懵懂一時	meng2 dong3 yi1 shi2
+矇在鼓裡	meng2 zai4 gu3 li3
+蒙在鼓裡	meng2 zai4 gu3 li3
+猛著先鞭	meng3 zhuo2 xian1 bian1
+猛著祖鞭	meng3 zhuo2 zu3 bian1
+祕而不露	mi4 er2 bu4 lu4
+蜜裡調油	mi4 li5 tiao2 you2
+覓食行為	mi4 shi2 xing2 wei2
+棉花耳朵	mian2 hua1 er3 duo1
+綿裡藏針	mian2 li3 cang2 zhen1
+勉力而為	mian3 li4 er2 wei2
+腼腆溫柔	mian3 tian3 wen1 rou2
+勉為其難	mian3 wei2 qi2 nan2
+民為邦本	min2 wei2 bang1 ben3
+鰵魚肝油	min3 yu2 gan1 you2
+明窗淨几	ming2 chuang1 jing4 ji1
+明槍易趓	ming2 qiang1 yi4 duo3
+摸門不著	mo1 men2 bu4 zhao2
+摸頭不著	mo1 tou2 bu4 zhao2
+磨而不磷	mo2 er2 bu4 lin4
+抹不下來	mo3 bu4 xia4 lai2
+抹不著影	mo3 bu4 zhao2 ying3
+沒齒不忘	mo4 chi3 bu4 wang4
+莫此為甚	mo4 ci3 wei2 shen4
+莫若勿為	mo4 ruo4 wu4 wei2
+沒身不忘	mo4 shen1 bu4 wang4
+沒世不忘	mo4 shi4 bu4 wang4
+莫扎裡拉	mo4 za1 li3 la1
+莫知所為	mo4 zhi1 suo3 wei2
+謀為不軌	mou2 wei2 bu4 gui3
+目不見睫	mu4 bu4 jian4 jie2
+目不識丁	mu4 bu4 shi4 ding1
+目不識字	mu4 bu4 shi4 zi4
+目空一切	mu4 kong1 yi1 qie4
+木石為徒	mu4 shi2 wei2 tu2
+哪裡哪裡	na3 li5 na3 li5
+那不勒斯	na4 bu4 le4 si1
+那曲地區	na4 qu3 di4 qu1
+耐著性子	nai4 zhe5 xing4 zi5
+難得一見	nan2 de2 yi1 jian4
+難乎為繼	nan2 hu1 wei2 ji4
+南面為王	nan2 mian4 wei2 wang2
+難以為繼	nan2 yi3 wei2 ji4
+難以為情	nan2 yi3 wei2 qing2
+難者不會	nan2 zhe3 bu4 hui4
+撓直為曲	nao2 zhi2 wei2 qu1
+鬧著玩兒	nao4 zhe5 wan2 r5
+內省不疚	nei4 xing3 bu4 jiu4
+能者為師	neng2 zhe3 wei2 shi1
+擬於不倫	ni3 yu2 bu4 lun2
+泥古不化	ni4 gu3 bu4 hua4
+粘皮著骨	nian2 pi2 zhuo2 gu3
+年輕有為	nian2 qing1 you3 wei2
+念念有詞	nian4 nian4 you3 ci2
+鳥為食亡	niao3 wei4 shi2 wang2
+捏著鼻子	nie1 zhe5 bi2 zi5
+捻著鼻子	nie1 zhe5 bi2 zi5
+擰成一股	ning2 cheng2 yi1 gu3
+寧死不辱	ning2 si3 bu4 ru4
+寧為雞口	ning2 wei2 ji1 kou3
+寧為玉碎	ning2 wei2 yu4 sui4
+寧為玉碎	ning4 wei2 yu4 sui4
+扭是為非	niu3 shi4 wei2 fei1
+駑馬戀棧	nu2 ma3 lian4 zhan4
+怒形於色	nu4 xing2 yu2 se4
+偶一為之	ou3 yi1 wei2 zhi1
+泡麵市場	pao4 mian4 shi4 chang2
+賠個不是	pei2 ge5 bu4 shi4
+朋比為奸	peng2 bi3 wei2 jian1
+朋比為奸	peng2 bi4 wei2 jian1
+蚍蜉撼樹	pi2 fu2 han4 shu4
+僻處一方	pi4 chu3 yi1 fang1
+偏差行為	pian1 cha1 xing2 wei2
+片言一字	pian4 yan2 yi1 zi4
+票據行為	piao4 ju4 xing2 wei2
+顰有為顰	pin2 you3 wei2 pin2
+品質管制	pin3 zhi2 guan3 zhi4
+頗為可觀	po3 wei2 ke3 guan1
+破丟不落	po4 diu1 bu4 luo4
+破觚為圓	po4 gu1 wei2 yuan2
+破觚為圜	po4 gu1 wei2 yuan2
+破家為國	po4 jia1 wei4 guo2
+破矩為圓	po4 ju3 wei2 yuan2
+迫良為娼	po4 liang2 wei2 chang1
+破涕為笑	po4 ti4 wei2 xiao4
+迫於眉睫	po4 yu2 mei2 jie2
+僕僮成群	pu2 tong2 cheng2 qun2
+璞玉為石	pu2 yu4 wei2 shi2
+普利策獎	pu3 li4 ce4 jiang3
+棋高一著	qi2 gao1 yi1 zhuo2
+起偃為豎	qi3 yan3 wei2 shu4
+迄今為止	qi4 jin1 wei2 zhi3
+千金一擲	qian1 jin1 yi1 zhi2
+千鈞一髮	qian1 jun1 yi1 fa3
+千里一曲	qian1 li3 yi1 qu1
+千慮一得	qian1 lv4 yi1 de2
+遷怒於人	qian1 nu4 yu2 ren2
+千載一逢	qian1 zai3 yi1 feng2
+千載一合	qian1 zai3 yi1 he2
+千載一會	qian1 zai3 yi1 hui4
+千載一時	qian1 zai3 yi1 shi2
+千載一遇	qian1 zai3 yi1 yu4
+錢不露白	qian2 bu4 lou4 bai2
+乾坤一擲	qian2 kun1 yi1 zhi2
+強飯為嘉	qiang3 fan4 wei2 jia1
+羥基丁酸	qiang3 ji1 ding1 suan1
+翹居群首	qiao2 ju1 qun2 shou3
+喬做胡為	qiao2 zuo4 hu2 wei2
+侵權行為	qin1 quan2 xing2 wei2
+青出於藍	qing1 chu1 yu2 lan2
+青過於藍	qing1 guo4 yu2 lan2
+清淨無為	qing1 jing4 wu2 wei2
+清靜無為	qing1 jing4 wu2 wei2
+青年有為	qing1 nian2 you3 wei2
+青山一髮	qing1 shan1 yi1 fa3
+輕於鴻毛	qing1 yu2 hong2 mao2
+情不自禁	qing2 bu4 zi4 jin1
+情不自勝	qing2 bu4 zi4 sheng1
+情溢於表	qing2 yi4 yu2 biao3
+瓊林玉質	qiong2 lin2 yu4 zhi2
+瓊崖海棠	qiong2 yai2 hai3 tang2
+求道於盲	qiu2 dao4 yu2 mang2
+虯鏤亮槅	qiu2 lou4 liang4 ge2
+求助於人	qiu2 zhu4 yu2 ren2
+曲裡拐彎	qu1 li3 guai3 wan1
+曲裡拐彎	qu1 li5 guai3 wan1
+區域變質	qu1 yu4 bian4 zhi2
+取信於人	qu3 xin4 yu2 ren2
+全時工作	quan2 shi2 gong1 zuo4
+確鑿不移	que4 zao2 bu4 yi2
+群雌粥粥	qun2 ci1 zhu4 zhu4
+群居穴處	qun2 ju1 xue4 chu3
+群輕折軸	qun2 qing1 zhe2 zhou2
+群蟻潰堤	qun2 yi3 kui4 ti2
+染指於鼎	ran3 zhi3 yu2 ding3
+攘臂一呼	rang2 bi4 yi1 hu1
+讓人羨慕	rang4 ren2 xian4 mu4
+人不為己	ren2 bu2 wei4 ji3
+人浮於食	ren2 fu2 yu2 shi2
+人浮於事	ren2 fu2 yu2 shi4
+人滿為患	ren2 man3 wei2 huan4
+人為刀俎	ren2 wei2 dao1 zu3
+人為財死	ren2 wei4 cai2 si3
+人文景觀	ren2 wen2 jing3 guan1
+人以群分	ren2 yi3 qun2 fen1
+人自為戰	ren2 zi4 wei2 zhan4
+任性妄為	ren4 xing4 wang4 wei2
+認賊為子	ren4 zei2 wei2 zi3
+日不落國	ri4 bu4 luo4 guo2
+日長一線	ri4 chang2 yi1 xian4
+日行一善	ri4 xing2 yi1 shan4
+融合為一	rong2 he2 wei4 yi1
+融為一體	rong2 wei2 yi1 ti3
+融為一體	rong2 wei2 yi4 ti3
+揉著癢處	rou2 zhao2 yang3 chu4
+如出一轍	ru2 chu1 yi1 che4
+如海一漚	ru2 hai3 yi1 ou1
+入土為安	ru4 tu3 wei2 an1
+枘圓鑿方	rui4 yuan2 zuo4 fang1
+弱不好弄	ruo4 bu4 hao4 nong4
+若出一轍	ruo4 chu1 yi1 che4
+塞韋裡諾	sai4 wei2 li3 nuo4
+三浦梅園	san1 pu3 mei2 yuan2
+三十六著	san1 shi2 liu4 zhao1
+三峽水庫	san1 xia2 shui3 ku4
+搔著癢處	sao1 zhao2 yang3 chu4
+色衰愛弛	se4 shuai1 ai4 shi3
+色質細胞	se4 zhi2 xi4 bao1
+殺雞為黍	sha1 ji1 wei2 shu3
+殺身為報	sha1 shen1 wei2 bao4
+鎩羽而歸	sha1 yu3 er2 gui1
+歃血為盟	sha4 xue4 wei2 meng2
+歃血為誓	sha4 xue4 wei2 shi4
+扇風耳朵	shan1 feng1 er3 duo1
+善自為謀	shan4 zi4 wei2 mou2
+商業行為	shang1 ye4 xing2 wei2
+尚有可為	shang4 you3 ke3 wei2
+少吃無著	shao3 chi1 wu2 zhuo2
+少說為佳	shao3 shuo1 wei2 jia1
+捨己為公	she3 ji3 wei4 gong1
+捨己為人	she3 ji3 wei4 ren2
+社會行為	she4 hui4 xing2 wei2
+社稷為墟	she4 ji4 wei2 xu1
+深藏不露	shen1 cang2 bu4 lou4
+神不守舍	shen2 bu4 shou3 she4
+神成為人	shen2 cheng2 wei2 ren2
+甚麼打緊	shen2 mo5 da3 jin3
+什麼地方	shen2 mo5 di4 fang5
+甚麼東西	shen2 mo5 dong1 xi5
+什麼時候	shen2 mo5 shi2 hou5
+甚麼時候	shen2 mo5 shi2 hou5
+甚於防川	shen4 yu2 fang2 chuan1
+生活品質	sheng1 huo2 pin3 zhi2
+生態足跡	sheng1 tai4 zu2 ji4
+生於優患	sheng1 yu2 you1 huan4
+生於憂患	sheng1 yu2 you1 huan4
+盛不忘衰	sheng4 bu4 wang4 shuai1
+盛極一時	sheng4 ji2 yi1 shi2
+師直為壯	shi1 zhi2 wei2 zhuang4
+食不下咽	shi2 bu4 xia4 yan4
+食不厭精	shi2 bu4 yan4 jing1
+十惡不赦	shi2 e4 bu4 she4
+十目一行	shi2 mu4 yi1 hang2
+實質違建	shi2 zhi2 wei2 jian4
+十捉九著	shi2 zhuo1 jiu3 zhao2
+始於足下	shi3 yu2 zu2 xia4
+視而不見	shi4 er2 bu4 jian4
+視覺懸崖	shi4 jue2 xuan2 yai2
+視微知著	shi4 wei1 zhi1 zhu4
+視為畏途	shi4 wei2 wei4 tu2
+是為無勇	shi4 wei2 wu2 yong3
+視為知己	shi4 wei2 zhi1 ji3
+視微知著	shi4 wei2 zhi1 zhu4
+事在人為	shi4 zai4 ren2 wei2
+手不釋卷	shou3 bu4 shi4 juan4
+手頭不便	shou3 tou2 bu4 bian4
+疏不間親	shu1 bu4 jian4 qin1
+疏於防範	shu1 yu2 fang2 fan4
+菽麥不辨	shu2 mai4 bu4 bian4
+豎起耳朵	shu4 qi3 er3 duo1
+率以為常	shuai4 yi3 wei2 chang2
+水漿不入	shui3 jiang1 bu4 ru4
+水天一色	shui3 tian1 yi1 se4
+說一不二	shuo1 yi1 bu4 er4
+死於非命	si3 yu2 fei1 ming4
+四不拗六	si4 bu4 ao4 liu4
+四海為家	si4 hai3 wei2 jia1
+肆意妄為	si4 yi4 wang4 wei2
+夙夜為謀	su4 ye4 wei2 mou2
+所作所為	suo3 zuo4 suo3 wei2
+泰晤士報	tai4 wu4 shi4 bao4
+太陽能板	tai4 yang2 neng2 ban3
+嘆為觀止	tan4 wei2 guan1 zhi3
+歎為觀止	tan4 wei2 guan1 zhi3
+湯川秀樹	tang1 chuan1 xiu4 shu4
+特別客串	te4 bie2 ke4 chuan4
+特特為為	te4 te4 wei2 wei2
+天地一色	tian1 di4 yi1 se4
+天生麗質	tian1 sheng1 li4 zhi2
+天下為公	tian1 xia4 wei2 gong1
+天下為家	tian1 xia4 wei2 jia1
+天下為一	tian1 xia4 wei2 yi1
+天真未鑿	tian1 zhen1 wei4 zuo4
+恬不為怪	tian2 bu4 wei2 guai4
+恬不為意	tian2 bu4 wei2 yi4
+恬淡無為	tian2 dan4 wu2 wei2
+舚脣咂嘴	tian4 chun2 za1 zui3
+聽而不聞	ting1 er2 bu4 wen2
+同出一脈	tong2 chu1 yi1 mai4
+同歸於盡	tong2 gui1 yu2 jin4
+同心并力	tong2 xin1 bing4 li4
+頭蓬眼瘇	tou2 peng2 yan3 zhong3
+圖為不軌	tu2 wei2 bu4 gui3
+土質液化	tu3 zhi2 ye4 hua4
+團結一心	tuan2 jie2 yi1 xin1
+推舟於陸	tui1 zhou1 yu2 lu4
+頹靡不振	tui2 mi3 bu4 zhen4
+退避三舍	tui4 bi4 san1 she4
+歪打正著	wai1 da3 zheng4 zhao2
+外合裡差	wai4 he2 li3 cha1
+外合裡應	wai4 he2 li3 ying4
+刓方為圓	wan2 fang1 wei2 yuan2
+網絡成癮	wang3 luo4 cheng2 yin3
+往泥裡踩	wang3 ni4 li3 cai3
+萎靡不振	wei1 mi3 bu4 zhen4
+為臣死忠	wei2 chen2 si3 zhong1
+為德不終	wei2 de2 bu4 zhong1
+為德不卒	wei2 de2 bu4 zu2
+為惡不悛	wei2 e4 bu4 quan1
+為法自弊	wei2 fa3 zi4 bi4
+為非作歹	wei2 fei1 zuo4 dai3
+為富不仁	wei2 fu4 bu4 ren2
+帷蓋不棄	wei2 gai4 bu4 qi4
+為鬼為魅	wei2 gui3 wei2 mei4
+為鬼為蜮	wei2 gui3 wei2 yu4
+為好成歉	wei2 hao3 cheng2 qian4
+為虺弗摧	wei2 hui3 fu2 cui1
+為今之計	wei2 jin1 zhi1 ji4
+為民喉舌	wei2 min2 hou2 she2
+為難之處	wei2 nan2 zhi1 chu4
+為期不遠	wei2 qi2 bu4 yuan3
+為裘為箕	wei2 qiu2 wei2 ji1
+為仁不富	wei2 ren2 bu2 fu4
+為仁不富	wei2 ren2 bu4 fu4
+為人師表	wei2 ren2 shi1 biao3
+為人行事	wei2 ren2 xing2 shi4
+為山九仞	wei2 shan1 jiu3 ren4
+為善最樂	wei2 shan4 zui4 le4
+為蛇若何	wei2 she2 ruo4 he2
+為時不晚	wei2 shi2 bu4 wan3
+為時過早	wei2 shi2 guo4 zao3
+為時未晚	wei2 shi2 wei4 wan3
+為時已晚	wei2 shi2 yi3 wan3
+為所欲為	wei2 suo3 yu4 wei2
+為頭把腦	wei2 tou2 ba3 nao3
+為主作倡	wei2 zhu3 zuo4 chang4
+為子死孝	wei2 zi3 si3 xiao4
+尾大不掉	wei3 da4 bu4 diao4
+委靡不振	wei3 mi3 bu4 zhen4
+亹亹不倦	wei3 wei3 bu4 juan4
+亹亹不卷	wei3 wei3 bu4 juan4
+為叢敺雀	wei4 cong2 qu1 que4
+為叢驅雀	wei4 cong2 qu1 que4
+未達一間	wei4 da2 yi1 jian4
+為的吃穿	wei4 de5 chi1 chuan1
+為國捐軀	wei4 guo2 juan1 qu1
+為國為民	wei4 guo2 wei4 min2
+為國爭光	wei4 guo2 zheng1 guang1
+為虎傅翼	wei4 hu3 fu4 yi4
+為虎添翼	wei4 hu3 tian1 yi4
+為虎作倀	wei4 hu3 zuo4 chang1
+為民除害	wei4 min2 chu2 hai4
+為民除患	wei4 min2 chu2 huan4
+為民請命	wei4 min2 qing3 ming4
+為情造文	wei4 qing2 zao4 wen2
+為人解圍	wei4 ren2 jie3 wei2
+為人為徹	wei4 ren2 wei4 che4
+為人作嫁	wei4 ren2 zuo4 jia4
+為蛇畫足	wei4 she2 hua4 zu2
+為蛇添足	wei4 she2 tian1 zu2
+未識一丁	wei4 shi4 yi1 ding1
+蔚為大觀	wei4 wei2 da4 guan1
+蔚為奇觀	wei4 wei2 qi2 guan1
+為小失大	wei4 xiao3 shi1 da4
+為淵敺魚	wei4 yuan1 qu1 yu2
+未足為道	wei4 zu2 wei2 dao4
+文化特質	wen2 hua4 te4 zhi2
+聞名於世	wen2 ming2 yu2 shi4
+文質彬彬	wen2 zhi2 bin1 bin1
+問道於盲	wen4 dao4 yu2 mang2
+甕中捉鱉	weng4 zhong1 zhuo1 bie1
+蝸角虛名	wo1 jiao3 xu1 ming2
+蝸角蠅頭	wo1 jiao3 ying2 tou2
+蝸角之爭	wo1 jiao3 zhi1 zheng1
+我為魚肉	wo3 wei2 yu2 rou4
+誣良為盜	wu1 liang2 wei2 dao4
+烏雲著頂	wu1 yun2 zhuo2 ding3
+無補於時	wu2 bu3 yu2 shi2
+無補於世	wu2 bu3 yu2 shi4
+無補於事	wu2 bu3 yu2 shi4
+無處不在	wu2 chu4 bu4 zai4
+無動於衷	wu2 dong4 yu2 zhong1
+無惡不作	wu2 e4 bu4 zuo4
+無後為大	wu2 hou4 wei2 da4
+無濟於事	wu2 ji4 yu2 shi4
+無能為力	wu2 neng2 wei2 li4
+無能為役	wu2 neng2 wei2 yi4
+無偏無陂	wu2 pian1 wu2 pi2
+無所不為	wu2 suo3 bu4 wei2
+無所作為	wu2 suo3 zuo4 wei2
+無為而治	wu2 wei2 er2 zhi4
+無為牛後	wu2 wei2 niu2 hou4
+無為自化	wu2 wei2 zi4 hua4
+無以為繼	wu2 yi3 wei2 ji4
+無以為敬	wu2 yi3 wei2 jing4
+無以為生	wu2 yi3 wei2 sheng1
+無與為比	wu2 yu3 wei2 bi3
+無徵不信	wu2 zheng1 bu4 xin4
+霧裡看花	wu4 li3 kan4 hua1
+物理性質	wu4 li3 xing4 zhi2
+勿施於人	wu4 shi1 yu2 ren2
+物質建設	wu4 zhi2 jian4 she4
+物質三態	wu4 zhi2 san1 tai4
+物質生活	wu4 zhi2 sheng1 huo2
+物質文明	wu4 zhi2 wen2 ming2
+稀裡糊塗	xi1 li5 hu2 tu5
+習以為常	xi2 yi3 wei2 chang2
+喜不自禁	xi3 bu4 zi4 jin1
+喜不自勝	xi3 bu4 zi4 sheng1
+喜形於色	xi3 xing2 yu2 se4
+下不為例	xia4 bu4 wei2 li4
+先睹為快	xian1 du3 wei2 kuai4
+先入為主	xian1 ru4 wei2 zhu3
+先吾著鞭	xian1 wu2 zhuo2 bian1
+纖纖弱質	xian1 xian1 ruo4 zhi2
+鮮為人知	xian3 wei2 ren2 zhi1
+陷於癱瘓	xian4 yu2 tan1 huan4
+相持不下	xiang1 chi2 bu4 xia4
+相忍為國	xiang1 ren3 wei4 guo2
+相為表裡	xiang1 wei2 biao3 li3
+相須為命	xiang1 xu1 wei2 ming4
+相依為命	xiang1 yi1 wei2 ming4
+相倚為命	xiang1 yi3 wei2 ming4
+相倚為彊	xiang1 yi3 wei2 qiang2
+相與為命	xiang1 yu3 wei2 ming4
+橡子麵兒	xiang4 zi5 mian4 r5
+霄壤之別	xiao1 rang3 zhi1 bie2
+銷售一空	xiao1 shou4 yi1 kong1
+小處著手	xiao3 chu4 zhuo2 shou3
+小額融資	xiao3 e2 rong2 zi1
+小裡小氣	xiao3 li5 xiao3 qi4
+笑裡藏刀	xiao4 li3 cang2 dao1
+笑有為笑	xiao4 you3 wei2 xiao4
+血不歸經	xie3 bu4 gui1 jing1
+血化為碧	xie3 hua4 wei2 bi4
+血口噴人	xie3 kou3 pen1 ren2
+心不應口	xin1 bu4 ying4 kou3
+心裡癢癢	xin1 li3 yang3 yang5
+心裡有數	xin1 li5 you3 shu4
+心戰為上	xin1 zhan4 wei2 shang4
+信以為真	xin4 yi3 wei2 zhen1
+星際物質	xing1 ji4 wu4 zhi2
+行不顧言	xing2 bu4 gu4 yan2
+行為科學	xing2 wei2 ke1 xue2
+行為模式	xing2 wei2 mo2 shi4
+行為能力	xing2 wei2 neng2 li4
+行為藝術	xing2 wei2 yi4 shu4
+行為主義	xing2 wei2 zhu3 yi4
+行為準則	xing2 wei2 zhun3 ze2
+形於辭色	xing2 yu2 ci2 se4
+形於言色	xing2 yu2 yan2 se4
+形於顏色	xing2 yu2 yan2 se4
+幸不辱命	xing4 bu4 ru4 ming4
+幸為先容	xing4 wei2 xian1 rong2
+羞於啓齒	xiu1 yu2 qi3 chi3
+羞與為伍	xiu1 yu3 wei2 wu3
+虛晃一招	xu1 huang3 yi1 zhao1
+虛驚一場	xu1 jing1 yi1 chang2
+懸崖絕壁	xuan2 yai2 jue2 bi4
+懸崖峭壁	xuan2 yai2 qiao4 bi4
+削職為民	xue1 zhi2 wei2 min2
+雪窗螢几	xue3 chuang1 ying2 ji3
+血不歸經	xue4 bu4 gui1 jing1
+削髮為僧	xue4 fa3 wei2 seng1
+削方為圓	xue4 fang1 wei2 yuan2
+削觚為圓	xue4 gu1 wei2 yuan2
+血化為碧	xue4 hua4 wei2 bi4
+血口噴人	xue4 kou3 pen1 ren2
+削木為吏	xue4 mu4 wei2 li4
+詢於芻蕘	xun2 yu2 chu2 rao2
+壓倒群雄	ya1 dao3 qun2 xiong2
+壓良為賤	ya1 liang2 wei2 jian4
+崖岸自高	yai2 an4 zi4 gao1
+奄奄一息	yan1 yan1 yi1 xi2
+淹淹一息	yan1 yan1 yi1 xi2
+言不逮意	yan2 bu4 dai4 yi4
+言不顧行	yan2 bu4 gu4 xing2
+言不踐行	yan2 bu4 jian4 xing2
+言不應點	yan2 bu4 ying4 dian3
+言歸於好	yan2 gui1 yu2 hao3
+延年益壽	yan2 nian2 yi4 shou4
+言為心聲	yan2 wei2 xin1 sheng1
+言行一致	yan2 xing4 yi1 zhi4
+嚴於律己	yan2 yu2 lv4 ji3
+眼見為實	yan3 jian4 wei2 shi2
+豔冠群芳	yan4 guan4 qun2 fang1
+燕石為玉	yan4 shi2 wei2 yu4
+羊質虎皮	yang2 zhi2 hu3 pi2
+怏怏不樂	yang4 yang4 bu4 le4
+幺麼小丑	yao1 mo2 xiao3 chou3
+也不見得	ye3 bu4 jian4 de2
+野有死麕	ye3 you3 si3 jun1
+業荒於嬉	ye4 huang1 yu2 xi1
+業精於勤	ye4 jing1 yu2 qin2
+一敗塗地	yi1 bai4 tu2 di4
+一般而言	yi1 ban1 er2 yan2
+一般見識	yi1 ban1 jian4 shi4
+一本正經	yi1 ben3 zheng4 jing1
+一鼻子灰	yi1 bi2 zi5 hui1
+一筆勾斷	yi1 bi3 gou1 duan4
+一筆勾消	yi1 bi3 gou1 xiao1
+一筆勾銷	yi1 bi3 gou1 xiao1
+一筆抹倒	yi1 bi3 mo3 dao3
+一筆抹殺	yi1 bi3 mo3 sha1
+一筆抹煞	yi1 bi3 mo3 sha1
+一波三折	yi1 bo1 san1 zhe2
+一不拗衆	yi1 bu4 niu4 zhong4
+一步一攧	yi1 bu4 yi1 dian1
+一步一踱	yi1 bu4 yi1 duo4
+衣不曳地	yi1 bu4 yi4 di4
+衣不重帛	yi1 bu4 zhong4 bo2
+衣不重采	yi1 bu4 zhong4 cai3
+一不小心	yi1 bu5 xiao3 xin1
+一差半錯	yi1 cha1 ban4 cuo4
+一差二錯	yi1 cha1 er4 cuo4
+一差二誤	yi1 cha1 er4 wu4
+一場春夢	yi1 chang2 chun1 meng4
+一長二短	yi1 chang2 er4 duan3
+一長兩短	yi1 chang2 liang3 duan3
+一償宿願	yi1 chang2 su4 yuan4
+一長一短	yi1 chang2 yi1 duan3
+一倡百和	yi1 chang4 bai3 he4
+一唱百和	yi1 chang4 bai3 he4
+一唱一和	yi1 chang4 yi1 he4
+一衝一撞	yi1 chong1 yi1 zhuang4
+一沖性子	yi1 chong4 xing4 zi5
+一酬一酢	yi1 chou2 yi1 zuo4
+一次全倒	yi1 ci4 quan2 dao3
+一蹴而得	yi1 cu4 er2 de2
+一蹴可幾	yi1 cu4 ke3 ji1
+一答一合	yi1 da2 yi1 he2
+一大郎當	yi1 da4 lang2 dang1
+一代楷模	yi1 dai4 kai3 mo2
+一得之功	yi1 de2 zhi1 gong1
+一得之見	yi1 de2 zhi1 jian4
+一得之愚	yi1 de2 zhi1 yu2
+一地胡拿	yi1 di4 hu2 na2
+一丁不識	yi1 ding1 bu4 shi4
+伊頓公學	yi1 dun4 gong1 xue2
+一髮千鈞	yi1 fa3 qian1 jun1
+一帆風順	yi1 fan2 feng1 shun4
+一飛衝天	yi1 fei1 chong1 tian1
+一分耕耘	yi1 fen1 geng1 yun2
+一分行情	yi1 fen1 hang2 qing2
+一分收穫	yi1 fen1 shou1 huo4
+一分一毫	yi1 fen1 yi1 hao2
+一夫當關	yi1 fu1 dang1 guan1
+一概而論	yi1 gai4 er2 lun4
+一概抹殺	yi1 gai4 mo3 sha1
+一乾二淨	yi1 gan1 er4 jing4
+一個饅頭	yi1 ge5 man2 tou5
+一行三昧	yi1 hang2 san1 mei4
+一哄而集	yi1 hong1 er2 ji2
+一哄而起	yi1 hong1 er2 qi3
+一哄而散	yi1 hong1 er2 san4
+一哄而上	yi1 hong1 er2 shang4
+一鬨而散	yi1 hong4 er2 san4
+一呼百應	yi1 hu1 bai3 ying4
+一狐之腋	yi1 hu2 zhi1 yi4
+一還一報	yi1 huan2 yi1 bao4
+一混湯子	yi1 hun4 tang1 zi5
+一級傳播	yi1 ji2 chuan2 bo4
+一技之長	yi1 ji4 zhi1 chang2
+一見傾心	yi1 jian4 qing1 xin1
+一見如故	yi1 jian4 ru2 gu4
+一箭上垛	yi1 jian4 shang4 duo4
+一箭之仇	yi1 jian4 zhi1 chou2
+一箭之地	yi1 jian4 zhi1 di4
+一漿十餅	yi1 jiang1 shi2 bing3
+一將難求	yi1 jiang4 nan2 qiu2
+一將守關	yi1 jiang4 shou3 guan1
+一較長短	yi1 jiao4 chang2 duan3
+一舉兩便	yi1 ju3 liang3 bian4
+一舉兩得	yi1 ju3 liang3 de2
+一舉數得	yi1 ju3 shu4 de2
+一決雌雄	yi1 jue2 ci1 xiong2
+一力承當	yi1 li4 cheng2 dang1
+一了百當	yi1 liao3 bai3 dang1
+一了百了	yi1 liao3 bai3 liao3
+一了心願	yi1 liao3 xin1 yuan4
+一鱗半爪	yi1 lin2 ban4 zhua3
+一鱗片甲	yi1 lin2 pian4 jia3
+一鱗一爪	yi1 lin2 yi1 zhua3
+一溜歪斜	yi1 liu4 wai1 xie2
+一落千丈	yi1 luo4 qian1 zhang4
+一馬當先	yi1 ma3 dang1 xian1
+一脈相承	yi1 mai4 xiang1 cheng2
+一脈相傳	yi1 mai4 xiang1 chuan2
+一脈相連	yi1 mai4 xiang1 lian2
+一脈相通	yi1 mai4 xiang1 tong1
+一面之識	yi1 mian4 zhi1 shi4
+一模一樣	yi1 mo2 yi1 yang4
+一目了然	yi1 mu4 liao3 ran2
+一目瞭然	yi1 mu4 liao3 ran2
+一木難扶	yi1 mu4 nan2 fu2
+一木難支	yi1 mu4 nan2 zhi1
+一目十行	yi1 mu4 shi2 hang2
+一腦門子	yi1 nao3 men2 zi5
+一年半載	yi1 nian2 ban4 zai3
+一念之差	yi1 nian4 zhi1 cha1
+一念之間	yi1 nian4 zhi1 jian1
+一牛吼地	yi1 niu2 hou3 di4
+一拍即合	yi1 pai1 ji2 he2
+一盤散沙	yi1 pan2 san3 sha1
+一盆漿糊	yi1 pen2 jiang1 hu2
+一片冰心	yi1 pian4 bing1 xin1
+一片痴心	yi1 pian4 chi1 xin1
+一片赤心	yi1 pian4 chi4 xin1
+一片丹心	yi1 pian4 dan1 xin1
+一片宮商	yi1 pian4 gong1 shang1
+一片苦心	yi1 pian4 ku3 xin1
+一片婆心	yi1 pian4 po2 xin1
+一片散沙	yi1 pian4 san3 sha1
+一片汪洋	yi1 pian4 wang1 yang2
+一片真心	yi1 pian4 zhen1 xin1
+一片至誠	yi1 pian4 zhi4 cheng2
+一票難求	yi1 piao4 nan2 qiu2
+一暴十寒	yi1 pu4 shi2 han2
+一氣呵成	yi1 qi4 he1 cheng2
+一竅不通	yi1 qiao4 bu4 tong1
+一切從簡	yi1 qie4 cong2 jian3
+一切現成	yi1 qie4 xian4 cheng2
+一切衆生	yi1 qie4 zhong4 sheng1
+一親芳澤	yi1 qin1 fang1 ze2
+一丘一壑	yi1 qiu1 yi1 huo4
+一丘之貉	yi1 qiu1 zhi1 he2
+一曲千金	yi1 qu3 qian1 jin1
+一曲陽關	yi1 qu3 yang2 guan1
+一瘸一簸	yi1 que2 yi1 bo3
+一人傳十	yi1 ren2 chuan2 shi2
+一人傳虛	yi1 ren2 chuan2 xu1
+一人得道	yi1 ren2 de2 dao4
+一日為師	yi1 ri4 wei2 shi1
+一掃而光	yi1 sao3 er2 guang1
+一掃而空	yi1 sao3 er2 kong1
+一時糊塗	yi1 shi2 hu2 tu2
+一時之間	yi1 shi2 zhi1 jian1
+一弛一張	yi1 shi3 yi1 zhang1
+一矢之地	yi1 shi3 zhi1 di4
+一樹百穫	yi1 shu4 bo2 huo4
+一塌糊塗	yi1 ta1 hu2 tu2
+一探究竟	yi1 tan4 jiu4 jing4
+一條腸子	yi1 tiao2 chang2 zi5
+一頭霧水	yi1 tou2 wu4 shui3
+一吐為快	yi1 tu3 wei2 kuai4
+一網打盡	yi1 wang3 da3 jin4
+一無是處	yi1 wu2 shi4 chu4
+一無所長	yi1 wu2 suo3 chang2
+一無所得	yi1 wu2 suo3 de2
+一無所好	yi1 wu2 suo3 hao4
+一無下落	yi1 wu2 xia4 luo4
+一無長物	yi1 wu2 zhang4 wu4
+一息尚存	yi1 xi2 shang4 cun2
+一息奄奄	yi1 xi2 yan1 yan1
+一席之地	yi1 xi2 zhi1 di4
+一線曙光	yi1 xian4 shu4 guang1
+一相情願	yi1 xiang1 qing2 yuan4
+一行作吏	yi1 xing2 zuo4 li4
+一言難盡	yi1 yan2 nan2 jin4
+一言難罄	yi1 yan2 nan2 qing4
+一言喪邦	yi1 yan2 sang4 bang1
+一言為定	yi1 yan2 wei2 ding4
+一言興邦	yi1 yan2 xing1 bang1
+一言一行	yi1 yan2 yi1 xing2
+一言中的	yi1 yan2 zhong4 di4
+一眼看破	yi1 yan3 kan4 po4
+一搖三晃	yi1 yao2 san1 huang4
+依依不捨	yi1 yi1 bu4 she3
+一意孤行	yi1 yi4 gu1 xing2
+一應俱全	yi1 ying1 ju4 quan2
+一擁而進	yi1 yong3 er2 jin4
+一擁而上	yi1 yong3 er2 shang4
+一隅之地	yi1 yu2 zhi1 di4
+一語不發	yi1 yu3 bu4 fa1
+一語破的	yi1 yu3 po4 di4
+一語中的	yi1 yu3 zhong4 di4
+一語中人	yi1 yu3 zhong4 ren2
+一展長才	yi1 zhan3 chang2 cai2
+一張一弛	yi1 zhang1 yi1 shi3
+一朝一夕	yi1 zhao1 yi1 xi4
+一折八扣	yi1 zhe2 ba1 kou4
+一折一磨	yi1 zhe2 yi1 mo2
+一針見血	yi1 zhen1 jian4 xie3
+一爭長短	yi1 zheng1 chang2 duan3
+一知半解	yi1 zhi1 ban4 jie3
+一之為甚	yi1 zhi1 wei2 shen4
+一擲百萬	yi1 zhi2 bai3 wan4
+一擲千金	yi1 zhi2 qian1 jin1
+一紙空文	yi1 zhi3 kong1 wen2
+一至於此	yi1 zhi4 yu2 ci3
+一著不慎	yi1 zhuo2 bu4 shen4
+一字不差	yi1 zi4 bu4 cha1
+一字不識	yi1 zi4 bu4 shi4
+一走了之	yi1 zou3 liao3 zhi1
+宜侯夨簋	yi2 hou2 ze4 gui3
+一日為師	yi2 ri4 wei2 shi1
+夷為平地	yi2 wei2 ping2 di4
+移孝為忠	yi2 xiao4 wei2 zhong1
+以白為黑	yi3 bai2 wei2 hei1
+倚多為勝	yi3 duo1 wei2 sheng4
+倚兒不當	yi3 er2 bu4 dang4
+以耳為目	yi3 er3 wei2 mu4
+以攻為守	yi3 gong1 wei2 shou3
+以古為鑑	yi3 gu3 wei2 jian4
+以規為瑱	yi3 gui1 wei2 tian4
+以假為真	yi3 jia3 wei2 zhen1
+以鄰為壑	yi3 lin2 wei2 he4
+以鄰為壑	yi3 lin2 wei2 huo4
+以筌為魚	yi3 quan2 wei2 yu2
+以人為本	yi3 ren2 wei2 ben3
+以人為鑑	yi3 ren2 wei2 jian4
+以日為年	yi3 ri4 wei2 nian2
+以日為歲	yi3 ri4 wei2 sui4
+以慎為鍵	yi3 shen4 wei2 jian4
+以退為進	yi3 tui4 wei2 jin4
+以微知著	yi3 wei1 zhi1 zhu4
+以微知著	yi3 wei2 zhi1 zhu4
+異常行為	yi4 chang2 xing2 wei2
+一分為二	yi4 fen1 wei2 er4
+意裡意思	yi4 li5 yi4 si5
+一吐為快	yi4 tu3 wei2 kuai4
+義形於色	yi4 xing2 yu2 se4
+一言為定	yi4 yan2 wei2 ding4
+一言為重	yi4 yan2 wei2 zhong4
+悒悒不樂	yi4 yi4 bu4 le4
+易於反掌	yi4 yu2 fan3 zhang3
+溢於言表	yi4 yu2 yan2 biao3
+一著不慎	yi4 zhao1 bu2 shen4
+陰魂不散	yin1 hun2 bu4 san4
+因禍為福	yin1 huo4 wei2 fu2
+因樹為屋	yin1 shu4 wei2 wu1
+銀質沉著	yin2 zhi2 chen2 zhuo2
+引發物質	yin3 fa1 wu4 zhi2
+引人入勝	yin3 ren2 ru4 sheng4
+引以為傲	yin3 yi3 wei2 ao4
+引以為憾	yin3 yi3 wei2 han4
+引以為鑑	yin3 yi3 wei2 jian4
+引以為鑒	yin3 yi3 wei2 jian4
+引以為戒	yin3 yi3 wei2 jie4
+引以為榮	yin3 yi3 wei2 rong2
+蠅頭蝸角	ying2 tou2 gua1 jiao3
+蠅頭蝸角	ying2 tou2 wo1 jiao3
+硬著頭皮	ying4 zhe5 tou2 pi2
+硬質合金	ying4 zhi2 he2 jin1
+永錫不匱	yong3 xi2 bu4 kui4
+用在一朝	yong4 zai4 yi1 zhao1
+憂形於色	you1 xing2 yu2 se4
+猶未為晚	you2 wei4 wei2 wan3
+有償行為	you3 chang2 xing2 wei2
+有鑑於此	you3 jian4 yu2 ci3
+有鑒於此	you3 jian4 yu2 ci3
+有進取心	you3 jin4 qu3 xin1
+有所作為	you3 suo3 zuo4 wei2
+有條不紊	you3 tiao2 bu4 wen4
+有一分心	you3 yi1 fen1 xin1
+有朝一日	you3 zhao1 yi1 ri4
+有證為憑	you3 zheng4 wei2 ping2
+又弱一個	you4 ruo4 yi1 ge5
+於法無據	yu2 fa3 wu2 ju4
+於家為國	yu2 jia1 wei4 guo2
+於民潤國	yu2 min2 run4 guo2
+於事無補	yu2 shi4 wu2 bu3
+於事無濟	yu2 shi4 wu2 ji4
+於心不安	yu2 xin1 bu4 an1
+於心不忍	yu2 xin1 bu4 ren3
+於心何忍	yu2 xin1 he2 ren3
+於心無愧	yu2 xin1 wu2 kui4
+魚質龍文	yu2 zhi2 long2 wen2
+與噲為伍	yu3 kuai4 wei2 wu3
+與人為善	yu3 ren2 wei2 shan4
+寓兵於農	yu4 bing1 yu2 nong2
+寓禁於征	yu4 jin4 yu2 zheng1
+鬱鬱不樂	yu4 yu4 bu4 le4
+冤魂不散	yuan1 hun2 bu4 san4
+遠不間親	yuan3 bu4 jian4 qin1
+月離於畢	yue4 li2 yu2 bi4
+月麗於箕	yue4 li4 yu2 ji1
+運籌帷幄	yun4 chou2 wei2 wo4
+雜和麵兒	za2 huo5 mian4 r5
+在於一心	zai4 yu2 yi1 xin1
+怎麼搞的	ze3 mo5 gao3 de5
+怎麼得了	zen3 mo5 de2 liao3
+奓著膽子	zha1 zhe5 dan3 zi5
+乍著膽子	zha4 zhe5 dan3 zi5
+斬木為兵	zhan3 mu4 wei2 bing1
+輾轉不寐	zhan3 zhuan3 bu4 mei4
+佔為己有	zhan4 wei2 ji3 you3
+占為己有	zhan4 wei2 ji3 you3
+慞惶失次	zhang1 huang2 shi1 ci4
+朝不慮夕	zhao1 bu4 lv4 xi4
+朝夕不倦	zhao1 xi4 bu4 juan4
+照相著色	zhao4 xiang4 zhuo2 se4
+折箭為誓	zhe2 jian4 wei2 shi4
+臻於完善	zhen1 yu2 wan2 shan4
+臻於郅治	zhen1 yu2 zhi4 zhi4
+振作有為	zhen4 zuo4 you3 wei2
+知疼著熱	zhi1 teng2 zhao2 re4
+知心著意	zhi1 xin1 zhao2 yi4
+知足不辱	zhi1 zu2 bu4 ru4
+質而不俚	zhi2 er2 bu4 li3
+植物群落	zhi2 wu4 qun2 luo4
+直著身子	zhi2 zhe5 shen1 zi5
+質直渾厚	zhi2 zhi2 hun2 hou4
+指地為盟	zhi3 di4 wei2 meng2
+指點迷律	zhi3 dian3 mi2 lv4
+指腹為婚	zhi3 fu4 wei2 hun1
+止戈為武	zhi3 ge1 wei2 wu3
+指黑為白	zhi3 hei1 wei2 bai2
+指鹿為馬	zhi3 lu4 wei2 ma3
+指天為誓	zhi3 tian1 wei2 shi4
+指雁為羹	zhi3 yan4 wei2 geng1
+止於至善	zhi3 yu2 zhi4 shan4
+指皂為白	zhi3 zao4 wei2 bai2
+知者不惑	zhi4 zhe3 bu4 huo4
+終身為父	zhong1 shen1 wei2 fu4
+忠於職守	zhong1 yu2 zhi2 shou3
+中質原油	zhong1 zhi2 yuan2 you2
+周而不比	zhou1 er2 bu4 bi4
+譸張為幻	zhou1 zhang1 wei2 huan4
+煮海為鹽	zhu3 hai3 wei2 yan2
+屬毛離裡	zhu3 mao2 li2 li3
+助桀為虐	zhu4 jie2 wei2 nve4
+助人為樂	zhu4 ren2 wei2 le4
+助紂為虐	zhu4 zhou4 wei2 nve4
+抓著癢處	zhua1 zhe5 yang3 chu4
+專美於前	zhuan1 mei3 yu2 qian2
+轉敗為功	zhuan3 bai4 wei2 gong1
+轉敗為勝	zhuan3 bai4 wei2 sheng4
+轉悲為喜	zhuan3 bei1 wei2 xi3
+轉愁為喜	zhuan3 chou2 wei2 xi3
+轉禍為福	zhuan3 huo4 wei2 fu2
+轉危為安	zhuan3 wei1 wei2 an1
+轉危為安	zhuan3 wei2 wei2 an1
+轉憂為喜	zhuan3 you1 wei2 xi3
+轉災為福	zhuan3 zai1 wei2 fu2
+轉敗為勝	zhuan4 bai4 wei2 sheng4
+捉摸不定	zhuo1 mo1 bu4 ding4
+拙於言詞	zhuo1 yu2 yan2 ci2
+著地還錢	zhuo2 di4 huan2 qian2
+斫雕為樸	zhuo2 diao1 wei2 pu2
+斲琱為樸	zhuo2 diao1 wei2 pu2
+斲雕為樸	zhuo2 diao1 wei2 pu2
+斲方為圓	zhuo2 fang1 wei2 yuan2
+著糞佛頭	zhuo2 fen4 fo2 tou2
+著腳書樓	zhuo2 jiao3 shu1 lou2
+著甚來由	zhuo2 shen2 lai2 you2
+著生植物	zhuo2 sheng1 zhi2 wu4
+著手成春	zhuo2 shou3 cheng2 chun1
+著手回春	zhuo2 shou3 hui2 chun1
+濁質凡姿	zhuo2 zhi2 fan2 zi1
+著著進逼	zhuo2 zhuo2 jin4 bi1
+著著失敗	zhuo2 zhuo2 shi1 bai4
+子宮頸癌	zi3 gong1 jing3 ai2
+子宮頸癌	zi3 gong1 jing3 yan2
+子卯不樂	zi3 mao3 bu4 yue4
+子為父隱	zi3 wei4 fu4 yin3
+自不待言	zi4 bu4 dai4 yan2
+自不量力	zi4 bu4 liang4 li4
+字裡行間	zi4 li3 hang2 jian1
+自崖而反	zi4 yai2 er2 fan3
+自以為是	zi4 yi3 wei2 shi4
+恣意妄為	zi4 yi4 wang4 wei2
+走為上策	zou3 wei2 shang4 ce4
+走為上計	zou3 wei2 shang4 ji4
+走為上著	zou3 wei2 shang4 zhao1
+祖鞭先著	zu3 bian1 xian1 zhuo2
+左右為難	zuo3 you4 wei2 nan2
+鑿壁偷光	zuo4 bi4 tou1 guang1
+鑿壁懸梁	zuo4 bi4 xuan2 liang2
+鑿枘不入	zuo4 rui4 bu4 ru4
+鑿山破石	zuo4 shan1 po4 shi2
+做我不著	zuo4 wo3 bu4 zhao2
+鑿飲耕食	zuo4 yin3 geng1 shi2
+鑿圓枘方	zuo4 yuan2 rui4 fang1
+那木巴爾·恩赫巴亞爾	na3 mu4 ba1 er3 en1 he4 ba1 ya4 er3
+阿赫蒂薩裡	a1 he4 di4 sa4 li3
+阿留申群島	a1 liu2 shen1 qun2 dao3
+敗棋有勝著	bai4 qi2 you3 sheng4 zhuo2
+被窩裡放屁	bei4 wo1 li5 fang4 pi4
+本篤十六世	ben3 du3 shi2 liu4 shi4
+邊都沾不上	bian1 dou1 zhan1 bu4 shang4
+博格多汗宮	bo2 ge2 duo1 han4 gong1
+不為左右袒	bu2 wei4 zuo3 you4 tan3
+不逮捕特權	bu4 dai4 bu3 te4 quan2
+不怕不識貨	bu4 pa4 bu4 shi4 huo4
+不怕沒柴燒	bu4 pa4 mei2 chai2 shao1
+不認得字的	bu4 ren4 de5 zi4 de5
+不為米折腰	bu4 wei4 mi3 zhe2 yao1
+不肖的東西	bu4 xiao4 de5 dong1 xi5
+不在場證明	bu4 zai4 chang2 zheng4 ming2
+不在五行中	bu4 zai4 wu3 xing2 zhong1
+不知為不知	bu4 zhi1 wei2 bu4 zhi1
+不值天一劃	bu4 zhi2 tian1 yi1 hua4
+不著陸飛行	bu4 zhuo2 lu4 fei1 xing2
+不作為違警	bu4 zuo4 wei2 wei2 jing3
+吃人一個蛋	chi1 ren2 yi1 ge5 dan4
+赤瓦不剌海	chi4 wa3 bu4 la4 hai3
+出門一時難	chu1 men2 yi1 shi2 nan2
+除非己莫為	chu2 fei1 ji3 mo4 wei2
+穿一條褲子	chuan1 yi1 tiao2 ku4 zi5
+喘不過氣來	chuan3 bu4 guo4 qi4 lai5
+刺頭泥裡陷	ci4 tou2 ni2 li3 xian4
+醋打怎麼酸	cu4 da3 ze3 mo5 suan1
+打甚麼不緊	da3 shen2 mo5 bu4 jin3
+大腸桿菌群	da4 chang2 gan3 jun4 qun2
+倒抽一口氣	dao4 chou1 yi1 kou3 qi4
+到目前為止	dao4 mu4 qian2 wei2 zhi3
+道三不著兩	dao4 san1 bu4 zhao2 liang3
+到三不著兩	dao4 san1 bu4 zhuo2 liang3
+得不的一聲	de2 bu4 de5 yi1 sheng1
+底棲有孔蟲	di3 qi1 you3 kong3 chong2
+電子顯微鏡	dian4 zi3 xian3 wei1 jing4
+電子顯微鏡	dian4 zi3 xian3 wei2 jing4
+吊著鍋子底	diao4 zhe5 guo1 zi5 di3
+東印度群島	dong1 yin4 du4 qun2 dao3
+都是一家人	dou1 shi4 yi1 jia1 ren2
+肚裡的蛔蟲	du4 li3 de5 hui2 chong2
+肚子裡點燈	du4 zi5 li3 dian3 deng1
+法國喜劇片	fa4 guo2 xi3 ju4 pian4
+反社會行為	fan3 she4 hui4 xing2 wei2
+方為人上人	fang1 wei2 ren2 shang4 ren2
+非一狐之腋	fei1 yi1 hu2 zhi1 yi4
+風在那裡起	feng1 zai4 na3 li3 qi3
+弗裡得裡希	fu2 li3 de2 li3 xi1
+複合蛋白質	fu4 he2 dan4 bai2 zhi2
+乾吊著下巴	gan1 diao4 zhe5 xia4 ba5
+高畫質電視	gao1 hua4 zhi2 dian4 shi4
+哥哥不在家	ge1 ge5 bu4 zai4 jia1
+更上一層樓	geng4 shang4 yi1 ceng2 lou2
+骨質軟化症	gu3 zhi2 ruan3 hua4 zheng4
+骨質石化症	gu3 zhi2 shi2 hua4 zheng4
+骨質疏鬆症	gu3 zhi2 shu1 song1 zheng4
+棺材裡伸手	guan1 cai5 li3 shen1 shou3
+何樂而不為	he2 le4 er2 bu4 wei2
+換湯不換藥	huan4 tang1 bu4 huan4 yao4
+婚前性行為	hun1 qian2 xing4 xing2 wei4
+飢者易為食	ji1 zhe3 yi4 wei2 shi2
+嘉德麗亞蘭	jia1 de2 li4 ya3 lan2
+將軍不下馬	jiang1 jun1 bu4 xia4 ma3
+叫天天不應	jiao4 tian1 tian1 bu4 ying4
+九牛拉不轉	jiu3 niu2 la1 bu4 zhuan4
+就怕不識貨	jiu4 pa4 bu4 shi4 huo4
+苛政猛於虎	ke1 zheng4 meng3 yu2 hu3
+空惹一身羶	kong1 re3 yi1 shen1 shan1
+拉長耳朵聽	la1 chang2 er3 duo1 ting1
+攔頭一槓子	lan2 tou2 yi1 gang4 zi5
+禮豈為我設	li3 qi3 wei4 wo3 she4
+立法委員會	li4 fa3 wei3 yuan2 hui4
+亂鬨不過來	luan4 hong5 bu4 guo4 lai2
+馬來西亞人	ma3 lai2 xi1 ya4 ren2
+沒奔一頭處	mei2 ben1 yi1 tou2 chu4
+沒地裡巡檢	mei2 di4 li3 xun2 jian3
+沒什麼要緊	mei2 shen2 mo5 yao4 jin3
+沒想一頭處	mei2 xiang3 yi1 tou2 chu4
+門縫裡看人	men2 feng4 li3 kan4 ren2
+蒙一飯之恩	meng2 yi1 fan4 zhi1 en1
+棉花店著火	mian2 hua1 dian4 zhao2 huo3
+民以食為本	min2 yi3 shi2 wei2 ben3
+民以食為天	min2 yi3 shi2 wei2 tian1
+名不見經傳	ming2 bu4 jian4 jing1 zhuan4
+摸不著頭路	mo1 bu4 zhao2 tou2 lu4
+摸不著頭腦	mo1 bu4 zhao2 tou2 nao3
+摸不著頭腦	mo1 bu5 zhao2 tou2 nao3
+摸頭路不著	mo1 tou2 lu4 bu4 zhao2
+抹一鼻子灰	mo3 yi1 bi2 zi5 hui1
+目短於自見	mu4 duan3 yu2 zi4 jian4
+難為人上人	nan2 wei2 ren2 shang4 ren2
+能量不滅律	neng2 liang4 bu4 mie4 lv4
+寧為太平犬	ning2 wei2 tai4 ping2 quan3
+駑馬戀棧豆	nu2 ma3 lian4 zhan4 dou4
+女大不中留	nv3 da4 bu4 zhong4 liu2
+女為悅己容	nv3 wei4 yue4 ji3 rong2
+碰一鼻子灰	peng4 yi1 bi2 zi5 hui1
+蚍蜉撼大樹	pi2 fu2 han4 da4 shu4
+平地一聲雷	ping2 di4 yi1 sheng1 lei2
+頗不以為然	po3 bu4 yi3 wei2 ran2
+牽著鼻子走	qian1 zhe5 bi2 zi5 zou3
+氫淨合成油	qing1 jing4 he2 cheng2 you2
+群蝨處褌中	qun2 shi1 chu3 kun1 zhong1
+染不著顏色	ran3 bu4 zhao2 yan2 se4
+人情一把鋸	ren2 qing2 yi1 ba3 ju4
+強如手撥剌	ru2 shou3 bo1 la4
+塞車症候群	sai1 che1 zheng4 hou4 qun2
+塞舌爾群島	sai4 she2 er3 qun2 dao3
+三島由紀夫	san1 dao3 you2 ji4 fu1
+臊一鼻子灰	sao4 yi1 bi2 zi5 hui1
+殺人不見血	sha1 ren2 bu4 jian4 xie3
+上顎正門齒	shang4 e4 zheng4 men2 chi3
+失落的一代	shi1 luo4 de5 yi1 dai4
+石棉沉著病	shi2 mian2 chen2 zhuo2 bing4
+石末沉著病	shi2 mo4 chen2 zhuo2 bing4
+歲月不待人	sui4 yue4 bu4 dai4 ren2
+貪多嚼不爛	tan1 duo1 jiao2 bu4 lan4
+天地一沙鷗	tian1 di4 yi1 sha1 ou1
+完全蛋白質	wan2 quan2 dan4 bai2 zhi2
+萬惡淫為首	wan4 e4 yin2 wei2 shou3
+為人民服務	wei4 ren2 min2 fu2 wu4
+我不入地獄	wo3 bu4 ru4 di4 yu4
+無毒不丈夫	wu2 du2 bu4 zhang4 fu1
+無煙囪工業	wu2 yan1 cong1 gong1 ye4
+物以稀為貴	wu4 yi3 xi1 wei2 gui4
+物質不滅律	wu4 zhi2 bu4 mie4 lv4
+西印度群島	xi1 yin4 du4 qun2 dao3
+昔得蘭群島	xi2 de2 lan2 qun2 dao3
+細胞原生質	xi4 bao1 yuan2 sheng1 zhi2
+先下手為強	xian1 xia4 shou3 wei2 qiang2
+小兒麻痹症	xiao3 er2 ma2 bi4 zheng4
+小泉純一郎	xiao3 quan2 chun2 yi1 lang2
+心裡美蘿蔔	xin1 li5 mei3 luo2 bo5
+心裡有個譜	xin1 li5 you3 ge5 pu3
+刑不上大夫	xing2 bu4 shang4 dai4 fu1
+行為藝術者	xing2 wei2 yi4 shu4 zhe3
+性變態行為	xing4 bian4 tai4 xing2 wei2
+鹽打怎麼鹹	yan2 da3 ze3 mo5 xian2
+言隱於榮華	yan2 yin3 yu2 rong2 hua2
+眼不見為淨	yan3 bu2 jian4 wei2 jing4
+眼不見為淨	yan3 bu4 jian4 wei2 jing4
+咬群的騾子	yao3 qun2 de5 luo2 zi5
+葉綠體基質	ye4 lv4 ti3 ji1 zhi2
+一百八十度	yi1 bai3 ba1 shi2 du4
+一百二十行	yi1 bai3 er4 shi2 hang2
+一報還一報	yi1 bao4 huan2 yi1 bao4
+一錘子買賣	yi1 chui2 zi5 mai3 mai5
+一打三分低	yi1 da3 san1 fen1 di1
+一度著蛇咬	yi1 du4 zhao1 she2 yao3
+一飯三吐哺	yi1 fan4 san1 tu3 bu3
+一個不小心	yi1 ge5 bu4 xiao3 xin1
+一個富貴心	yi1 ge5 fu4 gui4 xin1
+一個獵古調	yi1 ge5 lie4 gu3 diao4
+一棍子打死	yi1 gun4 zi5 da3 si3
+一摑一掌血	yi1 guo2 yi1 zhang3 xie3
+一家一個主	yi1 jia1 yi1 ge5 zhu3
+一龍生九種	yi1 long2 sheng1 jiu3 zhong3
+一廟一個神	yi1 miao4 yi1 ge5 shen2
+一畝三分地	yi1 mu3 san1 fen1 di4
+一沐三握髮	yi1 mu4 san1 wo4 fa3
+一沐三捉髮	yi1 mu4 san1 zhuo1 fa3
+一鍬掘個井	yi1 qiao1 jue2 ge5 jing3
+一切經音義	yi1 qie4 jing1 yin1 yi4
+一物降一物	yi1 wu4 xiang2 yi1 wu4
+一語撞倒牆	yi1 yu3 zhuang4 dao3 qiang2
+一宅分兩院	yi1 zhai2 fen1 liang3 yuan4
+一丈差九尺	yi1 zhang4 cha1 jiu3 chi3
+一朝被蛇咬	yi1 zhao1 bei4 she2 yao3
+一朝權在手	yi1 zhao1 quan2 zai4 shou3
+一字長蛇陣	yi1 zi4 chang2 she2 zhen4
+移禍於枯桑	yi2 huo4 yu2 ku1 sang1
+陰溝裡翻船	yin1 gou1 li5 fan1 chuan2
+窨子裡秋月	yin4 zi5 li3 qiu1 yue4
+鷹嘴豆麵粉	ying1 zui3 dou4 mian4 fen3
+有助於記憶	you3 zhu4 yu2 ji4 yi4
+於霧靄之中	yu2 wu4 ai3 zhi1 zhong1
+與君一席話	yu3 jun1 yi1 xi2 hua4
+雨在那裡落	yu3 zai4 na3 li3 luo4
+雲端裡老鼠	yun2 duan1 li5 lao3 shu3
+雲裡的日頭	yun2 li5 de5 ri4 tou2
+著三不著兩	zhao2 san1 bu4 zhao2 liang3
+真人不露相	zhen1 ren2 bu4 lou4 xiang4
+知之為知之	zhi1 zhi1 wei2 zhi1 zhi1
+只為嘴傷人	zhi3 wei4 zui3 shang1 ren2
+中看不中吃	zhong4 kan4 bu4 zhong4 chi1
+撞一鼻子灰	zhuang4 yi1 bi2 zi5 hui1
+自以為得計	zi4 yi3 wei2 de2 ji4
+做甚麼道場	zuo4 shen2 mo5 dao4 chang2
+哀莫大於心死	ai1 mo4 da4 yu2 xin1 si3
+矮子裡拔將軍	ai3 zi5 li5 ba2 jiang1 jun1
+愛莫大於心死	ai4 mo4 da4 yu2 xin1 si3
+安地列斯群島	an1 di4 lie4 si1 qun2 dao3
+按著葫蘆摳子	an4 zhe5 hu2 lu5 kou1 zi5
+八竿子打不著	ba1 gan1 zi5 da3 bu4 zhao2
+八棍子撂不著	ba1 gun4 zi5 liao4 bu4 zhao2
+八字都沒一撇	ba1 zi4 dou1 mei2 yi1 pie3
+八字沒見一撇	ba1 zi4 mei2 jian4 yi1 pie3
+百聞不如一見	bai3 wen2 bu4 ru2 yi1 jian4
+半空裡翻觔斗	ban4 kong1 li3 fan1 jin1 dou3
+貝伽特症候群	bei4 qie2 te4 zheng4 hou4 qun2
+畢其功於一役	bi4 qi2 gong1 yu2 yi1 yi4
+別要惱著火頭	bie2 yao4 nao3 zhao2 huo3 tou5
+不能增減一分	bu4 neng2 zeng1 jian3 yi1 fen1
+不如一狐之腋	bu4 ru2 yi1 hu2 zhi1 yi4
+不要臉的東西	bu4 yao4 lian3 de5 dong1 xi5
+不知一個頭腦	bu4 zhi1 yi1 ge5 tou2 nao3
+不自由毋寧死	bu4 zi4 you2 wu2 ning2 si3
+長安居大不易	chang2 an1 ju1 da4 bu4 yi4
+吃不完兜著走	chi1 bu5 wan2 dou1 zhe5 zou3
+喫虱子留後腿	chi1 shi1 zi5 liu2 hou4 tui3
+聰者聽於無聲	cong1 zhe3 ting1 yu2 wu2 sheng1
+存十一於千百	cun2 shi2 yi1 yu2 qian1 bai3
+打了牙肚裡嚥	da3 le5 ya2 du4 li3 yan4
+打了一個悶雷	da3 le5 yi1 ge5 men4 lei2
+大蟲口裡倒涎	da4 chong2 kou3 li3 dao4 xian2
+大事化為小事	da4 shi4 hua4 wei2 xiao3 shi4
+戴著斗笠親嘴	dai4 zhe5 dou3 li4 qin1 zui3
+電子顯微攝影	dian4 zi3 xian3 wei1 she4 ying3
+電子顯微攝影	dian4 zi3 xian3 wei2 she4 ying3
+吊桶落在井裡	diao4 tong3 luo4 zai4 jing3 li3
+吊在麵糊盆內	diao4 zai4 mian4 hu2 pen2 nei4
+丟入爪哇國裡	diu1 ru4 zhao3 wa1 guo2 li3
+動物性蛋白質	dong4 wu4 xing4 dan4 bai2 zhi2
+兜著豆子尋鍋	dou1 zhe5 dou4 zi5 xun2 guo1
+肚腸閣落裡邊	du4 chang2 ge2 luo4 li3 bian1
+多發性硬化症	duo1 fa1 xing4 ying4 hua4 zheng4
+厄爾尼諾現象	e4 er3 ni2 nuo4 xian4 xiang4
+法國航空公司	fa4 guo2 hang2 kong1 gong1 si1
+糞缸裡擲骰子	fen4 gang1 li3 zhi2 tou2 zi5
+糞坑裡的石頭	fen4 keng1 li3 de5 shi2 tou5
+父仇不共戴天	fu4 chou2 bu4 gong4 dai4 tian1
+富貴一場春夢	fu4 gui4 yi1 chang2 chun1 meng4
+改訂伊犁條約	gai3 ding4 yi1 li2 tiao2 yue1
+趕著鴨子上架	gan3 zhe5 ya1 zi5 shang4 jia4
+一個個要著地	ge4 ge4 yao4 zhuo2 di4
+公門裡好修行	gong1 men2 li3 hao3 xiu1 xing2
+關著門過日子	guan1 zhe5 men2 guo4 ri4 zi5
+國家行為主義	guo2 jia1 xing2 wei2 zhu3 yi4
+好馬不鞴雙鞍	hao3 ma3 bu4 bei4 shuang1 an1
+好鞋不踏臭屎	hao3 xie2 bu4 ta4 chou4 shi3
+虎豹不外其爪	hu3 bao4 bu4 wai4 qi2 zhao3
+虎頭上捉虱子	hu3 tou2 shang4 zhuo1 shi1 zi5
+化腐朽為神奇	hua4 fu3 xiu3 wei2 shen2 qi2
+化干戈為玉帛	hua4 gan1 ge1 wei2 yu4 bo2
+夥穿一條褲子	huo3 chuan1 yi1 tiao2 ku4 zi5
+雞蛋裡挑骨頭	ji1 dan4 li5 tiao1 gu2 tou5
+雞蛋裡挑骨頭	ji1 dan4 li5 tiao1 gu3 tou5
+健康勝於財富	jian4 kang1 sheng4 yu2 cai2 fu4
+將在謀不在勇	jiang4 zai4 mou2 bu4 zai4 yong3
+腳打著腦杓子	jiao3 da3 zhe5 nao3 shao2 zi5
+教不厭學不倦	jiao4 bu4 yan4 xue2 bu4 juan4
+緊急避難行為	jin3 ji2 bi4 nan4 xing2 wei2
+九牛去得一毛	jiu3 niu2 qu4 de5 yi1 mao2
+君子不念舊惡	jun1 zi3 bu4 nian4 jiu4 e4
+可著頭做帽子	ke3 zhe5 tou2 zuo4 mao4 zi5
+禮義生於富足	li3 yi4 sheng1 yu2 fu4 zu2
+立於不敗之地	li4 yu2 bu4 bai4 zhi1 di4
+令人嘆為觀止	ling4 ren2 tan4 wei2 guan1 zhi3
+麻子不叫麻子	ma2 zi5 bu4 jiao4 ma2 zi5
+馬爾克奧雷利	ma3 er3 ke4 ao4 lei2 li4
+茅廁裡的石頭	mao2 ce4 li3 de5 shi2 tou5
+茅廁裡的石頭	mao2 si5 li3 de5 shi2 tou5
+冒著生命危險	mao4 zhe5 sheng1 ming4 wei1 xian3
+沒有什麼道理	mei2 you3 shen2 mo5 dao4 li3
+明者視於無形	ming2 zhe3 shi4 yu2 wu2 xing2
+摸著石頭過河	mo1 zhe5 shi2 tou2 guo4 he2
+寧撞金鐘一下	ning2 zhuang4 jin1 zhong1 yi1 xia4
+牛頭不對馬嘴	niu2 tou2 bu4 dui4 ma3 zui3
+女為悅己者容	nv3 wei4 yue4 ji3 zhe3 rong2
+盆罐都有耳朵	pen2 guan4 dou1 you3 er3 duo1
+罷馬不畏鞭箠	pi2 ma3 bu4 wei4 bian1 chui2
+罷民不畏刑法	pi2 min2 bu4 wei4 xing2 fa3
+屁股裡吃人參	pi4 gu5 li3 chi1 ren2 shen1
+便宜不過當家	pian2 yi5 bu4 guo4 dang1 jia1
+騎馬不帶鞭子	qi2 ma3 bu4 dai4 bian1 zi5
+強不知以為知	qiang3 bu4 zhi1 yi3 wei2 zhi1
+強迫性性行為	qiang3 po4 xing4 xing4 xing2 wei2
+惹虱子頭上撓	re3 shi1 zi5 tou2 shang4 nao2
+人無橫財不富	ren2 wu2 heng4 cai2 bu4 fu4
+三折肱為良醫	san1 zhe2 gong1 wei2 liang2 yi1
+生命在於運動	sheng1 ming4 zai4 yu2 yun4 dong4
+事實勝於雄辯	shi4 shi2 sheng4 yu2 xiong2 bian4
+士為知己者死	shi4 wei4 zhi1 ji3 zhe3 si3
+說什麼也不能	shuo1 shen2 mo5 ye3 bu4 neng2
+筍裡不知茆裡	sun3 li5 bu4 zhi1 mao3 li5
+踏著尾羓頭動	ta4 zhe5 wei3 ba5 tou2 dong4
+癱子掉在井裡	tan1 zi5 diao4 zai4 jing3 li3
+頭巾弔在水裡	tou2 jin1 diao4 zai4 shui3 li5
+瓦西裡耶維奇	wa3 xi1 li3 ye1 wei2 qi2
+為善不欲人知	wei2 shan4 bu4 yu4 ren2 zhi1
+為政不在多言	wei2 zheng4 bu4 zai4 duo1 yan2
+無行為能力人	wu2 xing2 wei2 neng2 li4 ren2
+喜怒不形於色	xi3 nu4 bu4 xing2 yu2 se4
+小事化為沒事	xiao3 shi4 hua4 wei2 mei2 shi4
+新西伯利亞市	xin1 xi1 bo2 li4 ya4 shi4
+鴉窩裡出鳳凰	ya1 wo1 li5 chu1 feng4 huang2
+眼裡不揉沙子	yan3 li3 bu4 rou2 sha1 zi5
+一步一個腳印	yi1 bu4 yi2 ge4 jiao3 yin4
+一尺還他十寸	yi1 chi3 huan2 ta1 shi2 cun4
+一牀錦被蓋過	yi1 chuang2 jin3 bei4 gai4 guo4
+一牀錦被遮蓋	yi1 chuang2 jin3 bei4 zhe1 gai4
+一點水一個泡	yi1 dian3 shui3 yi1 ge5 pao4
+一發不可收拾	yi1 fa1 bu4 ke3 shou1 shi5
+一竿子插到底	yi1 gan1 zi5 cha1 dao4 di3
+一個鼻孔出氣	yi1 ge5 bi2 kong3 chu1 qi4
+一個頭兩個大	yi1 ge5 tou2 liang3 ge5 da4
+一根肚腸到底	yi1 gen1 du4 chang2 dao4 di3
+一虎難敵衆犬	yi1 hu3 nan2 di2 zhong4 quan3
+一回生兩回熟	yi1 hui2 sheng1 liang3 hui2 shou2
+一夥子持臥單	yi1 huo3 zi5 chi2 wo4 dan1
+一口吃個胖子	yi1 kou3 chi1 ge5 pang4 zi5
+一生喫著不盡	yi1 sheng1 chi1 zhuo2 bu4 jin4
+一天一個現在	yi1 tian1 yi1 ge5 xian4 zai4
+一頭撞倒南牆	yi1 tou2 zhuang4 dao3 nan2 qiang2
+有眼不識泰山	you3 yan3 bu4 shi4 tai4 shan1
+與全世界為敵	yu3 quan2 shi4 jie4 wei2 di2
+雲端裡看廝殺	yun2 duan1 li5 kan4 si1 sha1
+正當防衛行為	zheng4 dang4 fang2 wei4 xing2 wei2
+知其不可而為	zhi1 qi2 bu4 ke3 er2 wei2
+質能不滅定律	zhi2 neng2 bu4 mie4 ding4 lv4
+做一行怨一行	zuo4 yi1 hang2 yuan4 yi1 hang2
+巴布亞紐幾內亞	ba1 bu4 ya4 niu3 ji1 nei4 ya4
+白天不做虧心事	bai2 tian5 bu4 zuo4 kui1 xin1 shi4
+半為憐春半惱春	ban4 wei2 lian2 chun1 ban4 nao3 chun1
+鵓鴿揀著旺處飛	bo2 ge1 jian3 zhe5 wang4 chu4 fei1
+不把將軍為神道	bu4 ba3 jiang1 jun1 wei2 shen2 dao4
+不把人看在眼裡	bu4 ba3 ren2 kan4 zai4 yan3 li3
+不看金面看佛面	bu4 kan4 jin1 mian4 kan4 fo2 mian4
+不看僧面看佛面	bu4 kan4 seng1 mian4 kan4 fo2 mian4
+不看魚情看水情	bu4 kan4 yu2 qing2 kan4 shui3 qing2
+不如得季布一諾	bu4 ru2 de2 ji4 bu4 yi1 nuo4
+不識廬山真面目	bu4 shi4 lu2 shan1 zhen1 mian4 mu4
+不是湯著就抹著	bu4 shi4 tang1 zhao2 jiu4 mo3 zhao2
+不為五斗米折腰	bu4 wei4 wu3 dou3 mi3 zhe2 yao1
+不用本錢的勾當	bu4 yong4 ben3 qian2 de5 gou4 dang5
+曾經滄海難為水	ceng2 jing1 cang1 hai3 nan2 wei2 shui3
+曾著賣糖君子哄	ceng2 zhao1 mai4 tang2 jun1 zi3 hong3
+矬子裡頭選將軍	cuo2 zi5 li3 tou5 xuan3 jiang1 jun1
+打狗不看主人面	da3 gou3 bu4 kan4 zhu3 ren2 mian4
+打著燈籠沒處找	da3 zhe5 deng1 long2 mei2 chu4 zhao3
+大安地列斯群島	da4 an1 di4 lie4 si1 qun2 dao3
+大安的列斯群島	da4 an1 di4 lie4 si1 qun2 dao3
+帶著希望去旅行	dai4 zhe5 xi1 wang4 qu4 lv3 xing2
+但得一片橘皮吃	dan4 de2 yi1 pian4 ju2 pi2 chi1
+當家才知柴米價	dang1 jia1 cai2 zhi1 chai2 mi3 jia4
+道不同不相為謀	dao4 bu4 tong2 bu4 xiang1 wei2 mou2
+頂著磨子不知重	ding3 zhe5 mo4 zi5 bu4 zhi1 zhong4
+東一榔頭西一棒	dong1 yi1 lang2 tou5 xi1 yi1 bang4
+毒藥苦口利於病	du2 yao4 ku3 kou3 li4 yu2 bing4
+獨在異鄉為異客	du2 zai4 yi4 xiang1 wei2 yi4 ke4
+對著和尚罵賊禿	dui4 zhe5 he2 shang5 ma4 zei2 tu1
+多行不義必自斃	duo1 xing2 bu4 yi4 bi4 zi4 bi4
+耳朵裡冒出腳來	er3 duo1 li3 mao4 chu1 jiao3 lai2
+放一百二十個心	fang4 yi1 bai3 er4 shi2 ge5 xin1
+肥水不落外人田	fei2 shui3 bu4 luo4 wai4 ren2 tian2
+鳳凰無寶處不落	feng4 huang2 wu2 bao3 chu4 bu4 luo4
+符拉迪沃斯託克	fu2 la1 di2 wo4 si1 tuo1 ke4
+乾敲梆子不賣油	gan1 qiao1 bang1 zi5 bu4 mai4 you2
+隔著窗戶吹喇叭	ge2 zhe5 chuang1 hu5 chui1 la3 ba5
+羹裡不著飯裡著	geng1 li3 bu4 zhao2 fan4 li3 zhao2
+耕牛為主遭鞭杖	geng1 niu2 wei4 zhu3 zao1 bian1 zhang4
+狗嘴裡還有象牙	gou3 zui3 li5 hai2 you3 xiang4 ya2
+過得一天算一天	guo4 de5 yi1 tian1 suan4 yi1 tian1
+含著骨頭露著肉	han2 zhe5 gu2 tou5 lou4 zhe5 rou4
+航空母艦戰鬥群	hang2 kong1 mu3 jian4 zhan4 dou4 qun2
+河裡孩兒岸上娘	he2 li3 ha2 er1 an4 shang4 niang2
+哄了一日是兩晌	hong3 le5 yi1 ri4 shi4 liang3 shang3
+畫龍不成反為狗	hua4 long2 bu4 cheng2 fan3 wei2 gou3
+黃梅不落青梅落	huang2 mei2 bu4 luo4 qing1 mei2 luo4
+機事不密禍先行	ji1 shi4 bu4 mi4 huo4 xian1 xing2
+加拿大皇家海軍	jia1 na2 da4 huang2 jia1 hai3 jun1
+假期憂鬱症候群	jia4 qi2 you1 yu4 zheng4 hou4 qun2
+緊溜子裡為著人	jin3 liu1 zi5 li3 wei4 zhe5 ren2
+拒人於千里之外	ju4 ren2 yu2 qian1 li3 zhi1 wai4
+老而不死是為賊	lao3 er2 bu4 si3 shi4 wei2 zei2
+老鴰窩裡出鳳凰	lao3 gua5 wo1 li3 chu1 feng4 huang2
+連鬼也不見一個	lian2 gui3 ye3 bu4 jian4 yi1 ge5
+良藥苦口利於病	liang2 yao4 ku3 kou3 li4 yu2 bing4
+魯般手裡調大斧	lu3 ban1 shou3 li3 diao4 da4 fu3
+馬蹄刀瓢裡切菜	ma3 ti2 dao1 piao2 li3 qie1 cai4
+沒一頓飯的工夫	mei2 yi1 dun4 fan4 de5 gong1 fu5
+沒有不散的筵席	mei2 you3 bu4 san4 de5 yan2 xi2
+沒有甚麼不可能	mei2 you3 shen2 mo5 bu4 ke3 neng2
+昧著惺惺使糊塗	mei4 zhe5 xing1 xing1 shi3 hu2 tu2
+木裡藏族自治縣	mu4 li3 zang4 zu2 zi4 zhi4 xian4
+拿著雞毛當令箭	na2 zhe5 ji1 mao2 dang4 ling4 jian4
+哪裡摔倒哪裡爬	na3 li3 shuai1 dao3 na3 li3 pa2
+奶媽懷裡的孩子	nai3 ma1 huai2 li3 de5 hai2 zi5
+寧在人前全不會	ning2 zai4 ren2 qian2 quan2 bu4 hui4
+劈拉著腿坐崖頭	pi3 la5 zhe5 tui3 zuo4 yai2 tou2
+牽一髮而動全身	qian1 yi1 fa3 er2 dong4 quan2 shen1
+槍桿子裡出政權	qiang1 gan3 zi5 li3 chu1 zheng4 quan2
+勤儉為服務之本	qin2 jian3 wei2 fu2 wu4 zhi1 ben3
+人不得外財不富	ren2 bu4 de2 wai4 cai2 bu4 fu4
+人正不怕影子斜	ren2 zheng4 bu4 pa4 ying3 zi5 xie2
+如砍瓜切菜一般	ru2 kan3 gua1 qie1 cai4 yi1 ban1
+色字頭上一把刀	se4 zi4 tou2 shang4 yi1 ba3 dao1
+殺人不過頭點地	sha1 ren2 bu4 guo4 tou2 dian3 di4
+上梁不正下梁歪	shang4 liang2 bu4 zheng4 xia4 liang2 wai1
+十個指頭朝裡彎	shi2 ge5 zhi3 tou5 chao2 li3 wan1
+識時務者為俊傑	shi2 shi2 wu4 zhe3 wei4 jun4 jie2
+是非只為多開口	shi4 fei1 zhi3 wei4 duo1 kai1 kou3
+識時務者為俊傑	shi4 shi2 wu4 zhe3 wei2 jun4 jie2
+守著鼻子抹著腮	shou3 zhe5 bi2 zi5 mo3 zhe5 sai1
+書山有路勤為徑	shu1 shan1 you3 lu4 qin2 wei2 jing4
+雙日不著單日著	shuang1 ri4 bu4 zhuo2 dan1 ri4 zhuo2
+天塌了有地接著	tian1 ta1 le5 you3 di4 jie1 zhe5
+挑得籃裡便是菜	tiao1 de5 lan2 li3 bian4 shi4 cai4
+跳虎撥著關捩子	tiao4 hu3 bo1 zhe5 guan1 lie4 zi5
+偷雞不著蝕把米	tou1 ji1 bu4 zhao2 shi2 ba3 mi3
+偷著浮生半日閒	tou1 zhao2 fu2 sheng1 ban4 ri4 xian2
+頭醋不釅二醋薄	tou2 cu4 bu4 yan4 er4 cu4 bo2
+禿子跟著月亮走	tu1 zi5 gen1 zhe5 yue4 liang4 zou3
+退一步海闊天空	tui4 yi1 bu4 hai3 kuo4 tian1 kong1
+娃子不哭奶不脹	wa2 zi5 bu4 ku1 nai3 bu4 zhang4
+外屋裡的竈君爺	wai4 wu1 li5 de5 zao4 jun1 ye2
+勿以惡小而為之	wu4 yi3 e4 xiao3 er2 wei2 zhi1
+勿以善小而不為	wu4 yi3 shan4 xiao3 er2 bu4 wei2
+小安地列斯群島	xiao3 an1 di4 lie4 si1 qun2 dao3
+心有靈犀一點通	xin1 you3 ling2 xi1 yi1 dian3 tong1
+幸於始者怠於終	xing4 yu2 shi3 zhe3 dai4 yu2 zhong1
+眼淚往肚子裡流	yan3 lei4 wang3 du4 zi5 li3 liu2
+眼裡揉不下沙子	yan3 li3 rou2 bu4 xia4 sha1 zi5
+羊肉落在狗嘴裡	yang2 rou4 luo4 zai4 gou3 zui3 li5
+一場官司一場火	yi1 chang2 guan1 si1 yi1 chang2 huo3
+一朝天子一朝臣	yi1 chao2 tian1 zi3 yi1 chao2 chen2
+一石米養個仇人	yi1 dan4 mi3 yang3 ge5 chou2 ren2
+一斗米養個恩人	yi1 dou3 mi3 yang3 ge5 en1 ren2
+一個巴掌拍不響	yi1 ge5 ba1 zhang3 pai1 bu4 xiang3
+一個鍋裡吃飯的	yi1 ge5 guo1 li3 chi1 fan4 de5
+一個碗內兩張匙	yi1 ge5 wan3 nei4 liang3 zhang1 chi2
+一塊石頭掉井裡	yi1 kuai4 shi2 tou5 diao4 jing3 li3
+一塊石頭落了地	yi1 kuai4 shi2 tou5 luo4 le5 di4
+一塊石頭拋上天	yi1 kuai4 shi2 tou5 pao1 shang4 tian1
+一年之計在於春	yi1 nian2 zhi1 ji4 zai4 yu2 chun1
+一錢不落虛空地	yi1 qian2 bu4 luo4 xu1 kong1 di4
+一人做事一人當	yi1 ren2 zuo4 shi4 yi1 ren2 dang1
+一日之計在於晨	yi1 ri4 zhi1 ji4 zai4 yu2 chen2
+一身作事一身當	yi1 shen1 zuo4 shi4 yi1 shen1 dang1
+一碗水往平處端	yi1 wan3 shui3 wang3 ping2 chu4 duan1
+有眼不識荊山玉	you3 yan3 bu4 shi4 jing1 shan1 yu4
+宰相肚裡好撐船	zai3 xiang4 du4 li3 hao3 cheng1 chuan2
+在不夷不惠之間	zai4 bu4 yi2 bu4 hui4 zhi1 jian1
+占著茅坑不拉屎	zhan4 zhe5 mao2 keng1 bu4 la1 shi3
+這山望著那山高	zhe4 shan1 wang4 zhe5 na4 shan1 gao1
+救之就要吃人肉	zhi1 jiu4 yao4 chi1 ren2 rou4
+只重衣衫不重人	zhi3 zhong4 yi1 shan1 bu4 zhong4 ren2
+助人為快樂之本	zhu4 ren2 wei2 kuai4 le4 zhi1 ben3
+北大西洋公約組織	bei3 da4 xi1 yang2 gong1 yue1 zu3 zhi1
+北京環球金融中心	bei3 jing1 huan2 qiu2 jin1 rong2 zhong1 xin1
+翻手為雲覆手變雨	fan1 shou3 wei2 yun2 fu4 shou3 bian4 yu3
+黃鐘譭棄瓦釜雷鳴	huang2 zhong1 hui3 qi4 wa3 fu3 lei2 ming2
+巧婦難為無米之炊	qiao3 fu4 nan2 wei2 wu2 mi3 zhi1 chui1
+天津環球金融中心	tian1 jin1 huan2 qiu2 jin1 rong2 zhong1 xin1
+行萬裡路勝讀萬捲書	xing2 wan4 li3 lu4 sheng4 du2 wan4 juan3 shu1
+毛澤東不為人知的故事	mao2 ze2 dong1 bu4 wei2 ren2 zhi1 de5 gu4 shi5
+毛澤東鮮為人知的故事	mao2 ze2 dong1 xian1 wei2 ren2 zhi1 de5 gu4 shi5
+患難之交才是真正的朋友	huan4 nan4 zhi1 jiao1 cai2 shi4 zhen1 zheng4 de5 peng2 you5
