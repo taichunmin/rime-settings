@@ -38,12 +38,6 @@ name: terra_pinyin.yjlintw
 version: "2015.08.04"
 sort: by_weight
 use_preset_vocabulary: true
-#此處為地球拼音擴充詞庫（基本）默認鏈接載入的詞庫，有地球拼音官方詞庫。如果不需要加載某个詞庫請將其用「#」註釋掉。
-import_tables:
-  - terra_pinyin
-  - terra_pinyin.zhtw2013
-  - terra_pinyin.asen
-  - terra_pinyin.zianyin
 ...
 
 啊	a1	10%

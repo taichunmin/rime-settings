@@ -44,3 +44,12 @@ rm -rf ~/Library/rime-settings
 ## 備註
 
 * 移除重複詞指令 `comm -1 -3 <(sort terra_pinyin.dict.yaml) <(sort terra_pinyin.my.dict.yaml) > test.yaml`
+* 萌典產生詞典指令 `sed -nE '/^ {6}/p' ~/Downloads/dict-cat.json | sed -E 's/\s*"([^"]+)",?/\1/g' > moe.dict.yaml`
+  ```yml
+  ---
+  name: moe
+  version: "2017.10.12"
+  sort: by_weight
+  use_preset_vocabulary: true
+  ...
+  ```
