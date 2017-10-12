@@ -35,3 +35,8 @@ git clone https://github.com/taichunmin/rime-settings.git
 mv -v ~/Library/rime-settings/* ~/Library/Rime/
 rm -rf ~/Library/rime-settings
 ```
+
+## 參考來源
+
+1. <https://github.com/yjlintw/rime_zhtw_setting>
+2. <https://github.com/arsenali/rime>

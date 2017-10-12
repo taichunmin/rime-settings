@@ -1,0 +1,436 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 扩充词汇及错误、遗漏发音
+
+---
+name: terra_pinyin.asen
+version: "2017.06.09"
+sort: by_weight
+use_preset_vocabulary: true
+...
+# 作者：
+# 阿森納裡	a1 sen1 na4 li3
+
+# 历史人物
+斛律
+斛律金
+斛律光
+斛律羨
+文鴦
+文俶
+禿髮	tu1 fa4
+禿髮氏	tu1 fa4 shi4
+禿髮姓	tu1 fa4 xing4
+樹機能	shu4 ji1 neng2
+禿髮樹機能	tu1 fa4 shu4 ji1 neng2
+
+禿髮	tu2 fa2
+禿髮氏	tu2 fa2 shi4
+禿髮姓	tu2 fa2 xing4
+禿髮樹機能	tu2 fa2 shu4 ji1 neng2
+
+万俟	mo4 qi2
+万俟氏	mo4 qi2 shi4
+万俟姓	mo4 qi2 xing4
+万俟卨	mo4 qi2 xie4
+樊於期	fan2 wu1 ji1
+陳寅恪	chen2 yin2 que4	2
+陳寅恪	chen2 yin2 ke4	1
+賈平凹	jia3 ping2 wa1	2
+賈平凹	jia3 ping2 wa2	1
+
+任	ren2
+任氏	ren2 shi4
+任氏	ren4 shi4
+任姓	ren2 xing4
+任姓	ren4 xing4
+任弼時	ren2 bi4 shi2
+任弼時	ren4 bi4 shi2
+任我行	ren2 wo3 xing2
+任我行	ren4 wo3 xing2
+任盈盈	ren2 ying2 ying2
+任盈盈	ren4 ying2 ying2
+任盈盈	ren2 ying2 ying5
+任盈盈	ren4 ying2 ying5
+盈盈	ying2 ying2
+盈盈	ying2 ying5
+瑩瑩	ying2 ying2
+瑩瑩	ying2 ying5
+任志強	ren2 zhi4 qiang2
+任志強	ren4 zhi4 qiang2
+任大炮	ren2 da4 pao4
+任大炮	ren4 da4 pao4
+
+令狐	ling2 hu2
+令狐	ling4 hu2
+令狐氏	ling2 hu2 shi4
+令狐氏	ling4 hu2 shi4
+令狐姓	ling2 hu2 xing4
+令狐姓	ling4 hu2 xing4
+令狐沖	ling2 hu2 chong1
+令狐沖	ling4 hu2 chong1
+
+黃裳	huang2 shang1
+
+虺文忠	hui3 wen2 zhong1
+虺氏	hui3 shi4
+虺姓	hui3 xing4
+
+李暠	li3 hao4
+李暠	li3 gao3
+食其	yi4 ji1
+酈食其	li4 yi4 ji1
+審食其	shen3 yi4 ji1
+趙食其	zhao4 yi4 ji1
+尉遲恭	yu4 chi2 gong1
+囂魏牟
+
+虢國	guo2 guo2
+虢國	guo2 guo5	0
+
+# 輕聲
+妒忌	du4 ji5
+試試	shi4 shi4
+嗎	ma1
+嗎	ma2
+嗎	mo5
+嘛	ma2
+嘛	ma4
+唄	bai4	50%
+唄	bei5	50%
+唄	bai5	0
+上	shang5	0
+下	xia5	0
+商量	shang1 liang2
+識別	shi2 bie2
+共識	gong4 shi2
+地位	di4 wei5
+重視	zhong4 shi5
+階級	jie1 ji5
+意義	yi4 yi5
+着	zhao5
+前面	qian2 mian4
+前面	qian2 mian5
+
+關係	guan1 xi4
+關係	guan1 xi5
+這樣	zhe4 yang5
+那樣	na4 yang5
+效率	xiao4 lv5
+意識	yi4 shi5
+
+動物	dong4 wu5
+動物園	dong4 wu5 yuan2
+
+親家	qin4 jia5
+親家	cin4 jia5
+親戚	cin1 cii1
+親戚	cin1 cii5
+
+噯	ai5
+
+誒	ei1
+誒	ei2
+誒	ei3	0
+誒	ei4	0
+誒	eh1	0
+誒	eh2	0
+誒	eh3	0
+誒	eh4	0
+誒	eh5
+誒	xi1	0
+
+欸	ei1	0
+欸	ei2	0
+欸	ei3	0
+欸	ei4
+欸	ei5
+欸	eh1	0
+欸	ai1	0
+欸	ai3	0
+
+建築	jian4 zhu5
+狗狗	gou3 gou5
+碩士	shuo4 shi5
+
+用用	yong4 yong5
+賤人	jian4 ren5
+賤人	zian4 ren5
+太監	tai4 jian5
+項目	xiang4 mu5
+問問	wen4 wen5
+
+東西	dong1 xi1
+東西	dong1 xi5
+東西	dong1 sii1
+東西	dong1 sii5
+
+先生	sian1 sheng1
+先生	sian1 sheng5
+
+息	xi1
+息	xi2
+息	sii1
+息	sii2
+消息	xiao1 xi1
+消息	xiao1 xi2
+消息	xiao1 xi5
+消息	siao1 sii1
+消息	siao1 sii2
+消息	siao1 sii5
+
+謝謝	xie4 xie5
+謝謝	sie4 sie5
+
+過	guo5	0
+去	qu5	0
+切	qie5	0
+不	bu5	0
+是	shi5	0
+噢	o5
+面	mian5	0
+來	lai5	0
+度	du5	0
+數	shu5	0
+
+呀	ya1	0
+呀	xia1	0
+
+地	di5	4
+滴	di5	3
+的	di5	2
+得	di5	1
+
+# 個人發音
+哎呦喂	ei1 you1 wei1
+
+# 北京話
+那	nei4
+那	nei5
+
+麻煩	ma2 fan2
+
+它	te1
+她	tai1	0
+她	te2
+妳	ni1	0
+
+終	zhong2	0
+期終	qi2 zhong2
+終期	zhong2 qi2
+權力	quan2 li4
+權利	quan2 li5
+
+在	zai2
+
+承載	cheng2 zai3	0
+
+吶	na4	50%
+吶	na5	50%
+吶	nai4	0
+吶	nai5	0
+吶	ne4	0
+
+嘚	de1
+嘚	dei1	0
+嘚	de4	0
+得	dai3	0
+嘚瑟	de4 se5
+得瑟	de4 se5
+
+# 方言
+力	li1	0
+肖	xiao1
+
+較	jiao3	0
+比較	bi3 jiao3
+較爲	jiao3 wei2
+
+血	xue3	0
+血色浪漫	xue3 se4 lang4 man4
+
+嘎	ga1
+嘎	ga2	1
+嘎	ga3	0
+張嘎	zhang1 ga3
+嘎子	ga3 zi5
+
+會	hui2	0
+一會	yi4 hui2	0
+
+榻榻米	ta4 ta4 mi3
+榻榻米	ta1 ta1 mi3	0
+
+式	chi4
+
+綜	zong4
+綜合	zong4 he2
+綜合	zong1 he2	0
+
+僰人	bo2 ren2
+懸棺	xuan2 guan1
+僰人懸棺	bo2 ren2 xuan2 guan1
+
+慫	song2	0
+
+模糊	mo3 hu1
+模糊	mo3 hu2
+模糊	mo3 hu5
+
+# 朴字的读音，大陆和台湾不一样，这里列出两岸官方词典中和民间习惯的一些读法，
+# 关于朴槿惠的朴字，台湾官方词典是pu2，但民间很多人读pu3，一并列出，但以大陆习惯读法piao2为主
+朴	po1	0
+朴	po4	0
+朴	pu2	2
+朴	pu3	1
+朴	piao2
+朴氏	piao2 shi4	1
+朴姓	piao2 xing4	1
+朴	piao3
+朴槿惠	piao2 jin3 hui4
+朴槿惠	pu2 jin3 hui4	2
+朴槿惠	pu3 jin3 hui4	1
+朴正熙	piao2 zheng4 xi1
+朴正熙	pu2 zheng4 xi1	2
+朴正熙	pu3 zheng4 xi1	1
+朴智星	piao2 zhi4 xing1
+朴智星	pu2 zhi4 xing1	2
+朴智星	pu3 zhi4 sing1	1
+朴智星	piao2 zhi4 sing1
+朴智星	pu2 zhi4 sing1	2
+朴智星	pu3 zhi4 sing1	1
+朴周永	piao2 zhou1 yong3
+朴周永	pu2 zhou1 yong3	2
+朴周永	pu3 zhou1 yong3	1
+朴主永	piao2 zhu3 yong3
+朴主永	pu2 zhu3 yong3	2
+朴主永	pu3 zhu3 yong3	1
+朴刀	po1 dao1
+朴刀	pu2 dao1	0
+朴樹	pu3 shu4
+濮存昕	pu3 cun2 xin1
+# 关于这个人的名字，按《蒙古字韻》和《洪武正韻譯訓》的拼法保留pu3和pu2
+朴不花	piao2 bu4 hua1
+朴不花	pu2 bu4 hua1
+朴不花	pu3 bu4 hua1
+# 高丽这个词按俗称加入li4的读音
+高麗	gao1 li4	0
+高句麗	gao1 gou1 li4	0
+
+蒙古	meng2 gu3
+蒙古	meng3 gu3	0
+
+喀	ka4
+喀	ke4	1
+喀	ka1	0
+喀爾喀	ka4 er3 ka4
+喀爾喀	ka1 er3 ka1	1
+喀爾喀	ke4 er3 ke4	0
+
+喀什	ka4 shi2
+喀什	ka1 shi2
+喀布爾	ka4 bu4 er3
+喀布爾	ka1 bu4 er3
+巴爾喀什	ba1 er3 ka4 shi2
+巴爾喀什	ba1 er3 ka1 shi2
+喀爾巴阡	ka4 er3 ba1 qian1
+喀爾巴阡	ka1 er3 ba1 qian1
+喀喇	ka4 la3
+喀喇	ka1 la1
+喀喇	ka1 la5
+喀喇	ka3 la5
+日喀則	ri4 ke4 ze2
+日喀則	ri4 ka1 ze2	1
+日喀則	ri4 ka4 ze2	0
+
+薩	sa1	0
+菩薩	pu2 sa5
+哈薩克	ha1 sa4 ke4	0
+哈薩克	ha1 sa1 ke4
+薩哈	sa4 ha1
+薩哈林	sa4 ha1 lin2	0
+薩哈林	sa1 ha1 lin2
+薩爾	sa4 er3
+薩爾茨	sa4 er3 ci2
+薩爾茨	sa4 r5 ci2
+薩爾滸	sa4 er3 hu3
+薩爾滸	sa4 r5 hu3
+薩拉丁	sa4 la1 ding1
+
+雅	ya3
+雅	ya1	0
+雅克	ya3 ke4
+雅克薩	ya3 ke4 sa4
+雅克薩	ya3 ke5 sa4
+
+汗	han2
+大汗	da4 han2
+可汗	ke4 han2
+可汗	ke3 han2	0
+
+妖魔	yao1 mo2
+妖麽	yao1 mo2
+妖麼	yao1 mo2
+幺魔	yao1 mo2
+幺麽	yao1 mo2
+幺麼	yao1 mo2
+呀麼	ya5 mo5
+杨幺	yang2 yao1
+
+嬤嬤	mo4 mo5	0
+容嬤嬤	rong2 mo4 mo5	0
+幺蛾子	yao1 e2 zi5
+
+# 遺漏
+籖	qian1
+媫	jie4
+且	ju1
+尋	xin2
+祲	jin4
+苴	ju3
+砌	qie4
+箐	jing1
+箐	qian4
+湫	qiu1
+洗	xian3
+癬	xian3
+緝	qi4
+溱	qin2
+溱潼	qin2 tong2
+溱潼	cin2 tong2
+凊	qing4
+棲	xi1
+勷	xiang1
+翛	xiao1
+箾	xiao1
+箾	qiao4
+契	qie4
+契	xie4
+餳	tang2
+砠	ju1
+鵕	jun4
+喱	li3
+喱	li2
+咖喱	ga1 li3
+咖喱	ga1 li2
+哈	ka1	0
+哈	ha5	0
+哈喇	ka1 la5
+哈喇	ha1 la5
+哈剌	ha1 la4
+嘞	lei5
+嘞	le1	0
+們	men5
+們	men2
+敖	ao2
+敖	ao4
+
+# 勘誤
+套兒	tao4 r5
+
+# 尖音
+逡巡	qun1 xun2
+逡廵	qun1 xun2
+逡巡	cvn1 svn2
+逡廵	cvn1 svn2
