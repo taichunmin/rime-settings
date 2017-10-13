@@ -40,6 +40,7 @@ rm -rf ~/Library/rime-settings
 
 1. <https://github.com/yjlintw/rime_zhtw_setting>
 2. <https://github.com/arsenali/rime>
+3. <https://github.com/g0v/moedict-data>
 
 ## 備註
 
@@ -53,3 +54,4 @@ rm -rf ~/Library/rime-settings
   use_preset_vocabulary: true
   ...
   ```
+* 教育部詞典處理程式 <https://github.com/taichunmin/taiwandict-to-terrapinyin>
