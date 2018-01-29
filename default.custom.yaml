@@ -3,4 +3,4 @@ patch:
   "schema_list":
     - schema: bopomofo_tw
   "switcher/hotkeys":
-    - "Control+grave"
+    - "Control+Shift+grave"
