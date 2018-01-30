@@ -38,6 +38,11 @@ patch:
     - "abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+(\\d)$/$1$2/"
     - "xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|"
   "punctuator/half_shape":
+    "," : '，'
+    "." : '。'
+    "\\" : [ 、, ＼, "\\" ]
+    "(" : ['（', '(']
+    ")" : ['）', ')']
   key_binder:
     bindings:
       # commonly used paging keys
