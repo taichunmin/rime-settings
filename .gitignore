@@ -1,0 +1,7 @@
+*.bin
+*.schema.yaml
+*.userdb
+/default.yaml
+/installation.yaml
+/squirrel.yaml
+/symbols.yaml
