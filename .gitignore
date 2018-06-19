@@ -1,7 +1,12 @@
 *.bin
-*.schema.yaml
 *.userdb
+/cangjie5.schema.yaml
 /default.yaml
 /installation.yaml
+/luna_pinyin_fluency.schema.yaml
+/luna_pinyin_simp.schema.yaml
+/luna_pinyin_tw.schema.yaml
+/luna_pinyin.schema.yaml
 /squirrel.yaml
+/stroke.schema.yaml
 /symbols.yaml
