@@ -81,15 +81,15 @@ speller:
     - xform/iu/iou/
     - xform/ui/uei/
     - xform/ong/ung/
-    - xform/yi?/i/
-    - xform/wu?/u/
+    - xform/^yi?/i/
+    - xform/^wu?/u/
     - xform/iu/v/
-    - xform/([jqx])u/$1v/
+    - xform/^([jqx])u/$1v/
     - xform/([iuv])n/$1en/
-    - xform/zhi?/Z/
-    - xform/chi?/C/
-    - xform/shi?/S/
-    - xform/([zcsr])i/$1/
+    - xform/^zhi?/Z/
+    - xform/^chi?/C/
+    - xform/^shi?/S/
+    - xform/^([zcsr])i/$1/
     - xform/ai/A/
     - xform/ei/I/
     - xform/ao/O/
@@ -101,16 +101,13 @@ speller:
     - xform/er/R/
     - xform/eh/E/
     - xform/([iv])e/$1E/
-    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+$/$1/
-    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR]+)\d$/$1/
+    - derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
+    - derive/([iuv])([aoeEAIOUMNKGR])/$2$1/
+    - derive/([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
+    - derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+$/$1/
+    - abbrev/^([A-Za-z]+)\d$/$1/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+(\d)$/$1$2/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
-    - derive/^([iuv])([aoeEAIOUMNKGR])/$2$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$2$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$1$2/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$2$3$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$1$3$2/
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
 ###################################以下開始幾大段為各種翻譯器######################################
 translator:
@@ -138,7 +135,7 @@ reverse2_lookup:
   suffix: " "
   tips: "《倉頡反查》" 
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口屍廿山女田難卜符|"
 
 bpm_reverse_lookup:
   tags: [ reverse2_lookup ]
@@ -245,16 +242,6 @@ key_binder:
     - {accept: Right, send: Page_Down, when: paging}
     - {accept: Shift+BackSpace, send: BackSpace, when: has_menu}
     - {accept: BackSpace, send: Control+BackSpace, when: has_menu}
-#    - {accept: Control+Shift+5, toggle: emoji_segestion, when: always}
-    - {accept: space, send: Return, when: paging}
-    - {accept: 3, send: Escape, when: composing}
-    - {accept: 3, send: 3, when: has_menu}
-    - {accept: 4, send: Escape, when: composing}
-    - {accept: 4, send: 4, when: has_menu}
-    - {accept: 6, send: Escape, when: composing}
-    - {accept: 6, send: 6, when: has_menu}
-    - {accept: 7, send: Escape, when: composing}
-    - {accept: 7, send: 7, when: has_menu}
 
 #以下editor功能舊版無法作用
 editor:
