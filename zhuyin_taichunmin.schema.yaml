@@ -2,19 +2,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: bopomofo_tw
-  name: 注音·臺灣正體
-  version: "1.6"
+  schema_id: zhuyin_taichunmin
+  name: 臺灣注音
+  version: "1"
   author:
-    - 佛振 <chen.sst@gmail.com>
+    - 和風信使 <taichunmin@gmail.com>
   description: |
-    注音符號輸入，採用「大千式」鍵盤排列，輸出臺灣正體字形。
-
-    本方案採用「無模式」設計，以大寫字母鍵或上下方向鍵、回車鍵選詞；
-    空格鍵輸入第一聲，標記爲「ˉ」。也可省略聲調或韻母部份。
-
-  dependencies:
-    - cangjie5
+    為了解決目前 Rime 上的注音輸入法是從拼音轉過來，導致有些文字打不出來的問題，所以決定直接使用注音符號搭配萌典來做輸入法。
 
 switches:
   - name: ascii_mode
@@ -46,7 +40,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@custom_phrase
+    - table_translator@zhuyin_taichunmin_phrase
     - reverse_lookup_translator
     - script_translator
   filters:
@@ -54,59 +48,33 @@ engine:
     - uniquifier
 
 menu:
-  alternative_select_keys: "ABCDEFGHIJ"
+  alternative_select_keys: "QWERASDZXC"
+  page_size: 10
 
 speller:
   alphabet: '1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'
   initials: '1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-'
   finals: " 6347"
-  delimiter: "'"
+  delimiter: "|"
   use_space: true
   algebra:
-    - erase/^xx$/
-    - xform/^m(\d)$/mu$1/  # 呣
-    - xform/^r5$/er5/  # 〜兒
-    - xform/iu/iou/
-    - xform/ui/uei/
-    - xform/ong/ung/
-    - xform/^yi?/i/
-    - xform/^wu?/u/
-    - xform/iu/v/
-    - xform/^([jqx])u/$1v/
-    - xform/([iuv])n/$1en/
-    - xform/^zhi?/Z/
-    - xform/^chi?/C/
-    - xform/^shi?/S/
-    - xform/^([zcsr])i/$1/
-    - xform/ai/A/
-    - xform/ei/I/
-    - xform/ao/O/
-    - xform/ou/U/
-    - xform/ang/K/
-    - xform/eng/G/
-    - xform/an/M/
-    - xform/en/N/
-    - xform/er/R/
-    - xform/eh/E/
-    - xform/([iv])e/$1E/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+$/$1/
     - abbrev/^([A-Za-z]+)\d$/$1/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+(\d)$/$1$2/
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
 
 translator:
-  dictionary: terra_pinyin
-  prism: bopomofo_tw
+  dictionary: zhuyin_taichunmin.extended
+  prism: zhuyin_taichunmin
   preedit_format:
-    - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
+    - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|"
 
-custom_phrase:
+zhuyin_taichunmin_phrase:
   dictionary: ""
-  user_dict: custom_phrase
+  user_dict: zhuyin_taichunmin_phrase
   db_class: stabledb
   enable_completion: false
   enable_sentence: false
-  initial_quality: 1
 
 reverse_lookup:
   dictionary: cangjie5
@@ -117,29 +85,6 @@ reverse_lookup:
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
   comment_format:
-    - xform/e?r5$/er5/
-    - xform/iu/iou/
-    - xform/ui/uei/
-    - xform/ong/ung/
-    - xform/^yi?/i/
-    - xform/^wu?/u/
-    - xform/iu/v/
-    - xform/^([jqx])u/$1v/
-    - xform/([iuv])n/$1en/
-    - xform/zh/Z/
-    - xform/ch/C/
-    - xform/sh/S/
-    - xform/ai/A/
-    - xform/ei/I/
-    - xform/ao/O/
-    - xform/ou/U/
-    - xform/ang/K/
-    - xform/eng/G/
-    - xform/an/M/
-    - xform/en/N/
-    - xform/er/R/
-    - xform/eh/E/
-    - xform/([iv])e/$1E/
     - xform/1//
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR2345|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙|'
 
@@ -205,6 +150,7 @@ punctuator:
     "]" : [ 」, 】, 》, 〕, ］ ]
     "{" : [ 『, 〖, 〈, ｛ ]
     "}" : [ 』, 〗, 〉, ｝ ]
+  import_preset: bopomo_onion_symbols
 
 key_binder:
   import_preset: default
@@ -212,12 +158,16 @@ key_binder:
     - { when: has_menu, accept: comma, send: comma }      # ㄝ
     - { when: has_menu, accept: period, send: period }    # ㄡ
     - { when: has_menu, accept: minus, send: minus }      # ㄦ
-    - { when: paging, accept: minus, send: Page_Up }
-    - { when: has_menu, accept: equal, send: Page_Down }
+    - { when: has_menu, accept: equal, send: equal }
+    - { when: paging, accept: Left, send: Page_Up }
+    - { when: paging, accept: Right, send: Page_Down }
+    - { when: has_menu, accept: Shift+BackSpace, send: BackSpace }
+    - { when: has_menu, accept: BackSpace, send: Control+BackSpace }
 
 recognizer:
   patterns:
     email: "^[a-z][-_.0-9a-z]*@.*$"
     uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
-    reverse_lookup: "`[a-z]*'?$"
+    punct: "^=[-.,;/0-9a-z=]*?$"
+    reverse_lookup: "`[a-z]* ?$"

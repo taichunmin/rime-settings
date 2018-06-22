@@ -2,16 +2,18 @@
 # encoding: utf-8
 
 schema:
-  schema_id: bopomofo_tw
-  name: 注音·臺灣正體
-  version: "1.6"
+  schema_id: bopomofo
+  name: 注音
+  version: "2.1"
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
-    注音符號輸入，採用「大千式」鍵盤排列，輸出臺灣正體字形。
+    注音符號輸入，採用「大千式」鍵盤排列。
 
     本方案採用「無模式」設計，以大寫字母鍵或上下方向鍵、回車鍵選詞；
-    空格鍵輸入第一聲，標記爲「ˉ」。也可省略聲調或韻母部份。
+    空格鍵輸入第一聲，標記爲「ˉ」。
+
+    請配合 librime>=0.9.8 使用。
 
   dependencies:
     - cangjie5
@@ -22,11 +24,10 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: zh_tw
-    reset: 1
-    # 啓用opencc字形轉換，但不在選單中顯示
 
 engine:
   processors:
@@ -89,6 +90,10 @@ speller:
     - xform/er/R/
     - xform/eh/E/
     - xform/([iv])e/$1E/
+    - derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
+    - derive/([iuv])([aoeEAIOUMNKGR])/$2$1/
+    - derive/([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
+    - derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+$/$1/
     - abbrev/^([A-Za-z]+)\d$/$1/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+(\d)$/$1$2/
@@ -96,7 +101,7 @@ speller:
 
 translator:
   dictionary: terra_pinyin
-  prism: bopomofo_tw
+  prism: bopomofo
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
 
@@ -142,10 +147,6 @@ reverse_lookup:
     - xform/([iv])e/$1E/
     - xform/1//
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR2345|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙|'
-
-simplifier:
-  opencc_config: t2tw.json
-  option_name: zh_tw
 
 punctuator:
   full_shape:
@@ -205,6 +206,10 @@ punctuator:
     "]" : [ 」, 】, 》, 〕, ］ ]
     "{" : [ 『, 〖, 〈, ｛ ]
     "}" : [ 』, 〗, 〉, ｝ ]
+
+editor:
+  bindings:
+    space: toggle_selection
 
 key_binder:
   import_preset: default

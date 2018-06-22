@@ -101,13 +101,9 @@ speller:
     - xform/er/R/
     - xform/eh/E/
     - xform/([iv])e/$1E/
-    - derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
-    - derive/([iuv])([aoeEAIOUMNKGR])/$2$1/
-    - derive/([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
-    - derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
-    - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+$/$1/
     - abbrev/^([A-Za-z]+)\d$/$1/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+(\d)$/$1$2/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+$/$1/
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
 ###################################以下開始幾大段為各種翻譯器######################################
 translator:

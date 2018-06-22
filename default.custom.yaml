@@ -1,5 +1,5 @@
 patch:
   "schema_list":
-    - schema: bopomo_onion
+    - schema: zhuyin_taichunmin
   "switcher/hotkeys":
     - "Control+Shift+grave"
