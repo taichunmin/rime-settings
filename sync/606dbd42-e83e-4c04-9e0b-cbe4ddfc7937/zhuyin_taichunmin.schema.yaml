@@ -60,7 +60,7 @@ speller:
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+$/$1/
     - abbrev/^([A-Za-z]+)\d?$/$1/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+(\d)$/$1$2/
-    - derive/^([A-Za-z]+)[15]$/$1/
+    - derive/^([A-Za-z]+)1$/$1/
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
 
 translator:

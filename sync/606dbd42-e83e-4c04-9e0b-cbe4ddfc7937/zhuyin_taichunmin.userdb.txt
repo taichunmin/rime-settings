@@ -1,0 +1,26 @@
+# Rime user dictionary
+#@/db_name	zhuyin_taichunmin.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	20
+#@/user_id	606dbd42-e83e-4c04-9e0b-cbe4ddfc7937
+Su1 ru4 	輸入	c=1 d=1 t=5
+Ze4 li3 	這裡	c=1 d=1 t=14
+bu4 vG4 	不用	c=1 d=1 t=16
+de2 	得	c=1 d=1 t=3
+di2 	的	c=1 d=1 t=4
+fa3 	法	c=1 d=1 t=6
+gua4 ji1 	掛機	c=1 d=1 t=12
+iU2 xi4 	遊戲	c=1 d=1 t=11
+jiK1 	將	c=1 d=1 t=17
+jiO3 bN3 	腳本	c=1 d=1 t=13
+lA2 	來	c=1 d=1 t=18
+li3 	裡	c=1 d=1 t=15
+ma5 	嗎	c=1 d=1 t=20
+rN2 	人	c=1 d=1 t=9
+suo1 pA2 	縮排	c=1 d=1 t=19
+te4 mA4 	特賣	c=1 d=1 t=7
+xiG1 	星	c=1 d=1 t=8
+xiN1 zG1 	新增	c=1 d=1 t=1
+xiO3 	小	c=1 d=1 t=10
+z4 diG4 	自訂	c=1 d=1 t=2

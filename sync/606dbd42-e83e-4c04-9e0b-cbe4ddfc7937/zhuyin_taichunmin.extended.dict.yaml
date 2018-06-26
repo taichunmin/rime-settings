@@ -1,0 +1,10 @@
+# author: taichunmin <taichunmin@gmail.com>
+# encoding: utf-8
+---
+name: zhuyin_taichunmin.extended
+version: "1"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - zhuyin_taichunmin
+...
